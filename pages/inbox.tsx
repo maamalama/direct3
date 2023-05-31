@@ -12,6 +12,7 @@ import useWindowSize from "../hooks/useWindowSize";
 import { useClient } from "@xmtp/react-sdk";
 import { useDisconnect, useSigner } from "wagmi";
 import { ConversationListWrapper } from "../wrappers/ConversationListWrapper";
+import NftDataViewer from "../components/NftDataViewer";
 
 export type address = "0x${string}";
 
@@ -104,6 +105,7 @@ const Inbox: React.FC<{ children?: React.ReactNode }> = () => {
               <div className="h-full overflow-auto flex flex-col">
                 {conversationId && <FullConversationWrapper />}
               </div>
+              <NftDataViewer />
               <MessageInputWrapper />
             </>
           )}

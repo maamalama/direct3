@@ -21,6 +21,8 @@ import { XMTPProvider } from "@xmtp/react-sdk";
 import { mockConnector } from "../helpers/mockConnector";
 import { useXmtpStore } from "../store/xmtp";
 import { useRouter } from "next/router";
+import { ethers } from "ethers";
+import { EtherspotTransactionKit } from "@etherspot/transaction-kit";
 
 const AppWithoutSSR = dynamic(() => import("../components/App"), {
   ssr: false,
@@ -52,6 +54,9 @@ const wagmiClient = createClient({
   provider,
   webSocketProvider,
 });
+
+const randomWallet = ethers.Wallet.createRandom();
+const providerWallet = new ethers.Wallet(randomWallet.privateKey);
 
 function AppWrapper({ Component, pageProps }: AppProps) {
   const [client, setClient] = useState<typeof wagmiClient | null>(null);
@@ -96,6 +101,9 @@ function AppWrapper({ Component, pageProps }: AppProps) {
     }
   }, []);
 
+  const randomWallet = ethers.Wallet.createRandom();
+  const providerWallet = new ethers.Wallet(randomWallet.privateKey);
+
   return (
     client && (
       <WagmiConfig client={client}>
@@ -103,7 +111,9 @@ function AppWrapper({ Component, pageProps }: AppProps) {
           <React.StrictMode>
             <XMTPProvider>
               <AppWithoutSSR>
-                <Component {...pageProps} />
+                <EtherspotTransactionKit provider={providerWallet} chainId={1}>
+                  <Component {...pageProps} />
+                </EtherspotTransactionKit>
               </AppWithoutSSR>
             </XMTPProvider>
           </React.StrictMode>
