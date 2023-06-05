@@ -10,8 +10,9 @@ collection games {
     logo?: string;
     website?: string;
     chain?: string;
+    category?: string;
 
-    constructor (id: string, name: string, description?: string, fullDescription?: string, logo?: string, website?: string, chain?: string) {
+    constructor (id: string, name: string, description?: string, fullDescription?: string, logo?: string, website?: string, chain?: string, category?: string) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -19,6 +20,7 @@ collection games {
         this.logo = logo;
         this.website = website;
         this.chain = chain;
+        this.category = category;
     }
 }
 
