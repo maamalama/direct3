@@ -23,6 +23,7 @@ import { useXmtpStore } from "../store/xmtp";
 import { useRouter } from "next/router";
 import { ethers } from "ethers";
 import { EtherspotTransactionKit } from "@etherspot/transaction-kit";
+import { Analytics } from "@vercel/analytics/react";
 
 const AppWithoutSSR = dynamic(() => import("../components/App"), {
   ssr: false,
@@ -113,6 +114,7 @@ function AppWrapper({ Component, pageProps }: AppProps) {
               <AppWithoutSSR>
                 <EtherspotTransactionKit provider={providerWallet} chainId={1}>
                   <Component {...pageProps} />
+                  <Analytics />
                 </EtherspotTransactionKit>
               </AppWithoutSSR>
             </XMTPProvider>
