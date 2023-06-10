@@ -12,7 +12,6 @@ import useWindowSize from "../hooks/useWindowSize";
 import { useClient } from "@xmtp/react-sdk";
 import { useDisconnect, useSigner } from "wagmi";
 import { ConversationListWrapper } from "../wrappers/ConversationListWrapper";
-import NftDataViewer from "../components/NftDataViewer";
 
 export type address = "0x${string}";
 
@@ -77,7 +76,7 @@ const Inbox: React.FC<{ children?: React.ReactNode }> = () => {
         (!recipientWalletAddress && !startedFirstMessage) ? (
           <>
             <SideNavWrapper />
-            <div className="flex flex-col w-full h-screen overflow-y-auto">
+            <div className="flex flex-col w-full h-screen overflow-y-auto bg-[#F4DE85] border-x-[1px] border-black">
               <HeaderDropdownWrapper />
               <ConversationListWrapper
                 setStartedFirstMessage={setStartedFirstMessage}
@@ -89,7 +88,7 @@ const Inbox: React.FC<{ children?: React.ReactNode }> = () => {
       {size[0] > TAILWIND_MD_BREAKPOINT ||
       recipientWalletAddress ||
       startedFirstMessage ? (
-        <div className="flex w-full flex-col h-screen overflow-hidden">
+        <div className="flex w-full flex-col h-screen overflow-hidden bg-[#E8E3F0]">
           {!conversations.size &&
           !loadingConversations &&
           !startedFirstMessage ? (
@@ -105,7 +104,7 @@ const Inbox: React.FC<{ children?: React.ReactNode }> = () => {
               <div className="h-full overflow-auto flex flex-col">
                 {conversationId && <FullConversationWrapper />}
               </div>
-              <NftDataViewer />
+              {/*<NftDataViewer />*/}
               <MessageInputWrapper />
             </>
           )}

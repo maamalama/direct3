@@ -4,7 +4,6 @@ import { ShortCopySkeletonLoader } from "../Loaders/SkeletonLoaders/ShortCopySke
 import { classNames } from "../../../helpers";
 import { Avatar } from "../Avatar/Avatar";
 import { useTranslation } from "react-i18next";
-import { StarIcon } from "@heroicons/react/solid";
 
 interface MessagePreviewCard {
   /**
@@ -67,8 +66,8 @@ export const MessagePreviewCard = ({
   return (
     <div
       className={classNames(
-        "flex justify-between items-center border-0 border-b border-gray-200 outline-blue outline-b-0 h-min cursor-pointer",
-        isSelected ? "bg-gray-200" : "bg-gray-100",
+        "flex justify-between items-center border-y-[1px] border-black outline-blue outline-b-0 h-min cursor-pointer",
+        isSelected ? "bg-white" : "",
         isLoading ? "px-4 py-2" : "p-4",
       )}
       onClick={onClick}
@@ -79,7 +78,7 @@ export const MessagePreviewCard = ({
         }
       }}
       tabIndex={0}>
-      <Avatar url={avatarUrl} address={address} isLoading={isLoading} />
+      <Avatar url={"avatar.png"} address={address} isLoading={isLoading} />
       <div
         className={classNames(
           "flex flex-col items-start w-3/4 ml-3",
@@ -120,8 +119,11 @@ export const MessagePreviewCard = ({
           )}>
           {datetime && t("{{datetime, ago}}", { datetime })}
           {pinned && (
-            <div>
-              <StarIcon className="text-indigo-600 mt-2" width={16} />
+            <div
+              className={
+                "mt-2 rounded-full border-[1px] border-black flex items-center justify-center h-[20px] w-[20px]"
+              }>
+              2
             </div>
           )}
         </div>

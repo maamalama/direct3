@@ -14,6 +14,11 @@ const nextConfig = withPWA({
   images: {
     loader: "akamai",
     path: "",
+    remotePatterns: [
+      {
+        hostname: "**",
+      },
+    ],
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
