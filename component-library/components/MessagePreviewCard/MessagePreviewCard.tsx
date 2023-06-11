@@ -117,11 +117,14 @@ export const MessagePreviewCard = ({
             "h-full",
             "flex flex-col items-end justify-between",
           )}>
-          {datetime && t("{{datetime, ago}}", { datetime })}
+          <p className={"text-black text-[14px] font-medium"}>
+            {datetime && t("{{datetime, ago}}", { datetime })}
+          </p>
+
           {pinned && (
             <div
               className={
-                "mt-2 rounded-full border-[1px] border-black flex items-center justify-center h-[20px] w-[20px]"
+                "mt-2 rounded-full border-[1px] border-black flex items-center justify-center h-[20px] w-[20px] bg-white"
               }>
               2
             </div>
