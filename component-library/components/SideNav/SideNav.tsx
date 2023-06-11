@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 import i18next, { resourceMap } from "../../../i18n";
 import { QRCode } from "react-qrcode-logo";
 import Image from "next/image";
+import { Avatar } from "../Avatar/Avatar";
 
 interface SideNav {
   /**
@@ -210,19 +211,13 @@ const SideNav = ({
       </div>
       <div className="flex justify-center items-center font-bold w-full pb-8">
         <button
-          className={"overflow-hidden rounded-full"}
           onClick={onXmtpIconClick}
           onKeyDown={onXmtpIconClick}
           tabIndex={0}
           data-testid="icon">
-          <Image
-            className={"object-cover"}
-            src={"/avatar.png"}
-            alt={"avatar"}
-            width={54}
-            height={54}
-          />
+          <Avatar url={"avatar.png"} />
         </button>
+
         {/*<div*/}
         {/*  onClick={onXmtpIconClick}*/}
         {/*  onKeyDown={onXmtpIconClick}*/}
