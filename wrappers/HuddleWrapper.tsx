@@ -139,8 +139,15 @@ export const HuddleWrapper = () => {
         srText={"Call"}
       />
 
-      {(camStream && micStream) ? (
-        <div>
+      {camStream && micStream ? (
+        <div
+          style={{ // bad styling
+            position: "fixed",
+            top: "40%",
+            left: "25%",
+            transform: "translate(40%, -50%)"
+          }}>
+            
           <video ref={videoRef} autoPlay muted></video>
           <div className="grid grid-cols-4">
             {Object.values(peers)
