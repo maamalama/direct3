@@ -1,8 +1,8 @@
 import React, { ChangeEvent, useEffect, useLayoutEffect, useRef } from "react";
-import { ArrowUpIcon } from "@heroicons/react/solid";
 import { IconButton } from "../IconButton/IconButton";
 import { classNames } from "../../../helpers";
 import { useTranslation } from "react-i18next";
+import Image from "next/image";
 
 interface InputProps {
   /**
@@ -29,8 +29,7 @@ export const MessageInput = ({
   const [value, setValue] = React.useState("");
   const onChange = (event: ChangeEvent<HTMLTextAreaElement>) =>
     setValue(event.target.value);
-  const borderStyles =
-    "border border-gray-300 focus-within:border-1 focus-within:border-indigo-600 rounded-tl-3xl rounded-bl-3xl rounded-tr-3xl";
+  const borderStyles = "border border-black rounded-[14px]";
   const textAreaStyles = `${
     textAreaRef?.current?.scrollHeight &&
     textAreaRef?.current?.scrollHeight <= 32
@@ -65,6 +64,7 @@ export const MessageInput = ({
         className={classNames(
           "flex",
           "items-center",
+          "min-h-[70px]",
           "max-h-300",
           "mx-4 my-2 mb-6",
           "bg-white",
@@ -72,8 +72,23 @@ export const MessageInput = ({
           "no-scrollbar",
           "z-10",
           "p-1",
+          "pl-5",
           borderStyles,
         )}>
+        <button className={"mr-[2px]"} type={"button"}>
+          <Image
+            src={"icons/paperclip.svg"}
+            alt={"add"}
+            width={30}
+            height={30}
+          />
+        </button>
+        <button className={"mr-[2px]"} type={"button"}>
+          <Image src={"icons/image.svg"} alt={"image"} width={30} height={30} />
+        </button>
+        <button type={"button"}>
+          <Image src={"icons/nft.svg"} alt={"nft"} width={30} height={30} />
+        </button>
         <textarea
           autoFocus
           id="chat"
@@ -95,11 +110,19 @@ export const MessageInput = ({
           value={value}
           disabled={isDisabled}
         />
-        <div className="flex items-end absolute bottom-1.5 right-1">
+        <div className="sendButton">
           <IconButton
             testId="message-input-submit"
             variant="secondary"
-            label={<ArrowUpIcon color="white" width="20" />}
+            // label={<ArrowUpIcon color="black" width="20" />}
+            label={
+              <Image
+                src={"icons/send.svg"}
+                alt={"send"}
+                width={40}
+                height={40}
+              />
+            }
             srText={t("aria_labels.submit_message") || ""}
             onClick={() => {
               if (value) {

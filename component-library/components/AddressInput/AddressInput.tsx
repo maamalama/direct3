@@ -8,6 +8,8 @@ import { classNames } from "../../../helpers";
 import { ShortCopySkeletonLoader } from "../Loaders/SkeletonLoaders/ShortCopySkeletonLoader";
 import { useTranslation } from "react-i18next";
 
+import Image from "next/image";
+
 interface AddressInputProps {
   /**
    * What, if any, resolved address is there?
@@ -75,7 +77,7 @@ export const AddressInput = ({
       className={classNames(
         !resolvedAddress?.displayAddress
           ? "bg-indigo-50 border-b border-indigo-500"
-          : "border-b border-gray-200",
+          : "border-b border-black",
         "flex items-center px-2 md:px-4 py-3 border-l-0 z-10 max-md:h-fit md:max-h-sm w-full h-16",
       )}>
       <div className="max-md:w-fit md:hidden flex w-24 p-0 justify-start">
@@ -84,15 +86,14 @@ export const AddressInput = ({
       <form
         className="flex w-full items-center"
         onSubmit={(e) => e.preventDefault()}>
-        <div className="mr-2 font-bold text-sm">{t("common.input_label")}:</div>
-        <Avatar {...avatarUrlProps} />
+        <Avatar {...avatarUrlProps} url={"avatar.png"} />
         <div className="ml-2 md:ml-4 flex flex-col justify-center">
           {isLoading ? (
             <ShortCopySkeletonLoader lines={1} />
           ) : resolvedAddress?.displayAddress ? (
             <div className="flex flex-col text-md py-1">
               <span
-                className="font-bold h-4 mb-2 ml-0"
+                className="font-bold h-4 mb-1 ml-0"
                 data-testid="recipient-wallet-address">
                 {resolvedAddress.displayAddress}
               </span>
@@ -127,7 +128,22 @@ export const AddressInput = ({
             {t(subtext || "")}
           </p>
         </div>
+
+        <Image
+          className={"ml-[8px]"}
+          src="/icons/link-external.svg"
+          alt={"link"}
+          width={18}
+          height={18}
+        />
       </form>
+      <button className={"mr-[10px]"}>
+        <Image src="/icons/call.svg" alt={"tel"} width={40} height={40} />
+      </button>
+
+      <button>
+        <Image src="/icons/video.svg" alt={"video"} width={40} height={40} />
+      </button>
       {onTooltipClick && (
         <InformationCircleIcon onClick={onTooltipClick} height="24" />
       )}

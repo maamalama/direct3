@@ -1,11 +1,12 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { ChevronDownIcon, CogIcon } from "@heroicons/react/outline";
-import { CheckCircleIcon, PlusIcon } from "@heroicons/react/solid";
+import { CheckCircleIcon } from "@heroicons/react/solid";
 import React, { Fragment, useEffect, useState } from "react";
 import { classNames } from "../../../helpers";
 import { IconButton } from "../IconButton/IconButton";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import Image from "next/image";
 
 interface HeaderDropdownProps {
   /**
@@ -52,18 +53,39 @@ export const HeaderDropdown = ({
     <div
       data-modal-target="headerModalId"
       data-testid="conversation-list-header"
-      className="border-l border-r border-b border-gray-200 bg-gray-100 h-16 p-4 pt-5">
+      className="border-l border-r border-b border-gray-200 p-4 pt-5">
       <div className="flex justify-between items-center">
         <span className="flex" onClick={() => setIsOpen(!isOpen)}>
-          <h1 className="font-bold text-lg mr-2">{currentlySelected}</h1>
+          <h1 className="font-black text-2xl mr-2">{currentlySelected}</h1>
           {!disabled && <ChevronDownIcon width="24" />}
         </span>
         <IconButton
           onClick={() => onClick?.()}
-          label={<PlusIcon color="white" width="20" />}
+          label={
+            <Image
+              src={"icons/newmessage.svg"}
+              alt={"add message"}
+              width={40}
+              height={40}
+            />
+          }
           testId="new-message-icon-cta"
           srText={t("aria_labels.start_new_message") || ""}
         />
+      </div>
+
+      <div
+        className={
+          "flex items-center justify-between border-[1px] border-[#000] rounded-full overflow-hidden h-[48px] px-[15px] mt-[28px]"
+        }>
+        <input
+          className={
+            "bg-transparent border-none text-base text-[#000] flex-grow outline-none font-medium p-0 pr-2"
+          }
+          type="text"
+          placeholder={"Search"}
+        />
+        <Image src={"icons/search.svg"} alt={"search"} width={20} height={20} />
       </div>
 
       {!disabled && isOpen && (

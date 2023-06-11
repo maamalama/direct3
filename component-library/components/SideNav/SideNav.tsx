@@ -1,25 +1,15 @@
 import { Dialog, Transition } from "@headlessui/react";
-import React, { Fragment, useEffect } from "react";
-import {
-  ChatAlt2Icon,
-  CheckCircleIcon,
-  ChevronDoubleRightIcon,
-} from "@heroicons/react/solid";
-import {
-  ClipboardCopyIcon,
-  CogIcon,
-  SparklesIcon,
-  XIcon,
-} from "@heroicons/react/outline";
+import React, { Fragment, useEffect, useState } from "react";
+import { CheckCircleIcon } from "@heroicons/react/solid";
+import { ClipboardCopyIcon, XIcon } from "@heroicons/react/outline";
 import { classNames, isAppEnvDemo, shortAddress } from "../../../helpers";
 import { XmtpIcon } from "../Icons/XmtpIcon";
-import { useState } from "react";
-import { Avatar } from "../Avatar/Avatar";
 import { GhostButton } from "../GhostButton/GhostButton";
 import { DisconnectIcon } from "../Icons/DisconnectIcon";
 import { useTranslation } from "react-i18next";
 import i18next, { resourceMap } from "../../../i18n";
 import { QRCode } from "react-qrcode-logo";
+import Image from "next/image";
 
 interface SideNav {
   /**
@@ -86,27 +76,39 @@ const SideNav = ({
   };
 
   const icons = [
-    <ChatAlt2Icon
+    <Image
       key={t("menu.messages_header")}
-      width={24}
+      src={"icons/messages.svg"}
+      alt={"messages"}
+      width={32}
+      height={32}
       className={isOpen ? "mr-4" : ""}
       data-testid="messages-icon"
     />,
-    <SparklesIcon
+    <Image
       key={t("menu.gallery_header")}
-      width={24}
+      src={"icons/community.svg"}
+      alt={"community"}
+      width={32}
+      height={32}
       className={isOpen ? "mr-4" : ""}
       data-testid="gallery-icon"
     />,
-    <CogIcon
+    <Image
       key={t("menu.settings_header")}
-      width={24}
+      src={"icons/settings.svg"}
+      alt={"settings"}
+      width={32}
+      height={32}
       className={isOpen ? "mr-4" : ""}
       data-testid="settings-icon"
     />,
-    <ChevronDoubleRightIcon
+    <Image
       key={t("menu.collapse_header")}
-      width={24}
+      src={"icons/arrow-right.svg"}
+      alt={"arrow-right"}
+      width={32}
+      height={32}
       className={isOpen ? "mr-4 rotate-180" : ""}
       data-testid="collapse-icon"
     />,
@@ -115,7 +117,7 @@ const SideNav = ({
 
   const mappedButtons = icons.map((icon) => {
     return (
-      <div className="group flex relative w-full" key={icon.key}>
+      <div className="group flex justify-between relative" key={icon.key}>
         <button
           type="button"
           onClick={(event) => {
@@ -125,9 +127,9 @@ const SideNav = ({
           aria-label={icon.key as string}
           className={classNames(
             currentIcon === icon.key ? "font-bold" : "",
-            "hover:bg-gray-200",
+            // "hover:bg-gray-200",
             "p-2",
-            "hover:text-black",
+            "hover:text-white",
             "text-gray-500",
             "rounded-lg",
             "w-full",
@@ -168,17 +170,20 @@ const SideNav = ({
         "justify-between",
         "items-center",
         "h-screen",
-        "bg-gray-50",
-        "px-3",
-        "border-r",
-        "border-gray-200",
-        !isOpen ? "w-[64px]" : "absolute z-10 w-[300px]",
+        "bg-[#000000]",
+        !isOpen ? "w-[98px]" : "absolute z-10 w-[200px]",
       )}>
       <div className="flex flex-col items-start space-y-4 w-full">
-        <div className="py-4 flex">
+        <div className="flex">
           <div>
             <div className="flex mb-12">
-              <Avatar url={avatarUrl} address={walletAddress} />
+              <Image
+                src={"icons/logo.svg"}
+                alt={"logo"}
+                width={98}
+                height={102}
+              />
+              {/*<Avatar url={"icons/logo.svg"} address={walletAddress} />*/}
               {isOpen && (
                 <div className="flex items-center">
                   <div className="flex flex-col px-2 justify-center">
@@ -194,21 +199,38 @@ const SideNav = ({
                 </div>
               )}
             </div>
-            <div className="flex flex-col items-start pt-4 space-y-4">
+            <div
+              className={`flex flex-col pt-4 space-y-4 ${
+                isOpen ? "items-start" : "items-center"
+              }`}>
               {mappedButtons}
             </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center items-center font-bold w-full pb-8">
-        <div
+        <button
+          className={"overflow-hidden rounded-full"}
           onClick={onXmtpIconClick}
           onKeyDown={onXmtpIconClick}
           tabIndex={0}
-          className="cursor-pointer"
           data-testid="icon">
-          {icon}
-        </div>
+          <Image
+            className={"object-cover"}
+            src={"/avatar.png"}
+            alt={"avatar"}
+            width={54}
+            height={54}
+          />
+        </button>
+        {/*<div*/}
+        {/*  onClick={onXmtpIconClick}*/}
+        {/*  onKeyDown={onXmtpIconClick}*/}
+        {/*  tabIndex={0}*/}
+        {/*  className="cursor-pointer"*/}
+        {/*  data-testid="icon">*/}
+        {/*  {icon}*/}
+        {/*</div>*/}
       </div>
       <Transition.Root show={isQrCodeDialogOpen} as={Fragment}>
         <Dialog
