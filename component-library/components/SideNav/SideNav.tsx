@@ -127,9 +127,9 @@ const SideNav = ({
           aria-label={icon.key as string}
           className={classNames(
             currentIcon === icon.key ? "font-bold" : "",
-            "hover:bg-gray-200",
+            // "hover:bg-gray-200",
             "p-2",
-            "hover:text-black",
+            "hover:text-white",
             "text-gray-500",
             "rounded-lg",
             "w-full",
@@ -171,7 +171,7 @@ const SideNav = ({
         "items-center",
         "h-screen",
         "bg-[#000000]",
-        !isOpen ? "w-[98px]" : "absolute z-10 w-[300px]",
+        !isOpen ? "w-[98px]" : "absolute z-10 w-[200px]",
       )}>
       <div className="flex flex-col items-start space-y-4 w-full">
         <div className="flex">
@@ -199,7 +199,10 @@ const SideNav = ({
                 </div>
               )}
             </div>
-            <div className="flex flex-col items-center pt-4 space-y-4">
+            <div
+              className={`flex flex-col pt-4 space-y-4 ${
+                isOpen ? "items-start" : "items-center"
+              }`}>
               {mappedButtons}
             </div>
           </div>

@@ -75,7 +75,7 @@ export const MessageInput = ({
           "pl-5",
           borderStyles,
         )}>
-        <button className={"mr-[2px]"}>
+        <button className={"mr-[2px]"} type={"button"}>
           <Image
             src={"icons/paperclip.svg"}
             alt={"add"}
@@ -83,10 +83,10 @@ export const MessageInput = ({
             height={30}
           />
         </button>
-        <button className={"mr-[2px]"}>
+        <button className={"mr-[2px]"} type={"button"}>
           <Image src={"icons/image.svg"} alt={"image"} width={30} height={30} />
         </button>
-        <button>
+        <button type={"button"}>
           <Image src={"icons/nft.svg"} alt={"nft"} width={30} height={30} />
         </button>
         <textarea
