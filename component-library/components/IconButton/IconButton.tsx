@@ -40,8 +40,7 @@ interface IconButtonProps {
 
 const colorClassMapping = {
   primary: {
-    backgroundColor:
-      "bg-indigo-600 hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-indigo-800",
+    backgroundColor: "focus:outline-none focus:ring",
     fontColor: null,
   },
   secondary: null,
@@ -93,8 +92,6 @@ export const IconButton = ({
       <>
         <div
           className={classNames(
-            "bg-indigo-600",
-            "hover:bg-indigo-800",
             size === "small" ? "p-1 min-h-20" : "p-1 min-h-24",
             shape,
           )}>

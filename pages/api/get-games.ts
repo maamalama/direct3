@@ -3,6 +3,7 @@ import axiosInstance from '../../utils/axios';
 import { Polybase } from '@polybase/client';
 import { v4 as uuidv4 } from 'uuid';
 import Redis from 'ioredis';
+import { gamesData } from '../../polybase/schema';
 
 export default async function handler(
     req: NextApiRequest,
@@ -12,15 +13,15 @@ export default async function handler(
 
     const redis = new Redis(redisUrl);
 
-    const cached = await redis.get(`games`);
+    // const cached = await redis.get(`games`);
 
-    if (cached) {
-        res.status(200).json(JSON.parse(cached));
-        return;
-    }
+    // if (cached) {
+    //     res.status(200).json(JSON.parse(cached));
+    //     return;
+    // }
 
     const db = new Polybase({
-        defaultNamespace: "pk/0xa82e197a60581a388eab7a3c6668da651a404ea99073d9cbdfd7d596e2980bb457609498273a1cd3d9c37c613578279dc30192db9ec586c319b07084cd801cf2/direct3",
+        defaultNamespace: "pk/0xd26109d331c0b6e8aa82d0f3a8c349604f353f39d3cd798cb9e3c799da03c7e1bcf2f086a667af7b5c3bf7635abdee92c174756ff8571282cdd5802c1be959c1/direct3",
     });
     const gamesColelction = db.collection('games');
 
@@ -32,10 +33,36 @@ export default async function handler(
     //         }
     //     });
 
+    // await Promise.all(gamesData.results.map(async (game) => {
+    //     await gamesColelction.create([
+    //         game.dappId.toString() || uuidv4(),
+    //         game.name || '',
+    //         game.description || '',
+    //         game.fullDescription || '',
+    //         game.logo || '',
+    //         game.website || '',
+    //         game.chains[ 0 ] || '',
+    //         game.categories[ 0 ] || '',
+    //     ]);
+    //     console.log(game.name);
+    // }));
+
+
 
     const games = await gamesColelction.get();
 
-    await redis.set(`games`, JSON.stringify(games), 'EX', 60 * 60 * 2);
+    const result = games.data.sort((a, b) => {
+        if (a.data.chain === 'ethereum' && b.data.chain !== 'ethereum') {
+            return -1;
+        }
+        if (a.data.chain !== 'ethereum' && b.data.chain === 'ethereum') {
+            return 1;
+        }
+        return 0;
+    });
 
-    res.status(200).json(games);
+
+    await redis.set(`games`, JSON.stringify(result), 'EX', 60 * 60 * 2);
+
+    res.status(200).json(result);
 }

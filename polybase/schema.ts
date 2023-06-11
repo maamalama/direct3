@@ -78,6 +78,4500 @@ collection posts {
 }
 `
 
+export const gamesData = {
+  "success": true,
+  "chain": null,
+  "category": "games",
+  "range": "30d",
+  "top": 100,
+  "results": [
+    {
+      "dappId": 5314,
+      "name": "Alien Worlds",
+      "description": "Innovative Metaverse where everything is tokenized",
+      "fullDescription": "<p>Alien Worlds</p>\n<p>What would you do, if you could create anything in the world?</p>\n<p>Join the Alien Worlds simulation of Earth’s economy using the Trilium (TLM) game token.</p>\n<p>Seek your fortune and thrive in the Trilium and NFT-based Social Metaverse.</p>\n<p>Get started by going through the Wormhole…</p>\n<p>Welcome to Alien Worlds!&nbsp;</p>\n<p>#buildingbetterworlds #thrive #Metaverse #NFTs #TLM</p>",
+      "logo": "https://dashboard-assets.dappradar.com/document/5314/alienworlds-dapp-games-wax-logo_7600163693ac8760ff743d394a47b974.png",
+      "link": "https://dappradar.com/binance-smart-chain/games/alien-worlds",
+      "website": "https://alienworlds.io",
+      "chains": [
+        "wax",
+      "binance-smart-chain"
+      ],
+  "categories": [
+        "games"
+      ],
+"socialLinks": [
+  {
+    "title": "discord",
+    "url": "https://discord.gg/alienworlds",
+    "type": "discord"
+  },
+  {
+    "title": "instagram",
+    "url": "https://www.instagram.com/alienworlds.io/",
+    "type": "instagram"
+  },
+  {
+    "title": "medium",
+    "url": "http://medium.com/@alienworlds",
+    "type": "medium"
+  },
+  {
+    "title": "reddit",
+    "url": "https://www.reddit.com/r/AlienWorldsOfficial",
+    "type": "reddit"
+  },
+  {
+    "title": "telegram",
+    "url": "https://t.me/AlienWorldsOffical",
+    "type": "telegram"
+  },
+  {
+    "title": "twitter",
+    "url": "http://twitter.com/alienworlds",
+    "type": "twitter"
+  },
+  {
+    "title": "youtube",
+    "url": "https://www.youtube.com/c/AlienWorlds",
+    "type": "youtube"
+  }
+],
+  "metrics": {
+  "transactions": 378184090,
+    "uaw": 408546,
+      "volume": 3637401.06,
+        "balance": 1651057.97
+}
+    },
+{
+  "dappId": 27978,
+    "name": "Iskra",
+      "description": "Iskra offers a premier destination for players, developers and investors to explore the thrill and opportunity of Web3 gaming alongside a vibrant community.",
+        "fullDescription": "<p><strong>Iskra</strong> is a blockchain gaming hub that brings together gamers and game studios. Our platform allows gamers to explore and enjoy quality blockchain games and create their own community. Interested users will have the opportunity to explore new game projects for the first time through our Launchpad. Users can also freely trade in-game tokens and other in-game assets minted as non-fungible tokens (NFTs) outside the game.</p>\n<p>As a native token, <strong>ISK </strong>is used for all types of services provided within the Iskra ecosystem. ISK has three key utilities:&nbsp;</p>\n<p>&nbsp;&nbsp;(1) Exclusive currency to buy Pioneer NFTs: After the 10,000th Pioneer NFT is sold, all remaining Pioneer NFTs are only available for purchase with $ISK.</p>\n<p>&nbsp;&nbsp;(2) Governance token: Holders are entitled to propose and vote on initiatives that govern the Iskra platform.</p>\n<p>&nbsp;&nbsp;(3) Key currency: ISK serves all purposes in the Iskra platform. It can be exchanged with other assets and can be used as a form of payment for transaction fees and charges for a variety of other services in the Iskra ecosystem.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/27978/iskra-dapp-games-klaytn-logo_d68a98720bdbd90cf288b806113dacc9.png",
+            "link": "https://dappradar.com/klaytn/games/iskra",
+              "website": "https://iskra.world/",
+                "chains": [
+                  "klaytn",
+                  "ethereum"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://news.iskra.world/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "cmc",
+                        "url": "https://coinmarketcap.com/currencies/iskra/",
+                        "type": "cmc"
+                      },
+                      {
+                        "title": "coingecko",
+                        "url": "https://www.coingecko.com/en/coins/iskra-token",
+                        "type": "coingecko"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/iskraworld",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/iskraworldofficial",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@iskra.world",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/iskra_world_official",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/iskra_world",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@IskraWorld/featured",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 1070394,
+      "uaw": 187389,
+        "volume": 540863.79,
+          "balance": 529373.46
+  }
+},
+{
+  "dappId": 37648,
+    "name": "Hippo Dash by Gameta",
+      "description": "A parkour game developed by Gameta",
+        "fullDescription": "<p>Gameta is a multi-layered NFT gaming network aimed at bringing large scale Web2 users to Web3. The project currently offers 14 games including both hyper-casual and NFT social games. Since its launch, Gameta currently has 7 million-plus on-chain users on BNB Chain ranks among one of the most active projects on BNB Chain</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/37612/hippodashbygameta-dapp-games-37612-logo_b427d5f68c9d7960d0cbeb914b61f159.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/hippo-dash-by-gameta",
+              "website": "https://hippo-dash.com/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/GametaHippo",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 219569,
+      "uaw": 176836,
+        "volume": 11992.73,
+          "balance": 8405.61
+  }
+},
+{
+  "dappId": 3803,
+    "name": "Splinterlands",
+      "description": "Splinterlands is a collectible trading card game",
+        "fullDescription": "<p>Splinterlands is a collectible trading multiplayer card game with design that will make you think of a symbiosis between pokemon card games and World of Warcraft characters. The game has a developed storytelling based on a mystical world. Built on the Steem Blockchain to offer fast transactions and full transparency. Get in the game, conquer a world or solve quests.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/3803/splinterlands-dapp-games-hive-logo_ff940c64cd453c6cc0f6407fdd8bc77c.png",
+            "link": "https://dappradar.com/wax/games/splinterlands",
+              "website": "https://splinterlands.com/",
+                "chains": [
+                  "hive",
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/CAFJRjY",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/officialsplinterlands/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/steemmonsters/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/OfficialSteemMonsters/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/splinterlands",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/splinterlands",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 20014032,
+      "uaw": 133962,
+        "volume": 10212.78,
+          "balance": 17747.69
+  }
+},
+{
+  "dappId": 3388,
+    "name": "Upland",
+      "description": "Upland is the leading blockchain metaverse designed to rebuild the world, giving players and businesses a new way to play, earn real value, and connect.",
+        "fullDescription": "<p>Upland is the leading blockchain metaverse based on the real world that brings together the thrill of earning NFTs and digital property holding fiat value with the enjoyment of game exploration and meeting fellow players. Backed by the highly-sustainable EOS blockchain, Upland has been recognized as one of Fast Company’s Next Big Things in Tech due to the platform's community-based commerce where players and businesses define gaming, earning, and connecting. Available on iOS, Android, and browsers, Upland captures the potential of Web 3.0 technology where virtual properties – based on real-world addresses and historic landmarks – become gamified hubs of activity that mesh digital communities with the real world.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/3388/upland-games-eos-logo_e09960a02373ce2a6c5b91dfca7d4bad.png",
+            "link": "https://dappradar.com/eos/games/upland",
+              "website": "https://upland.me/",
+                "chains": [
+                  "eos"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discover.upland.me/discord",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/uplandme/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@upland",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/Upland",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/UplandMe",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://youtu.be/FrtlSOO0ZAQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 6557743,
+      "uaw": 121209,
+        "volume": 0,
+          "balance": 21334.15
+  }
+},
+{
+  "dappId": 8430,
+    "name": "Farmers World",
+      "description": "Farmers World is the first farming game to function on the NFTs platform",
+        "fullDescription": "<p>Farmers World is the first farming game to function on the NFTs platform. Pick for yourself suitable tools, exploit various resources, buy land to build enormous farms, and enjoy the fascinating experiences of a farmer working in Farmers World’s Ecosystem.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/8430/farmersworld-dapp-games-wax-logo_3d4ce66580be868d5d1b89a411dcff01.png",
+            "link": "https://dappradar.com/wax/games/farmers-world",
+              "website": "https://farmersworld.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/V2pdyGdB9V",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://fb.com/farmersworld.nft",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://farmersworld.medium.com",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/farmersworldofficial",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/FarmersWorldNFT",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 124645395,
+      "uaw": 116598,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 14556,
+    "name": "Benji Bananas",
+      "description": "The Benji Bananas Membership Pass allows holders to receive rewards for playing the Benji Bananas game.",
+        "fullDescription": "<p>Benji Bananas Membership Pass is your key to accessing the upcoming play-to-earn model within Benji Bananas . Ownership of a Benji Bananas Membership Pass NFT will enable its owners to earn special tokens when playing Benji Bananas and that will also allow those tokens to be swapped for ApeCoin.</p>\n<p>Benji Bananas is a free-to-play mobile game from Animoca Brands available for download on the App Store and Google Play. It is a popular action-adventure game (over 50 million downloads) in which players make Benji the monkey and his friends leap from vine to vine through the jungle collecting bananas to get upgrades, specials and power-ups.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14556/benjibananas-dapp-games-ethereum-logo_ecf59a0a2e48a20421525f4eddef8539.png",
+            "link": "https://dappradar.com/polygon/games/benji-bananas",
+              "website": "https://benjibananas.com/",
+                "chains": [
+                  "ethereum",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "medium",
+                        "url": "https://animocabrands.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/BenjiBananas",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 159863,
+      "uaw": 88207,
+        "volume": 0,
+          "balance": 10900889.39
+  }
+},
+{
+  "dappId": 18280,
+    "name": "SuperWalk",
+      "description": "Web3\bLifestyle & Move-To-Earn project",
+        "fullDescription": "<p>SuperWalk – A decentralized M2E with NFT shoes bridging real world to metaverse, where walkers and runners exercise, upgrade shoes and building a healthy community.</p>\n<p>SuperWalk team has a vision that we make building active and healthy habits easier around the world. By operating community-based running app ‘Proground’ for 9 months, SuperWalk team carried out R&amp;D on walking pattern recognition, GPS tracking and Vehicle Detection.</p>\n<p>In SuperWalk ecosystem, walkers and runners buy NFT shoes to start Pro Mode, earn $GRND by moving at the targeted speed and upgrade them to get more rewards. In addition, non-crypto users can access SuperWalk ecosystem by just downloading and earning a small amount of $WALK in Basic Mode.</p>\n<p>SuperWalk has a vision that holders use their NFT shoes on ZEPETO metaverse with 300 million users and get real sneakers from Kream, which is the fastest growing sneakers resell platform in East Asia. By integrating in-app exercise data, metaverse communities and tangible shoes rewards, SuperWalk will create a unique fitness ecosystem around the world.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18280/superwalk-dapp-marketplaces-klaytn-logo_1edc4b93bafc3f9bbf5fb6aab080f0bf.png",
+            "link": "https://dappradar.com/klaytn/games/superwalk",
+              "website": "https://superwalk.io",
+                "chains": [
+                  "klaytn"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "cmc",
+                        "url": "https://coinmarketcap.com/ko/currencies/superwalk/",
+                        "type": "cmc"
+                      },
+                      {
+                        "title": "coingecko",
+                        "url": "https://www.coingecko.com/en/coins/superwalk",
+                        "type": "coingecko"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/superwalk",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/superwalk.official/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@SuperWalk",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/SuperWalk_",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 3809144,
+      "uaw": 77135,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 9495,
+    "name": "Axie Infinity",
+      "description": "? Battle ✨ Collect ⟠ Earn // Freedom for Gamers.",
+        "fullDescription": "<p>Axie Infinity is a Pokemon-inspired digital pet universe where players use their cute characters called Axies in various games. The Axie Infinity Universe highlights the benefits of blockchain technology through \"Free to Play to Earn\" gameplay and a player-owned economy.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/9495/axieinfinity-dapp-games-ronin-logo_1ec806d57fd80ab68d351658cb8d146a.png",
+            "link": "https://dappradar.com/ethereum/games/axie-infinity",
+              "website": "https://axieinfinity.com/",
+                "chains": [
+                  "ethereum",
+                  "ronin"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/qT8vQjJ",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://axie.substack.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "other",
+                        "url": "https://www.youtube.com/watch?v=oMa8cc6YxSI",
+                        "type": "other"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/AxieInfinity/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/AxieInfinity",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 996271,
+      "uaw": 74127,
+        "volume": 48159606.92,
+          "balance": 693177421.19
+  }
+},
+{
+  "dappId": 20949,
+    "name": "Carrom Blitz",
+      "description": "Carrom Blitz brings exciting multiplayer action to the classic Carrom gameplay - all for FREE",
+        "fullDescription": "<p>Are you a master of Carrom trick shots? Quickly run the board with various shots to pot all your pieces before your opponents. Score big and win rewards in this twist on classic carrom.</p>\n<p>Featuring accurate gameplay, a classy look, and quirky twists, Carrom Blitz has something for everyone. Discover multiple tournament formats, weekly challenges, and leagues to connect with the community.</p>\n<p>If you're a fan of testing yourself competitively in skill-based games like Pool, Solitaire, and Darts, then you're going to love what Carrom Blitz has to offer!</p>\n<p>- Asynchronous gameplay and tournaments</p>\n<p>- Classic and precise mobile carrom gameplay</p>\n<p>- Trick shots earn bonus points</p>\n<p>- Win $RLY Prizes!</p>\n<p>- Bonus points for time &amp; accuracy</p>\n<p>- Skill-based Matchmaking</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/20949/carromblitz-dapp-games-flow-logo_27ce5787f16345b854b02dde7d88459a.png",
+            "link": "https://dappradar.com/flow/games/carrom-blitz",
+              "website": "https://www.onjoyride.com/games/carrom-blitz",
+                "chains": [
+                  "flow"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://www.onjoyride.com/blog",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "http://discord.gg/joyride",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/onjoyride",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/onjoyride/",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 2253264,
+      "uaw": 72781,
+        "volume": 36897.75,
+          "balance": 0
+  }
+},
+{
+  "dappId": 18031,
+    "name": "Trickshot Blitz",
+      "description": "Challenge other players to reach the highest score in a classic game of Trick Shot Pool. Play casually or wager to win $RLY!",
+        "fullDescription": "<p>Sharpen your skills in practice mode or play competitive matches for fun and prizes. Learn trick shots for more impressive scores and a competitive edge.&nbsp;</p>\n<p>Get ready to experience Trickshot Blitz with a twist on classic mobile pool, a classy look, and quick and fun gameplay. If you're a fan of testing yourself competitively in skill-based games like Bingo, Solitaire, and Pool, then you're going to love what Trickshot Blitz has to offer!</p>\n<p>• Win $RLY Prizes!</p>\n<p>• Enjoy exciting pool action! • Show off your skills against real players!</p>\n<p>• Asynchronous gameplay and tournaments. • Play casually or wager $RLY!</p>\n<p>• Trick shots earn bonus points</p>\n<p>• Skill-based Matchmaking</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18031/trickshotblitz-dapp-games-flow-logo_e9b497563d8e25de6ae670b8de03a539.png",
+            "link": "https://dappradar.com/flow/games/trickshot-blitz",
+              "website": "https://www.onjoyride.com/games/trickshot-blitz",
+                "chains": [
+                  "flow"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "http://discord.gg/joyride",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/onjoyride",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/onjoyride/",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 2025844,
+      "uaw": 70509,
+        "volume": 26380.15,
+          "balance": 0
+  }
+},
+{
+  "dappId": 14795,
+    "name": "Planet IX",
+      "description": "Planet IX is an NFT-based strategy and play-to-earn game.  Players contribute to building a better planet by acquiring and cultivating land in the form of NFTs.",
+        "fullDescription": "<p>Planet IX is an NFT-based strategy game, and your goal is to restore a fallen planet to its former green-blue glory while uncovering its mysteries. The story is continuously expanding into a huge and immersive sci-fi metaverse, and the narrative is tailored towards bringing awareness of humanity's impact on the world of today.</p>\n<p>The Planet IX map consists of 1.6 billion PIX, all being individual NFTs that you can collect. The PIX are acquired using our own ERC-20 utility token called IX Token (IXT) which was launched on November 20, 2021. Today, the game has a dedicated community with high engagement, with 550k+ unique players and 400+ million NFTs sold.</p>\n<p>As you progress in the game, you can form territories, develop new technology, raid other players, and gain ownership of in-game corporations with different functions and perks. Everything you collect have true ownership, and your mission is simple. Collect assets, use them wisely, and build the word of tomorrow.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14795/planetix-dapp-games-matic-logo_a12be670cd2d0e9ef18b61adc2317169.png",
+            "link": "https://dappradar.com/polygon/games/planet-ix",
+              "website": "https://planetix.com/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://blog.planetix.com/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/planetix",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/planet_ix_official/?hl=en",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/planetixofficial",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Planetix0",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCONW07NMT43rti7_XRXuGMA",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 2322841,
+      "uaw": 59776,
+        "volume": 1764129.02,
+          "balance": 36025598.99
+  }
+},
+{
+  "dappId": 23389,
+    "name": "PLAYZAP GAMES",
+      "description": "A Skill-based competitive gaming platform focused on mainstream causal gamers, built on blockchain technology with a sustainable economy and powered by NFTs",
+        "fullDescription": "<p>PlayZap Game is a skill-based competitive gaming platform focused on mainstream causal gamers, built on blockchain technology with a sustainable token economy and powered by NFTs. PlayZap is built on the principle of ´Free to Play. Skill to Earn´&nbsp;</p>\n<p></p>\n<p>The app is available on Appstore and Google PlayStore to download for free.&nbsp;</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/23389/playzapgames-dapp-games-bsc-logo_88aa6b0662447560bdc3c7269d05c30b.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/playzap-games",
+              "website": "https://www.playzap.games/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/YYPAyJpyqm",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@playzap",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/PlayZapOfficial",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/PlayZapGames",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UC52lrYFa8EYHn7SJahlpoEw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 110974,
+      "uaw": 54668,
+        "volume": 2776.21,
+          "balance": 867.08
+  }
+},
+{
+  "dappId": 29354,
+    "name": "Lifeform",
+      "description": "Embrace Your Digital Soul: Shape, Evolve and Thrive with Lifeform in the Boundless Web3 Universe.",
+        "fullDescription": "<p>Lifeform is positioned as the open solution platform of Decentralized Identification that can bring the next billion new users into the web3 world. Specifically, Lifeform will enable them to come into the world of metaverse and web3 applications by simplifying the creation, usage, and management of virtual identities - their virtual human avatars. These ultra-high definition avatars can not only be used in all major web2 video-enabled collaboration systems such as Zoom, Google Meet, Microsoft Teams, Discord, TikTok, Instagram, etc., but also serve as the users’ logins for all dApps in the web3 environment, smoothly bridging the transition from web2 to web3 ecosystems for new users.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/29354/lifeform-dapp-other-bsc-logo_2b332dd5c7de081e983bdefb46d91e7e.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/lifeform",
+              "website": "https://lifeform.cc/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/lifeformcc",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://lifeform-official.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Lifeformcc",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 66261,
+      "uaw": 51133,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 12162,
+    "name": "Wombat Dungeon Master",
+      "description": "Dungeon Master takes you to the other side of adventures! Control the dungeon, hide loot, reward the wombats and earn!",
+        "fullDescription": "<p><strong>Multichain NFT staking</strong></p>\n<p>Earn reward with renowned NFT collections from Uplift, Womplay, .gems, Crypto Writer and many more on EOS and WAX!</p>\n<p><strong>Long seasons</strong></p>\n<p>No sprints or races for rewards. Play at your own pace for weeks!</p>\n<p><strong>Zero spend of resources with Wombat</strong></p>\n<p>Wombat covers up to 20 free actions per day on WAX and 10 actions on EOS — play without spending your CPU!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/12162/wombatdungeonmaster-dapp-games-eos-logo_7ef14cc48431397b8e4265afb69b1ffa.png",
+            "link": "https://dappradar.com/eos/games/wombat-dungeon-master",
+              "website": "https://dungeon.wombat.app",
+                "chains": [
+                  "eos",
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/DungeonMasterHelp",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/WombatDungeon",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 497637,
+      "uaw": 41847,
+        "volume": 5.42,
+          "balance": 5.43
+  }
+},
+{
+  "dappId": 9001,
+    "name": "SecondLive",
+      "description": "SecondLive: Choose Life, Choose Space, Choose Friends.",
+        "fullDescription": "<p>SecondLive: Choose Life, Choose Space, Choose Friends. Become the icon you desire and free roam in spaces such as exhibitions, &nbsp;dance floors, &nbsp;shopping malls, &nbsp;workpl</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/9001/secondlive-dapp-games-bsc-logo_1aa7e51c7b68ccc8e44bd46766a88932.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/secondlive",
+              "website": "https://secondlive.world/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://secondlive.world/viewspace?spaceid=18204",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/Zw84wuacPA",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/SecondLive",
+                        "type": "github"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@SecondLiveReal",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/SecondLiveCommunity",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/SecondLiveReal",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://youtu.be/P8eKvLLUiNs",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 552779,
+      "uaw": 41281,
+        "volume": 4650,
+          "balance": 3934.55
+  }
+},
+{
+  "dappId": 18111,
+    "name": "Meta Apes",
+      "description": "Meta Apes is a free-to-play & play-to-earn MMO strategy game.",
+        "fullDescription": "<p>Meta Apes is a <strong>free-to-play, play-and-earn MMO strategy game</strong> designed for mobile. It is set in a post-apocalyptic world, in which humanity has ended and a new era ruled by Apes has begun. Next on the agenda is space domination. Each player will have to work closely with his or her Gang to become the strongest Clan and win the ultimate race to space. &nbsp;&nbsp;Meta Apes is available on both Google Play (Android) &amp; App Store (iOS), and is in fact the first game to launch on BSC Application Sidechain (BAS).</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18111/metaapes-dapp-games-bsc-logo_9cc9e8d743063f8b8111f7a22b03b1a7.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/meta-apes",
+              "website": "https://metaapesgame.com/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/qhtxG4BrtX",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/metaapesgame/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MetaApesGame",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 150679,
+      "uaw": 38322,
+        "volume": 1344819.48,
+          "balance": 57113.63
+  }
+},
+{
+  "dappId": 9152,
+    "name": "Arc8 by GAMEE",
+      "description": "Mobile Games - Crypto Rewards",
+        "fullDescription": "<p>Arc8 is a Play-to-Earn mobile gaming platform where arcade gaming meets crypto. Get to the top, crush your opponents and win GMEE tokens in multiple video games. Your success is only in your hands. Arc8 by GAMEE brings the blockchain experience to millions of gamers.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/9152/arc8bygamee-dapp-games-matic-logo_3d2f5b2e6334143a0d4983504cf2fa39.png",
+            "link": "https://dappradar.com/polygon/games/arc8-by-gamee-1",
+              "website": "https://www.gamee.com/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/q7kf7NnFsU",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://gamee.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/gameetoken",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/ARC8App",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 220882,
+      "uaw": 35098,
+        "volume": 0,
+          "balance": 28819650.32
+  }
+},
+{
+  "dappId": 15535,
+    "name": "Ultimate Champions",
+      "description": "Ultimate Champions is an entirely free-to-play fantasy football game with officially licensed digital cards hosted as NFTs on the blockchain.",
+        "fullDescription": "<p>In <strong>Ultimate Champions</strong>, we crafted an innovative experience where players can leverage their <strong>football knowledge </strong>to build the <strong>best possible team every week</strong> in order to earn rewards that hold long-term value in our <strong>open economy: </strong>Cards (NFTs) and Tokens (MGC/$CHAMP).</p>\n<p>We have always been passionate about video games and we love crafting a polished player experience.</p>\n<p>For the past 7 years we witnessed and studied the rise of blockchain technology and Web3 while developing video games at Ubisoft.</p>\n<p>In video games with traditional frameworks, players <strong>don't truly own their in-game assets. </strong>Game items have <strong>no value outside of the game </strong>and when a player stops playing a particular game, all the time and money invested in that game is lost forever. The game items are stuck in the game's ecosystem forever.</p>\n<p>By leveraging the capabilities of blockchain and NFTs, we can solve these problems and give players <strong>true ownership</strong> <strong>over the assets</strong> they earn or purchase in the game. Game items are NFTs and therefore have value in cryptocurrency, inside and outside of the game.</p>\n<p>The next generation of games is play-to-earn!</p>\n<p>We want to build a <strong>fantasy sports platform</strong> for a <strong>mainstream audience </strong>and leverage our free-to-play expertise to make a <strong>fun game</strong>, that is very accessible and easy to onboard on. Our ambition is to bring play-to-earn games to the masses.</p>\n<p>We plan to focus on <strong>football</strong> first and build an accessible <strong>cross-league</strong> fantasy football game.</p>\n<p>Once we're done building a fantasy football game we are proud of, we will expand our eco-system with additional fantasy sports.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/15535/ultimatechampions-dapp-games-matic-logo_2e8103f70c7d7ffbd9294c5e958bd5d5.png",
+            "link": "https://dappradar.com/ethereum/games/ultimate-champions",
+              "website": "https://beta.ultimate-champions.com/",
+                "chains": [
+                  "polygon",
+                  "ethereum",
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://whitepaper.ultimate-champions.com/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/6V7drqvpyK",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/ultichamps/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@ultimatechampions",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/ultimatechampions",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/UltiChamps",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCw6FwO8esxtdqbWIvQBrxPQ/videos",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 262174,
+      "uaw": 32690,
+        "volume": 0,
+          "balance": 1308.26
+  }
+},
+{
+  "dappId": 35591,
+    "name": "Meta Merge",
+      "description": "A universe combining AIGC, NFTs, DeFi and Gaming",
+        "fullDescription": "<p>A universe combining AIGC, NFTs, DeFi and Gaming.Capture your favorite pets, defeat enemies, mint NFTs, and embark on your adventure in the world of monsters in Meta Merge!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/35591/metamerge-dapp-games-bsc-logo_954178fb9bcfe00cf3dd5f7a5976f78a.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/meta-merge",
+              "website": "http://metamerge.xyz",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/ultiverse",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MetaMerge_xyz",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@MetaMerge",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 406869,
+      "uaw": 30664,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 14612,
+    "name": "Sunflower Land",
+      "description": "Plant, Chop, Mine, Craft & Collect at Sunflower Land.\n\nThe MetaVerse game with endless resources.",
+        "fullDescription": "<p>Stranded on a deserted island, you must scavenge the land to gather seeds, minerals and resources in order to farm and grow your empire. Spend only a few minutes a day tending to your farm, completing daily quests, expanding your land, discovering new islands &amp; trading with players.</p>\n<p>From the gold you mine, to the sunflower seeds you plant, everything is an identifiable resource on the Polygon Blockchain. There are thousands of unique in-game resources that are tradeable amongst players! Each week there are rare SFTs that you can craft with a limited supply - Make sure you collect the in-game resources so you don't miss out.</p>\n<p>Sunflower Land is a Blockchain-first game. Every tree you chop, radish pie you eat or experience you gain is saved to the Blockchain. You own your Bumpkin character and can grow and cherish them in a vibrant community.</p>\n<p>Sunflower Land was built by a team of passionate people who love building community driven projects. Come join the community of 60+ open source developers and 200+ artists today!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14612/sunflowerland-dapp-games-matic-logo_65e0d31d95d2f52d8f79867bdc5ea60e.png",
+            "link": "https://dappradar.com/polygon/games/sunflower-land",
+              "website": "https://sunflower-land.com",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/sunflowerland",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/0xSunflowerLand",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCA08g3x6EGPPZE_4093q3PQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 568347,
+      "uaw": 29670,
+        "volume": 45927.76,
+          "balance": 2028.01
+  }
+},
+{
+  "dappId": 6249,
+    "name": "MOBOX: NFT Farmer",
+      "description": "Yield Farm on the GO and watch your MOMO NFTs GROW.",
+        "fullDescription": "<p><strong>Next Generation Gaming : Free to Play to Earn (F2P2E)</strong></p>\n<p>‌</p>\n<p>Gaming should be fun. &nbsp;Rather than having to think about every single penny you spend and taking up all your time, wouldn’t it be great to play to earn?</p>\n<p>‌</p>\n<p>MOBOX has built a unique infrastructure that builds on the growing <strong>DeFi ecosystem and combines it with Gaming</strong> through unique NFTs. &nbsp;Using Liquidity Pools, Yield Farming, and NFTs, the GameFi infrastructure will not just find the <strong>best yield strategies for users but also generate unique NFTs</strong> that can be used across a multitude of games. &nbsp;This gives MOBOX users the unique ability to <strong>play for free and to earn</strong> in one singular process.</p>\n<p>‌</p>\n<p>Imagine a series of games where you don’t actually spend your hard earned money to purchase in-game resources or heroes, but rather a saving’s account where the more you save the more resources you earn and the more heroes you can summon.</p>\n<p>‌</p>\n<p>By providing liquidity to certain CRATES (pools), &nbsp;CRATE contracts will automatically deliver the best yield for users by utilizing optimal yield farming strategies.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/6249/momonftfarmer-dapp-games-bsc-logo_e3ce265bd34e836a14f5e033254d24b5.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/mobox-nft-farmer",
+              "website": "http://www.mobox.io",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/Y7YHd7qtph",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/MOBOX-Offical-113631857020083/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://mbox.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/Mobox/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MOBOX_Official",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 417822,
+      "uaw": 28045,
+        "volume": 1534433.77,
+          "balance": 26796531.78
+  }
+},
+{
+  "dappId": 25939,
+    "name": "Yuliverse",
+      "description": "Move and earn now with Yuliverse!\nInspired by Pokemon Go & Tinder.",
+        "fullDescription": "<p>Yuliverse is the World’s very First Parallel Reality Gaming Metaverse on BSC chain, Inspired by Pokemon Go &amp; Tinder. Growing new and meaningful friendships at the same time earning in Yuliverse with ease, by just moving around in your neighbourhood!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/25939/yuliverse-dapp-social-bsc-logo_c0da9ac7ff68b355a3060ff62ef6c84e.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/yuliverse",
+              "website": "https://www.yuliverse.com/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/yuliverseofficial",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@yuliverseofficial",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/TheYuliverse",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 269915,
+      "uaw": 27815,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 30927,
+    "name": "motoDEX",
+      "description": "MotoDEX is a Blockchain Game, in which users participate in motorcycle races, \ndevelop their riders and improve high-speed tracks.",
+        "fullDescription": "<p>White paper: https://docs.openbisea.com/motodex/</p>\n<p>MotoDEX is a NFT game, competition of multi-level racing on motorcycles on high-speed tracks with unlimited opportunities for players.</p>\n<p>motoDEX is a project that is developing by leaps and bounds. The game has made a splash in the NFT market due to its obvious advantages:?</p>\n<ol>\n  <li>1.Ease of character selection and intuitive gameplay. An uncomplicated plot, combined with the drive of high-speed racing and colorful locations, rivets fans of the classic genre of racing simulators to the screens.</li>\n  <li>2.Protection of financial transactions with smart contacts. The algorithm automatically generates, monitors and updates data about the funds at the disposal of the players. The rejection of the human factor in favor of blockchain technology guarantees users honesty and transparency of payments.</li>\n  <li>3.Fair discrimination. The automatic price increase for new characters provides trailblazer motoDEX buyers with smart contract-level benefits. The project guarantees investors, who enter the game at the start of the project, an advantage in monetizing game progress.</li>\n  <li>4.Game economy that stimulates the growth of prices for NFT objects. The condition for the increase in the cost of tracks and characters after each new sale, laid down in the algorithm, ensures a stable increase in the value of in-game items.</li>\n  <li>5.High liquidity with the possibility of obtaining super-profits. At the start of the project, players have a chance to increase their investment in gameplay.</li>\n</ol>",
+          "logo": "https://dashboard-assets.dappradar.com/document/30927/motodex-dapp-games-aurora-logo_9fc42a38e10cde705d67a9b7bf4982f1.png",
+            "link": "https://dappradar.com/aurora/games/motodex",
+              "website": "https://motodex.openbisea.com?chain=aurora",
+                "chains": [
+                  "aurora",
+                  "near",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@openbisea_studios",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/openbisea_en",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/openbisea",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 26215,
+      "uaw": 25870,
+        "volume": 125374.83,
+          "balance": 272.45
+  }
+},
+{
+  "dappId": 6969,
+    "name": "Nine Chronicles",
+      "description": "100% decentralized, open source RPG powered by the players ?‍♀️?‍♂️",
+        "fullDescription": "<p><strong>How will you explore the Nine Realms?</strong>&nbsp;</p>\n<p>Nine Chronicles is a fantasy MMORPG, set in a vast fantasy world powered by groundbreaking technology that gives players the freedom to play how they want: exploring, crafting, mining or governing in a uniquely moddable, open-source adventure. Conquer dangerous dungeons to gather rare resources for trade; specialize in crafting the finest equipment; or pass legislation with the support of other players to inhabit this realm as you see fit.</p>\n<p><strong>Face an ancient evil</strong></p>\n<p>The corrupted spawn of the world tree Yggdrasil is running rampant across the realms. You must decide how you will stop their spread of chaos throughout the lands. Use all of the resources at your disposal to overpower the evil that’s ravaging the world.</p>\n<p><strong>A neverending world in the hands of its players</strong></p>\n<p><strong>Perpetual World: </strong>Govern the world together in a game that cannot be shut down, ever, because the data and the logic live in a blockchain network — instead of the company, the gamers run the world together with no forced updates or changes without community approval.&nbsp;</p>\n<p><strong>Infinite moddability: </strong>Nine Chronicles is one of the first massively multiplayer games to fully support mods and give players the tools to utilize them in an open-source format.</p>\n<p><strong>How to play Nine Chronicles?</strong></p>\n<ol>\n  <li>Please enter your email on http://nine-chronicles.com</li>\n  <li>You can get your invitation code. The installer is downloaded automatically.</li>\n  <li>Run the game launcher and after the account creation, activate your account using this invitation code.</li>\n</ol>",
+          "logo": "https://dashboard-assets.dappradar.com/document/6969/ninechronicles-dapp-games-other-logo_6e103a509120cdc229c0795cd6ba19df.png",
+            "link": "https://dappradar.com/other/games/nine-chronicles",
+              "website": "https://nine-chronicles.com",
+                "chains": [
+                  "other"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://nine-chronicles.com/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/fg6dPk3",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://fb.com/NineChronicles",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/NineChronicles/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://ninechronicles.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/NineChronicles",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCCRjtl54jhfZLzCXqfXc4-A",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 13875827,
+      "uaw": 23016,
+        "volume": 179844.37,
+          "balance": 0
+  }
+},
+{
+  "dappId": 8948,
+    "name": "DeFi Kingdoms",
+      "description": "A cross-chain fantasy RPG game with beautiful pixel art, tokenized resources, and Hero NFTs integrated with DeFi protocols.",
+        "fullDescription": "<p><strong>DeFi Kingdoms</strong> is a game, DEX, liquidity pool opportunity, market of rare utility driven NFTs, and it all plays out in the nostalgic form of fantasy pixel art.<strong> </strong>DeFi Kingdoms blends the appeal of decentralized finance and the current rise of Play-to-Earn economics. Its Crystalvale realm is live on DFK Chain -- an Avalanche Subnet -- and the Serendale realm has relaunched on Klaytn.</p>\n<p>The<strong> JEWEL token</strong> is used to as an Ecosystem token across chains, which can be staked as a governance and fee distribution token so holders will have a say in the growth and evolution of the project. It is also the native gas token on DFK Chain. <strong>CRYSTAL</strong> and <strong>JADE</strong> are the Power Tokens on the Crystalvale and Serendale realms, respectively, and can be used to purchase and mint NFTs and for other in-game activities.</p>\n<p><strong>Collectable Hero NFTs</strong> have multiple utility cases, and can be sent on quests to earn in-game items for crafting or early unlocking of pool rewards. Level them up to increase their stats for combat in coming phases including PvP and PvE. A limited supply of lands will be able to be developed and used for resource gathering and NFT equipment crafting.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/8948/defikingdoms-dapp-games-harmony-logo_e166b2bffec91ca758918ea392771ae0.png",
+            "link": "https://dappradar.com/harmony/games/defi-kingdoms",
+              "website": "https://defikingdoms.com",
+                "chains": [
+                  "harmony",
+                  "avalanche",
+                  "defikingdoms",
+                  "klaytn"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/defikingdoms",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/DefiKingdoms",
+                        "type": "github"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/defikingdoms",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/defi-kingdoms-official",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/DefiKingdoms/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/defikingdoms",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@defikingdoms",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/DefiKingdoms",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/defikingdoms",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 11989705,
+      "uaw": 22987,
+        "volume": 4531761.45,
+          "balance": 41811702.769999996
+  }
+},
+{
+  "dappId": 16824,
+    "name": "Playbite",
+      "description": "Play fun games, win cool prizes",
+        "fullDescription": "<p>Playbite is a community-driven mobile games platform where users can play, hang out, compete, and win real prizes!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/16824/playbite-dapp-games-matic-logo_a9b174d454739dff464c0d6db2726cdd.png",
+            "link": "https://dappradar.com/polygon/games/playbite",
+              "website": "https://playbite.com",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/playbite",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/playbite",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/getplaybite",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@playbite",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://www.twitter.com/getplaybite",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 49200,
+      "uaw": 22813,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 11314,
+    "name": "PlayMining",
+      "description": "PlayMining is a Play to Earn NFT game platform where you can play various free games. You can earn DEAPcoin(DEP) as you play games.",
+        "fullDescription": "<p>What is PlayMining? PlayMining is a Play to Earn NFT game platform where you can play various free games. You can earn DEAPcoin(DEP) as you play games, with which you can trade exclusive Anime/Manga NFTs! The main usage of the utility token DEAPcoin (ERC-20) is used in NFT Marketplace by DEP to purchase NFTs (ERC-721) to enhance gameplay within the platform. The platform aims to address a problem to IPs / copyrights for the secondary market transaction of individual artwork. The portion of the sales will be rewarded as royalty to the original creators eternally.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/11314/playmining-dapp-games-dea-logo_a208e889184587de87b7e9e5716fd8ee.png",
+            "link": "https://dappradar.com/dep/games/playmining-2",
+              "website": "https://playmining.com/?rid=TZrMQf5D",
+                "chains": [
+                  "dep"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [],
+                      "metrics": {
+    "transactions": 828058,
+      "uaw": 19319,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 19869,
+    "name": "PlayEmber",
+      "description": "The simplest on-ramp for Mobile Game Users and Mobile Game Studios. Supercharge any mobile Web2 game to Web3 within an hour!",
+        "fullDescription": "<p>At playEmber we’re all about taking that initial ember of an idea and making it into a roaring hit of a game! With years of knowledge in the hyper casual and casual gaming space we're in a perfect position to slingshot games to millions of players and keep them profitable.</p>\n<p>With Ember Coin our Web3 arm to the business: Utilising our 100 Million Downloads to date and our mobile gaming expertise, we will add a Play &amp; Earn element to our mobile games along with allowing external F2P game studios the tech to join the P&amp;E EmberCoin ecosystem.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/19869/playember-dapp-games-near-logo_819633139e3de6b7497d17b59feed6c9.png",
+            "link": "https://dappradar.com/near/games/playember",
+              "website": "https://playember.com/",
+                "chains": [
+                  "near"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [],
+                      "metrics": {
+    "transactions": 21071,
+      "uaw": 18788,
+        "volume": 771.4,
+          "balance": 1693.22
+  }
+},
+{
+  "dappId": 14696,
+    "name": "Tap Fantasy",
+      "description": "Tap Fantasy is an MMORPG building the biggest play2earn on Solana and BSC. It’s the metaverse version of the famous TapTap Fantasy with over 20 million users.",
+        "fullDescription": "<p>Tap Fantasy is a MMORPG blockchain game developed by HTML 5. Players can interact with Tap Fantasy directly on the web page or wallet, and they can start playing immediately. It has both AXIE's PLAY TO EARN module and Roblox's DESIGN TO EARN developer module.</p>\n<p>Third-party game developers can design and create gameplay modules using TP’s no-code map editor. Game designers earn 50% commission from GOLD COINS that players consume in third-party gameplay modules.</p>\n<p>Designers can also MINT their own designed NFT profile pictures, wallpaper, buildings, character skin appearances, and sell them to players in the market.</p>\n<p>After several years of accumulation, we now have more than 200 ACG characters, plus our partners in Japan also have plenty of animation resources to join the world of the Metaverse.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14696/tapfantasy-dapp-games-bsc-logo_249ad805b7d64c63971496328a42a44b.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/tap-fantasy",
+              "website": "https://tapfantasy.io/",
+                "chains": [
+                  "binance-smart-chain",
+                  "solana"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "http://discord.gg/tapfantasy",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/tapfantasy/",
+                        "type": "github"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/tapfantasy",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/tap_fantasy",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@tapfantasyofficial?lang=en",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/tapfantasy2021",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 191381,
+      "uaw": 15975,
+        "volume": 318971.49,
+          "balance": 433162.5
+  }
+},
+{
+  "dappId": 33376,
+    "name": "FanCraze",
+      "description": "Creating the metaverse for cricket! Join to own, collect, & play with officially-licensed ICC digital moments and player cards.",
+        "fullDescription": "<p>Own, collect, play, and earn with officially licensed digital moments &amp; player cards. Fans can play &nbsp;games to win huge cash prizes, exclusive merchandise, autographed &nbsp;memorabilia, special match tickets, and other real-world goodies.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/33376/fancraze-dapp-games-flow-logo_996d28b857a4d72d2b918a7c767f1c49.png",
+            "link": "https://dappradar.com/flow/games/fancraze",
+              "website": "https://www.fancraze.com",
+                "chains": [
+                  "flow"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/Wx327SMf88",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/0xfancraze",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/0xFanCraze",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/c/0xFanCraze",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 2222095,
+      "uaw": 15118,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 18336,
+    "name": "Summoners Arena",
+      "description": "Summoners Arena Idle is the franchise flagship where players collect, upgrade, evolve Heroes, and forge Items to compete in different game modes.",
+        "fullDescription": "<p>Summoners Arena, which centers on the antique lore of Summonia and its Heroes, is set out to be a multi-game universe of various genres made into a franchise supported by Onechain Technology (backed by Onesoft - a gaming project that is ranked in the top 2 SEA and top 16 worldwide according to App Annie in 2021).</p>\n<p>Summoners Arena Idle RPG - the first game is the franchise flagship where players collect, upgrade, evolve Heroes, and forge Items to compete in different game modes.</p>\n<p>Summoners Arena is backed by top VCs in the crypto space such as Pantera, Coinbase Ventures, Spartan Group, Coin98 Ventures, etc.</p>\n<p>The game is now available to download on:</p>\n<ul>\n  <li>Apple Store</li>\n  <li>Google Play</li>\n</ul>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18336/summonersarena-dapp-games-bsc-logo_7079af6b895f978df650c25b53167bd6.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/summoners-arena",
+              "website": "https://summonersarena.io/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://summonersarena.substack.com/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/summonersarena",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/SummonersArena.io",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/SummonersArena_ANN",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/SummonersArena",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCX3KLUC4nFdeGkdPbPtlGCQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 20105,
+      "uaw": 15002,
+        "volume": 281800.99,
+          "balance": 23948.92
+  }
+},
+{
+  "dappId": 18983,
+    "name": "Midas Miner",
+      "description": "Midas Miner is the No.1 Gold mining game on Binance Smart Chain. You can dig a lot of exclusive rewards in this game",
+        "fullDescription": "<p>What is Midas Miner?</p>\n<p>Midas Miner is the No.1 Gold mining game on Binance Smart Chain. It is a play-to-earn game where everyone can earn tokens through playing the game, collecting NFT items and training characters to sell on the marketplace. You ‌can dig a lot of exclusive rewards in this game!</p>\n<p>With extremely special features to help players join the game easily as well as find a huge source of profit from the game. Like Midas's hand, every place gamers touch, gold will be spawned.</p>\n<p><strong>Game Features</strong></p>\n<ul>\n  <li>Players can use tokens to buy their favorite characters, which have different stats and strengths</li>\n  <li>They can also purchase Power Up Items</li>\n  <li>Hiring mode allows players to rent characters in packages of days, weeks, and months</li>\n  <li>The map will be updated continuously to increase the player's experience</li>\n  <li>Top Miner will be indexed weekly - monthly to receive special rewards</li>\n</ul>\n<p><strong>Marketplace</strong></p>\n<p>NFT Assets (Characters, Items) will be able to trade on our marketplace. These trade will have a <strong>5% tax cost</strong> for using the marketplace in any of their forms and will be returned to the Game Treasury Pool.</p>\n<p>(The marketplace will not launch at the game launch. It will be in the next phase of our roadmap.)</p>\n<p><strong>Rewards</strong></p>\n<ul>\n  <li>There will be 2 random rewards you can earn from each game: <strong>$MMI, $USDT</strong></li>\n  <li>Character 1*: <strong>ROI in 28 days</strong></li>\n  <li>Character 2*: <strong>ROI in 22 days</strong></li>\n  <li>Character 3*: <strong>ROI in 17 days&nbsp;</strong></li>\n  <li>Character 4*: <strong>ROI in 12 days</strong></li>\n</ul>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18983/midasminer-dapp-games-bsc-logo_2b2460afa877942a4fc36466747dc08f.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/midas-miner",
+              "website": "https://www.midasminer.io/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/MidasMinerOfficial",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MidasMiner",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 19784,
+      "uaw": 13376,
+        "volume": 309817.23,
+          "balance": 3431586.41
+  }
+},
+{
+  "dappId": 25136,
+    "name": "Oath of Peak",
+      "description": "Oath of Peak is a Massively Multiplayer Online Role-Playing Game that uses blockchain to facilitate players' participation in the economic side of gameplay.",
+        "fullDescription": "<p>Oath of Peak&nbsp;is a fantasy&nbsp;Xianxia&nbsp;MMORPG set in an extraordinary oriental world. In this world, players navigate their way through the unknowns as skilled vagrants, wandering around and meeting new companions. Referencing the Chinese classic,&nbsp;Classic of Mountains and Seas,&nbsp;the game features an ancient world teeming with magnificent mountains and rivers, vast grasslands, and extravagant palaces. A fantasy encounter awaits you at every corner, and one might just be the highlight of your adventure! The thousands of monsters and pets play an important role in this world. You will be there with them right from the beginning: breeding, nurturing, grooming, and going on adventures together. And you will fight alongside them, frolic with them, and forge long-lasting relationships, even in the absence of a common language.&nbsp;</p>\n<p><strong>Spirit Beast Sealing System: </strong>Countless Spirit Beasts live in the world of Oath of Peak. Seal and recruit them into your combat team! Don’t be surprised if you see mythical creatures from the Classic of Mountains and Seas, such as Qilin, Zhujiuyin, Baize, and Qiongqi.&nbsp;</p>\n<p><strong>Spirit Beast Breeding System: </strong>Collect and breed new generations of Spirit Beasts&nbsp;by yourself or with your friends. The offspring inherit attributes of their parents in a randomized fashion, giving rise to a total of 256 permutations.&nbsp;</p>\n<p><strong>Spirit Beast Possession System: </strong>Seal Spirit Beasts&nbsp;and gain full possession of their skills and characteristics. Use them in dungeons or critical stages. Each of them provides different advantages, so choose them wisely!&nbsp;</p>\n<p><strong>Kun Raising System: </strong>An all-new Kun raising system. Whoever raises the largest Kun will be named the Kun Master! Accelerate your Kun’s growth by leveling up and showering them with gifts. Collect tons of benefits to enhance your combat skills!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/25136/oathofpeak-dapp-games-matic-logo_34c4f87a1a2adb7aaffd55fd0e7da911.png",
+            "link": "https://dappradar.com/polygon/games/oath-of-peak",
+              "website": "https://yeehagames.com/game/oathofpeak/event",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/people/Oath-of-Peak/100084213596392/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/OathOfPeak",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@oathofpeak1703",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 39327,
+      "uaw": 11963,
+        "volume": 19741.86,
+          "balance": 9.8
+  }
+},
+{
+  "dappId": 3029,
+    "name": "PROSPECTORS",
+      "description": "Massive Multiplayer Online Real-Time Economic Strategy Game. MINE GOLD - BUILD YOUR WORLD",
+        "fullDescription": "<p>Prospectors is the first and the most complex multiplayer online game fully built on blockchain, with NFT usage. Real Time Economic Strategy with fully user-generated economy. Prices for in-game goods and services are determined based on supply and demand, making the Prospectors economy equivalent to an economy during the Gold Rush. This virtual reality feels more and more real with every gold ingot you find, every coin you earn, and every new business you build. Plunge into 19th century Gold Rush now!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/3029/prospectors-dapp-games-wax-logo_041250c7fe716884abfaf1a1b868a019.png",
+            "link": "https://dappradar.com/wax/games/prospectors",
+              "website": "https://prospectors.io",
+                "chains": [
+                  "wax",
+                  "eos"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/prospectors.io/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@prospectorsgame",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/Prospectorsio",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/prospectorsgame",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/prospectorsgame",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 1851089,
+      "uaw": 10963,
+        "volume": 36762,
+          "balance": 6260297.08
+  }
+},
+{
+  "dappId": 15123,
+    "name": "Genopets",
+      "description": "The world's first Move-to-Earn NFT Game.",
+        "fullDescription": "<p>It’s time to step up your game. Genopets is the world’s first free-to-play Move-to-Earn mobile RPG that gamifies your real-life daily activity. Genopets makes it fun and rewarding to live an active lifestyle, as it pioneers the way for FitnessFi. Summon your Genopet — your digital familiar — imbued with your personality and created in your likeness from the start. Bank your steps to earn rewards and evolve your Genopet as you fight to save the Genoverse. Built on Solana, Genopets allows you to earn while both hitting your fitness goals and increasing the value and rarity of your Genopet. Take care of your Genopet by taking care of yourself. As you evolve, it evolves.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/15123/genopets-dapp-games-bsc-logo_caa83b40e021a5bd857e219b38db840d.png",
+            "link": "https://dappradar.com/solana/games/genopets",
+              "website": "https://mainframe.genopets.me",
+                "chains": [
+                  "binance-smart-chain",
+                  "solana"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/genopets",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/Genopets.me/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/genopets/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@genopets",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/genopets/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/GenopetsAnnouncements",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/genopets",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/genopets",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 425195,
+      "uaw": 9790,
+        "volume": 34330.63,
+          "balance": 949.36
+  }
+},
+{
+  "dappId": 14038,
+    "name": "Tiny World",
+      "description": "Tiny World is a diverse trading game universe based on historical legends from across the globe. It combines P2E and DAO governance with quality gameplay.",
+        "fullDescription": "<p>Tiny World is a diverse trading game universe based on historical legends from across the globe. It combines Play-to-earn and effective DAO governance with quality gameplay. Tiny World has a complete product matrix including; Tiny Games (Tiny Kingdom, Tiny Dungeons, etc.), Tiny Farm (combine cool NFT heroes with DeFi to produce a seamless GameFi experience).</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14038/tinyworld-dapp-games-bsc-logo_22e5ec45173aebb67cfe558499b308f4.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/tiny-world",
+              "website": "https://app.tinyworlds.io",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/jXTRTz7B7N",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/profile.php?id=100084746766065",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@tinyworld.gamefi",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/tinyworld_en",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/tinyworldgamefi",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCmm9JeIkqes3sS6NZ2YGA0w",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 107086,
+      "uaw": 9008,
+        "volume": 535785.22,
+          "balance": 1038936.5
+  }
+},
+{
+  "dappId": 7937,
+    "name": "Taco",
+      "description": "Gaming, Utility & DeFi. Taco is the ultimate Web3 project on the WAX Blockchain.",
+        "fullDescription": "<p>Gaming, Utility &amp; DeFi. Taco is the ultimate Web3 project on the WAX Blockchain, combining a smart wallet app for crypto, an NFT-based P2E gaming platform and its own metaverse, the Taco Universe.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/7937/taco-dapp-other-wax-logo_45d109f731c72b8ed26e24ec590bd2ec.png",
+            "link": "https://dappradar.com/wax/games/taco",
+              "website": "https://tacocrypto.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/U2jadcEQe3",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/tacowax/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/taco.wax/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@taco.wax",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/tacowax",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/tacowax",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 1402453,
+      "uaw": 8968,
+        "volume": 249978.45,
+          "balance": 0
+  }
+},
+{
+  "dappId": 663,
+    "name": "Gods Unchained",
+      "description": "Gods Unchained is a triple-A quality game on the blockchain",
+        "fullDescription": "<p>Gods Unchained is a triple-A quality game on the blockchain, backed by investors such as Coinbase. The exclusive first season sale of cards is live - unbox yours now.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/663/godsunchained-dapp-games-eth-logo_53b818a059679d652a67acec7f53bf48.png",
+            "link": "https://dappradar.com/immutablex/games/gods-unchained",
+              "website": "https://godsunchained.com/",
+                "chains": [
+                  "ethereum",
+                  "immutablex"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/DKGr2pW",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://reddit.com/r/godsunchained",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/godsunchained",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 326991,
+      "uaw": 8554,
+        "volume": 19346976.38,
+          "balance": 6825.29
+  }
+},
+{
+  "dappId": 38221,
+    "name": "MODragon",
+      "description": "MODragon NFTs introduce a mesmerizing world of six elements and showcasing the unparalleled interoperability of these NFTs.",
+        "fullDescription": "<p><strong>About MODragon NFT</strong></p>\n<p></p>\n<p>MODragon NFTs introduce a mesmerizing world of six elements: Fire, Water, Wood, Earth, Light, and Dark. As the Genesis Dragon Egg hatches in the airdrop, a realm of possibilities opens. Embrace the chance to obtain a premium multi-element dragon and unlock the thrilling gameplay of battling, fusion, and nurturing. Witness the magic unfold as unique multi-element dragons, including coveted four-element rarities, emerge, showcasing the unparalleled interoperability of these NFTs. Embark on an enchanting journey like no other!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/38131/modragon-dapp-games-38131-logo_365fdabbad42c4597b67301db940afb9.png",
+            "link": "https://dappradar.com/arbitrum/games/modragon",
+              "website": "https://www.mobox.io/dragonmo/",
+                "chains": [
+                  "arbitrum"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MOBOX_Official",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@mobox1312",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 158953,
+      "uaw": 8271,
+        "volume": 10725590.22,
+          "balance": 0
+  }
+},
+{
+  "dappId": 1549,
+    "name": "The Sandbox",
+      "description": "Play, Create, Own, and Govern a virtual world made by players. \n\nCreate your Avatar now and enter the Metaverse!",
+        "fullDescription": "<p>A Decentralized Gaming Platform Made By Players Take your creative freedom to the next level &amp; monetize it in the blockchain! Play, Create &amp; Earn!&nbsp;</p>\n<p>The Sandbox is the prime metaverse location that has been fueling the recent growth of virtual real-estate demand, having partnered with major IPs and brands including The Walking Dead, Atari, Rollercoaster Tycoon, Care Bears, The Smurfs, Shaun the Sheep, and Binance.&nbsp;</p>\n<p>Building on existing The Sandbox IP that has more than 40 million global installs on mobile, The Sandbox metaverse offers players and creators a decentralized and intuitive platform to create immersive 3D worlds and game experiences and to safely store, trade, and monetize their creations. For more information, please visit <u>www.sandbox.game</u> and follow the regular updates on <u>Twitter</u>, <u>Medium</u> and <u>Discord</u>.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/1549/thesandbox-dapp-games-eth-logo_599758faff1fae65fe4ee675dc616799.png",
+            "link": "https://dappradar.com/polygon/games/the-sandbox",
+              "website": "https://www.sandbox.game/",
+                "chains": [
+                  "ethereum",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discordapp.com/invite/vAe4zvY",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/TheSandboxGame/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/thesandboxgame/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/sandbox-game",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/thesandboxgame",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://youtu.be/XRnUXQyVANE",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 4868,
+      "uaw": 6836,
+        "volume": 7164362.1,
+          "balance": 46405308.56
+  }
+},
+{
+  "dappId": 32605,
+    "name": "Planet Mojo",
+      "description": "Planet Mojo is an ecosystem of interconnected games built by game industry veterans.",
+        "fullDescription": "<p>Planet Mojo is an ecosystem of interconnected games built by Mystic Moose and set inside a mysterious alien planet with an evolving narrative. Players compete with customized teams of fantastical creatures in a suite of eSports, PvP games. The long-term goal is to create a sustainable and growing catalog of games for the next generation of gamers, empowering players by allowing them to own their in-game assets and have a say in the project’s future direction.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/32605/planetmojo-dapp-games-matic-logo_936f9d5395d2a4b3bb346e19242830b3.png",
+            "link": "https://dappradar.com/polygon/games/planet-mojo",
+              "website": "https://www.planetmojo.io/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/PlanetMojo",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/planet-mojo-blog",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/weareplanetmojo",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCgWNdYSWAGRMRHNuP05UKcA",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 7961,
+      "uaw": 6043,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 31490,
+    "name": "DeHeroGame",
+      "description": "DeHeroGame is a blockchain game published by MixMarvel with a global heroic fight as the background, and it was first released on Rangers Protocol.",
+        "fullDescription": "<p>DeHeroGame pioneers GameFi 2.0 through NFT adventures in a multi-universe. It pivots on TCG playability and is the latest iteration of “Staking Card Game”. DeHeroGame is the first gaming application on Rangers Mainnet, which supports ultimate decentralization, thrilling gaming experience, asset cross-chain, super low gas fee, and Web2-friendly solutions. The story of DeHeroGame takes place in a universe of countless parallel time-spaces, where hero protagonists have left wonderful legends. Everyone in their time-space may not have expected that one day the boundaries will collide and they will mingle in unimaginable chaos and unite to restore peace. To protect the tranquility of the universe, ancient sages created a time-space balancer, which has the most sophisticated structure ever. The Guild of Heroes is the divine guardian of the balancer. No one knows exactly where the balancer is stored. But legends agree that the balancer is kept in the \"Still Clock Tower\" known as the \"Center of the Universe\". One day, a mysterious storm started to form around the balancer, causing time-space cracks until the balancer stopped operating… The Guild of Heroes arises in times of crisis, summoning heroes from all parallel time-spaces to unite and discover the saving source of the balancer through boundless adventures.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/31490/deherogame-dapp-games-rangers-logo_d29b184278e78775de6ee71312c771ec.png",
+            "link": "https://dappradar.com/rangers/games/deherogame-3",
+              "website": "https://www.dehero.co/",
+                "chains": [
+                  "rangers",
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "cmc",
+                        "url": "https://coinmarketcap.com/currencies/deherogame/",
+                        "type": "cmc"
+                      },
+                      {
+                        "title": "coingecko",
+                        "url": "https://www.coingecko.com/en/coins/deherogame-amazing-token",
+                        "type": "coingecko"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/dehero-official",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@DeHero_official",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/deherogame_announcement",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/DeHero_official",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 973331,
+      "uaw": 5835,
+        "volume": 41540.29,
+          "balance": 756.48
+  }
+},
+{
+  "dappId": 30197,
+    "name": "Hunters On-Chain by BoomLand",
+      "description": "Join the hunt in Hunters On-Chain by BoomLand! Battle players and mobs in action-packed RPG gameplay. Free-to-play with thrilling game modes. Ready to hunt?",
+        "fullDescription": "<p><strong>Hunters On-Chain by BoomLand is a Free-To-Play action RPG game where players compete against each other and the environment in various game modes to see who comes out on top.</strong></p>\n<p>----</p>\n<p><strong>ABOUT BoomLand:</strong></p>\n<p>----</p>\n<p><strong>BoomLand</strong> is a Blockchain game developer and publisher with its own NFT marketplace and decentralized ecosystem. &nbsp;Their mission is to push the mass adoption of Web3 gaming by targeting and onboarding traditional Web2 players. The studio is led by veterans of the Mobile gaming industry, responsible for publishing over <strong>200 games</strong>, generating more than<strong> 1.5 Billion downloads to date</strong>.</p>\n<p><strong>BoomLand </strong>games are known for the seamless onboarding of new players by removing the need to learn complex concepts like wallet creation, gas fees, crypto exchanges, and token swaps. In BoomLand, all you need to do is to have fun.</p>\n<p>----</p>\n<p><strong>Hunters On-Chain </strong>is the Web3 version of the hugely successful mobile game Hunt Royale with over<strong> seven million </strong>installs on the AppStore and Google Play.</p>\n<p>Hunt Royale was released on March 2021, and in January 2022, the team felt that despite its already huge success, the game had the potential to go so much higher. Thus, came the idea of tokenization.</p>\n<p>Because of the existing architecture of the game mechanics, it appeared natural that Hunt Royale's future was on Web3.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/30197/huntersonchainbyboomland-dapp-games-matic-logo_6a82691b83d9e56864e6eb3264c3d3ae.png",
+            "link": "https://dappradar.com/polygon/games/hunters-on-chain-by-boomland",
+              "website": "https://boomland.io",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/boomland",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/BoomlandChat",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/BoomLandGames",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@BoomLandGames",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 36814,
+      "uaw": 5829,
+        "volume": 0,
+          "balance": 0.79
+  }
+},
+{
+  "dappId": 19943,
+    "name": "MetaJuice on IMVU",
+      "description": "IMVU is the world’s largest 3D social metaverse platform, and has been building its community for over 18 years.",
+        "fullDescription": "<p>IMVU is the world’s largest 3D social metaverse platform, and has been building its community for over 18 years totaling nearly 350,000,000 in user registrations today. On mobile, IMVU is a global Top 4 grossing social app and has nearly 1,000,000 daily active users with over 200,000 active creators and earners on the platform. Underpinning this social metaverse is a high-velocity, comprehensive economy for its community. We have now launched NFTs on the IMVU platform so that our users can enjoy the full benefits of web3 digital assets.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/19943/imvu-dapp-collectibles-immutablex-logo_ef10fba9fe577ccd2ac954b4a05d2895.png",
+            "link": "https://dappradar.com/immutablex/games/metajuice-on-imvu",
+              "website": "https://imvu.com",
+                "chains": [
+                  "immutablex",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/IMVU/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/themetajuice",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@themetajuice",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 7534,
+      "uaw": 5505,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 36816,
+    "name": "Pomerium",
+      "description": "Pomerium is a web3 gaming studio with independent in-house development teams as well as its original content",
+        "fullDescription": "<p>Pomerium is aiming to establish a solid long-term ecosystem in web3 gaming and provide various services facilitating the user experience via in-house development teams with its original content</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/36816/pomerium-dapp-marketplaces-36816-logo_c183dca5fe1d25ae5ba4c979a62369de.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/pomerium",
+              "website": "https://pomerium.space/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/pomerium",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/pomerium",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/pomerium_official",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Pomerium_space",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@pomerium",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 7716,
+      "uaw": 5163,
+        "volume": 0,
+          "balance": 9.92
+  }
+},
+{
+  "dappId": 10021,
+    "name": "Citizen Conflict",
+      "description": "Is a F2P Hero Shooter game designed to merge the best of both worlds -  the Esports game modes and bring large-scale gameplay to the MMO open world.",
+        "fullDescription": "<p><strong>Citizen Conflict - is a free-to-play shooter game designed to merge the best of both worlds - to deliver the competitive heat symptomatic of the esports game modes as well as to bring large-scale gameplay on the MMO open world map. The game doesn’t fall short on an immersive storyline, which finds three antagonistic syndicates and captivating heroes waging an endless war for dominance. To scale its futuristic dystopian design to the top, Citizen Conflict will brim over with tons of futuristic vehicles, aircraft, guns, and uncanny equipment.</strong></p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/10021/citizenconflict-dapp-games-10021-logo_eabee7d60b6fd2dbe623d0d1d1e46104.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/citizen-conflict",
+              "website": "https://citizenconflict.com/home",
+                "chains": [
+                  "binance-smart-chain",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/qorpogamestudio",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/citizenconflict/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/citizenconflictnews",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/CitizenConflict",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@QORPOGameStudio",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 104370,
+      "uaw": 5016,
+        "volume": 6.8,
+          "balance": 184.59
+  }
+},
+{
+  "dappId": 14290,
+    "name": "Realm NFT",
+      "description": "Realm is a strategic Play-2-Earn resource management game on the Wax blockchain where you utilize your NFT Leaders to save the world!",
+        "fullDescription": "<p>Realm is a resource management game where you strategically utilize your NFT leaders to save the world from devastation. Players will collect resources, unlock regions, earn RLM Tokens, level up their realm and much more. The core game revolves around a not so distant and not so fictional future where the world is in turmoil due to war, famine, disease and meteors. The current leaders are failing and have lost control. A secret organization known as Realm is assembling a team to return the world to order. Players will be able to strategically build their Realm team with the ultimate objective of restoring order in each region. This will not be easy and it will require a lot of strategy from the player to choose when and where to utilize each leader to employ their unique strengths. Built by a team of crypto enthusiast developers with a combined development experience of 30+ years and leveraging the power of the WAX blockchain, Realm allows players to collect, trade and upgrade their NFT leaders which will create a rich game and community experience.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14290/realm-dapp-games-wax-logo_bbb3d96db3ae898ee2ed17e3b5123e48.png",
+            "link": "https://dappradar.com/wax/games/realm-nft",
+              "website": "https://realmnft.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/pGvjVPJybg",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/RealmNFT",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/realmnftio/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/+GYPmxR9nOaBjODE1",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/RealmNft",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCIXHE8c0EMA-P3GduhnZVFw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 150280,
+      "uaw": 4772,
+        "volume": 21892.38,
+          "balance": 0
+  }
+},
+{
+  "dappId": 15817,
+    "name": "MiningNetwork",
+      "description": "This is a new and unique model in the gaming sector, which will radically change the GameFee sector. It is a completely different tokenomics in a game built fro",
+        "fullDescription": "<p>Mining network is a game on WAX blockchain. It combines FreeToPlay and PlayToEarn models. Every new user gets a free NFT to play and earn immediately after registering in the game.</p>\n<p>Mining Networks is a game with a revolutionary economic model that has never been used in the blockchain. The point is that the amount of extracted game resources is not equal to the issued number of tokens. The number of game resources will increase as the number of players increases and their game assets improve. The issue of game tokens will decrease constantly. This solution will ensure a constant increase in the token's price and save the community from negative phenomena such as excessive inflation. The essence of the Mining Networks is to get the maximum amount of game resources and at the best time to exchange it for a game token.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/15817/miningnetwork-dapp-games-wax-logo_74987c6b716fdd9c2e1369910721dcf9.png",
+            "link": "https://dappradar.com/wax/games/miningnetwork",
+              "website": "https://miningnetwork.io/",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/wspa3NxE",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/miningnetwork_nft",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MiningNetwork_1",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 215576,
+      "uaw": 4152,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 10545,
+    "name": "Ninneko",
+      "description": "Ninneko is the leading edge of NFT game that combines Idle RPG gameplay and Breeding system.",
+        "fullDescription": "<p>Ninneko is an enchanting NFT role-playing game on the Binance Smart Chain in which players can earn by nurturing Ninneko, building lineups to defeat enemies through PvP/PvE battles and campaign.</p>\n<p>Players will be immersed in a mysterious village in the deep forests and chilled out spending hours raising Ninneko, which is known as ninbyō (忍猫), are adorable Ninja Cat.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/10545/ninneko-dapp-games-bsc-logo_312e748e353a9f1bae79b9f0cfe24061.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/ninneko",
+              "website": "https://ninneko.com/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/ninnekogame/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/ninnekogame",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/ninnekogame",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 9500,
+      "uaw": 4066,
+        "volume": 0,
+          "balance": 1180.51
+  }
+},
+{
+  "dappId": 17332,
+    "name": "CPL",
+      "description": "Virtual Games, Real Rewards\nCPL is a trading simulation game where you can learn and earn crypto",
+        "fullDescription": "<p>CPL is a blockchain based trading game built on Polygon &amp; BNB chain. As part of trading game, you will be given virtual tokens to buy and sell crypto currencies i.e. Bitcoin, ETH, BNB etc. Participants who make maximum profit will be awarded with real tokens as prize at the end of each game. If you are someone who is trading or wanting to trade crypto currencies, its the best platform for you to see how effective your trading strategies. are. You can learn, improvise and earn fantastic rewards.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/17332/cpl-dapp-games-matic-logo_8c5b68b84185d91903112c27c38b55a6.png",
+            "link": "https://dappradar.com/polygon/games/cpl",
+              "website": "https://cplcrypto.com",
+                "chains": [
+                  "polygon",
+                  "binance-smart-chain",
+                  "klaytn"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/cpl_crypto",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UChshiudo_eqVbqRsftYf7xw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 22211,
+      "uaw": 4013,
+        "volume": 7039.54,
+          "balance": 3139.78
+  }
+},
+{
+  "dappId": 19595,
+    "name": "Treasure DAO",
+      "description": "Treasure is the decentralized video game console connecting games and communities together through imagination, $MAGIC, and NFTs.",
+        "fullDescription": "<p>Treasure’s ambition is to build the ‘decentralized game console’ connecting games and communities together through bottom-up driven IP and infrastructure, unified through a common set of composable resources. Underpinning the Treasure ecosystem is $MAGIC - a fair launch token which powers key infrastructure and acts as a reserve asset across partner ‘game cartridges’.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18467/treasuredao-dapp-games-other-logo_b1063c3a21f4b51886f7e41fc455ccbd.png",
+            "link": "https://dappradar.com/ethereum/games/treasure-dao",
+              "website": "https://treasure.lol",
+                "chains": [
+                  "arbitrum",
+                  "ethereum"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/treasuredao",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/treasure_dao",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 63110,
+      "uaw": 3864,
+        "volume": 432855.11,
+          "balance": 26651330.65
+  }
+},
+{
+  "dappId": 14534,
+    "name": "The Dustland",
+      "description": "Dustland is the latest game in OliveX’s fitness metaverse that rewards players in real life for running and cycling.",
+        "fullDescription": "<p>Dustland is the latest game in OliveX’s fitness metaverse that rewards players in real life for running and cycling. This ecosystem is designed from the ground-up to be cross-chain compatible utilising DOSE utility token. NFTs in this collection provide access to the Dustland world, collectables, and gameplay experiences for Dustland runners, riders and fitness enthusiasts of all types.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14534/thedustland-dapp-collectibles-matic-logo_dc8523dd6d63cf4d9d20738465ec8d46.png",
+            "link": "https://dappradar.com/polygon/games/the-dustland",
+              "website": "https://www.thedustland.com/",
+                "chains": [
+                  "polygon",
+                  "ethereum"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/FCu44nvbxz",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/dustlandrunner/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/dosetoken/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@DOSEToken",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/dose_community",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/the_dustland",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCRekf9p7CKrWYbUIY7VU5Bw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 48261,
+      "uaw": 3701,
+        "volume": 0.09,
+          "balance": 1265.72
+  }
+},
+{
+  "dappId": 15631,
+    "name": "Era7: Game of Truth",
+      "description": "Era7: Game of Truth is a metaverse-style TCG, which has been created by a team of core blockchain technicians and members of casual game development companies.",
+        "fullDescription": "<p>Era7: Game of Truth is a metaverse-style TCG, developed on the Binance Smart Chain (BSC), which has been created by a team of core blockchain technicians and members of well-known casual game development companies.</p>\n<p>This is an addictive yet state-of-the-art card-trading game that uses a ground-breaking new gaming method. With the perfect combination of fighting and strategy, this game becomes thrillingly immersive and is split up into separate three-minute games.</p>\n<p>Players can combine the cards in their own card library in different ways to ensure that their deck is as strong as possible. They can play either PVE or PVP by deploying and placing cards. Different cards have different effects, and whether we’re talking about Common or Legendary cards, players will be keen to collect them all. Players will be tasked not only to watch their own deck but also to carefully observe the movements and positioning of their opponents. This provides the player with an incentive to practice and develop their in-game skills over time while receiving fantastic brain training akin to that received by chess players. Only, this training is manifested in skilfully using heroes to ride thousands out to the battlefield.</p>\n<p>Of course, in addition to the game being fun, each one of the player’s cards has its own value. Players can obtain high-value cards by collecting, fighting, trading, summoning or synthesizing certain cards. This is also one of the biggest charms of GameFi when compared with traditional games. Era7 will continuously update the game’s content, adding new cards, playing methods and battle passes to meet the continuous needs of players while generating revenue across the board. Early players of Era7 will enjoy dividends from the ecosystem. We have a reward mechanism in place for inviting friends and sharing the game. Era7 provides a whole host of profit models for individuals and organizations from a variety of backgrounds and vertical markets.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/15631/era7gameoftruth-dapp-games-bsc-logo_f8c8cc7ed553bea50d85c3287825fbda.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/era7-game-of-truth",
+              "website": "https://www.era7.io",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/jtFRzTv5Zw",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/groups/era7official",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/Era7_Official",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Era7_official",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 13887,
+      "uaw": 3692,
+        "volume": 21830.48,
+          "balance": 1587224.46
+  }
+},
+{
+  "dappId": 16376,
+    "name": "DracooMaster",
+      "description": "A strategic roguelike deck-building game.",
+        "fullDescription": "<p>A strategic roguelike deck-building game. Dracoo's card arrangement achieves the limitless possibilities of real-time multiplayer online competitive games in your adventure to the Sacred Peak.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/16376/dracoomaster-dapp-games-bsc-logo_84b8d7f52d03a81a2394cc3a0b89f6ad.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/dracoomaster-2",
+              "website": "https://world.dracoomaster.com/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/dracooworld",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://business.facebook.com/DracooMaster-109958111471068/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/accounts/login/?next=/dracoomaster/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@Dracoo_Master",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/DracooMasterOfficial",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@dracoomaster_official?lang=en",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Dracoo_Master",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UC682aHoh8rJPjgzERX80xiw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 87860,
+      "uaw": 3661,
+        "volume": 4059.41,
+          "balance": 641562.61
+  }
+},
+{
+  "dappId": 34360,
+    "name": "Aurora 2048",
+      "description": "2048 is a popular puzzle game that has been adapted for play on the Aurora blockchain.",
+        "fullDescription": "<p>The game is simple, yet addictive, and challenges players to combine numbered tiles in order to reach the elusive 2048 tile.</p>\n<p>The game is played on a 4x4 grid, and each tile on the grid displays a number that is a power of 2 (starting with 2 and doubling each time). The objective of the game is to slide the tiles around the grid in order to combine tiles with the same number, creating a new tile with twice the value of the original. The game ends when there are no more moves left to make. But the player can reach the maximum known record.&nbsp;</p>\n<p>2048 WORLD RECORD: <strong>3,866,052 POINTS &amp; 131072 TILE</strong></p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/34360/aurora2048-dapp-games-aurora-logo_d0896319782b41ea137a9614a98c3806.png",
+            "link": "https://dappradar.com/aurora/games/aurora-2048",
+              "website": "https://twenty48.app/",
+                "chains": [
+                  "aurora"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [],
+                      "metrics": {
+    "transactions": 8156,
+      "uaw": 3467,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 18265,
+    "name": "Hero Blaze : Three Kingdoms",
+      "description": "Hero Blaze: Three Kingdoms is a BNB Chain based casual RPG mobile game integrated with P2E.",
+        "fullDescription": "<p>Hero Blaze: Three Kingdoms is a BNB Chain based casual RPG mobile game integrated with P2E.</p>\n<p>We have applied the latest trend in casual RPG while leveraging the successful Hero Blaze's IP. It is the first collaboration with NFT platform and metaverse game KLAYMETA, and we have successfully adopted P2E(Play to earn) in the casual RPG genre.</p>\n<p>Enjoy the story of the Three Kingdoms, collect hundreds of generals, and train them through various general training systems such as general summon, general combination, general promotion, equipment upgrade, research, and more in Hero Blaze: Three Kingdoms.</p>\n<p>Through trained generals, you can form the strongest team through general skills, team combination, and formation effects to compete with other players in different battles using your own strategy.</p>\n<p>Play casually through easy controls, enjoy fast growth and action-packed battles without repetitive gameplay through an Idle system!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18265/heroblazethreekingdoms-dapp-games-bsc-logo_daa28d3306fad625a3b69d0451d36697.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/hero-blaze-three-kingdoms",
+              "website": "https://heroblaze3kd.io/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://cafe.naver.com/mudolrebirth",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/mudolrebirth",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/KlayMeta/mudol-contract",
+                        "type": "github"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://heroblaze3kd.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/HeroBlaze3kd",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/HeroBlaze3kd",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 16350,
+      "uaw": 3362,
+        "volume": 274814.54,
+          "balance": 4441262.22
+  }
+},
+{
+  "dappId": 29204,
+    "name": "WordleAurora",
+      "description": "wordle game on Aurora chain",
+        "fullDescription": "<p>Revolutionary 5 words game on the Aurora chain! Compete against other players to become the top Wordle master. Think of the best 5 words combination and submit your entry. The player with the highest score on our leaderboard will be crowned the Wordle champion. So, what are you waiting for? Join us and start playing now!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/29204/wordleaurora-dapp-games-aurora-logo_82e94ef9998e77ef6df6571a694c7d53.png",
+            "link": "https://dappradar.com/aurora/games/wordleaurora",
+              "website": "https://wordleaurora.com/",
+                "chains": [
+                  "aurora"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [],
+                      "metrics": {
+    "transactions": 5374,
+      "uaw": 3343,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 19774,
+    "name": "One World Nation",
+      "description": "Earn stablecoin rewards by creating your fantasy crypto portfolio with Cryptonite NFTs",
+        "fullDescription": "<p><strong>One World Nation</strong> is a global gaming platform that features a flagship game called <strong>Crypto Fantasy</strong>. This fantasy crypto portfolio game allows players to earn stablecoin rewards with NFTs called <strong>Cryptonites</strong>, which are based on real-world crypto tokens like BTC, ETH, BNB, SOL, and more.</p>\n<p>Each token has a limited collection of Genesis NFTs that players can breed to create additional NFTs. These NFTs can be traded freely on the platform's marketplace or lent to other players for <strong>daily passive income</strong>.</p>\n<p>In Crypto Fantasy, players can create a 5-a-side team with power-ups such as Knights and Defenders. The game allows players to become a master of the turbulent crypto markets by getting ranked based on the performances of their fantasy crypto portfolio in real matches.</p>\n<p>The platform also features other games like <strong>Prediction</strong>, <strong>Raffle Rewards</strong>, and <strong>Slot Machine</strong>, where players can <strong>win up to $3,500 USDC daily</strong>.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/19774/oneworldnation-dapp-games-matic-logo_0d5d7a9faee97b91d1d70d6eff1c0d2b.png",
+            "link": "https://dappradar.com/polygon/games/one-world-nation",
+              "website": "https://www.oneworldnation.game/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/kgrNHKN7uj",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/owncryptoverse/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/one-world-nation",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/OWNcryptoverse",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/cryptoverseown",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@owncryptoverse",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 4754,
+      "uaw": 3246,
+        "volume": 19394.6,
+          "balance": 279.59
+  }
+},
+{
+  "dappId": 18569,
+    "name": "Monsterra",
+      "description": "Monsterra is a free-to-play-to-earn \bmulti-chain inspired by the Axie Infinity game's pet world and the gameplay in Clash of Clan or Boom Beach of Supercell.",
+        "fullDescription": "<p>Monsterra is a free-to-play-to-earn multi-chain game inspired by the Axie Infinity game's pet world and the gameplay in Clash of Clan or Boom Beach of Supercell. &nbsp;</p>\n<p>&nbsp;&nbsp;</p>\n<p>The game sets foot in a fictional world and revolves around farming, property building, and battling with other lands with the magical creatures named Mongen. The revolutionized design of Monsterra is a combination of free-to-play and free-to-earn models which allows millions of gaming enthusiasts to enjoy fun and have a high-profit stream with no prior investment. &nbsp;</p>\n<p>&nbsp;Product roadmap:</p>\n<p>- Adventure Mode: 05/2022&nbsp;</p>\n<p>- Battlefront Mode: 06/2022&nbsp;</p>\n<p>- Boss challenge Mode: 08/2022</p>\n<p>- Arena Mode: 09/2022</p>\n<p>&nbsp;Remarkable Milestones:</p>\n<p>- Fundraising of $2M led by Hashed ($600K), Huobi Ventures, Shima Capital, Salad Ventures and more than 50 partners globally;&nbsp;</p>\n<p>- Mystery Box Sale on Binance NFT Marketplace on Feb 7 with 20,000 boxes were sold out in 10s. Followed by another hit of quick sellout for 900 boxes on GameFi, Metverse Starter within 1 hour.</p>\n<p>- Special NFT Trading Promotion Campaign &amp; Rank Top 3 of Trading Volume on Binance NFT.</p>\n<p>- Top 1 Monsterra NFT gainers on Binance NFT</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18569/monsterra-dapp-games-bsc-logo_41776ead9778bafa2be8070079352f45.png",
+            "link": "https://dappradar.com/avalanche/games/monsterra",
+              "website": "https://monsterra.io/",
+                "chains": [
+                  "binance-smart-chain",
+                  "avalanche",
+                  "oec"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/MonsterraNFTGame/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@monsterra_nftgame",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Monsterra_P2E",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/MonsterraNFTGame",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 58564,
+      "uaw": 3143,
+        "volume": 31893.45,
+          "balance": 94582.02
+  }
+},
+{
+  "dappId": 18730,
+    "name": "DEFY",
+      "description": "DEFY Labs is the company behind DEFY, a move-and-earn mobile game built on the Polygon blockchain.",
+        "fullDescription": "<p>DEFY is a play to earn NFT Blockchain mobile game. Immersing players (Operatives) in a metaverse that bridges the virtual and physical worlds, DEFY fuses hyper casual code breaking gameplay, learn-to-earn elements, real world exploration and AR adventures.</p>\n<p>DEFY’s in-game economy has been designed with scale and longevity in mind. A dual currency model is combined with an extensive set of customisable tradable game assets as well as multiple incentive mechanisms that can be leveraged by the players who are willing to put in the effort.</p>\n<p>DEFY will launch with both premium and free-to-play user pathways, which will greatly enhance user acquisition and retention. An innovative graduation scholarship model aims to revolutionise the pathway to flexible work freedom for P2E players.</p>\n<p>DEFY taps into pop culture to create a rich Player vs Environment (PvE) narrative that has operatives joining a revolutionary hacker organisation with the mission of keeping the metaverse open and out of the control of the evil tech oligarchy, Future Systems. As the game evolves, factions and Player vs Player (PvP) elements will add to the longevity of the game and complexity of the peer-to-peer economy.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18730/defy-dapp-games-matic-logo_e2a487b60ab59cd1d2e3ba75c3322432.png",
+            "link": "https://dappradar.com/polygon/games/defy",
+              "website": "https://defydisrupt.io",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/WzPZESaUBX",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/defy-labs",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/defydisrupt",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCyfxNtZ81Y9_1gmHKk6PMPQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 21308,
+      "uaw": 2983,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 21739,
+    "name": "BurgerCities",
+      "description": "BurgerCities is a one-stop Play&Earn MetaFi platform based on BNB Chain",
+        "fullDescription": "<p><strong>BurgerCities is a one-stop MetaFi platform with a wide range of features, including its native token BURGER, a Decentralized Exchange (DEX), and Non-Fungible Tokens (NFT) which are made up of Heroes, Props, and Lands. Users can participate in daily activities like socializing, and playing games, as well as experience DeFi and NFT features with their own avatars like trading, staking, NFT exhibitions, etc. BurgerCities “evolved” from Burgerswap, a DeFi product that was already available on BNB Chain. It integrates DeFi and NFT into a larger metaverse scene to produce a uniform and standardized Web3 metaverse. BurgerCities aims to create a unified and standardized metaverse world of Web3 via integrating DeFi, NFT to the wider Metaverse. In this world, users could carry out daily events such as sociality, gaming, etc. Meanwhile, they could experience DeFi and NFT functions with their own avatars such as trade, bet, NFT exhibitions or Gamefi, etc.</strong></p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/21739/burgercities-dapp-games-bsc-logo_ad1db7d62171775d2c61c7fbc8ae60b2.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/burgercities-1",
+              "website": "https://burgercities.org/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/burgerofficial",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://burgercities.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/burgercities",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/burger_cities",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCgAz8lcuZ7eTI4oPnxRQh-g",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 65061,
+      "uaw": 2845,
+        "volume": 174378.13,
+          "balance": 410735.91
+  }
+},
+{
+  "dappId": 16542,
+    "name": "Crypture World",
+      "description": "Collect Cryptures and build your adventure team. Earn resources and NFTs used for crafting, alchemy, farming and battles. Login now to claim a free starter kit!",
+        "fullDescription": "<p>Crypture World is an NFT game developed by an experienced team on the WAX Blockchain.&nbsp;</p>\n<p>Collecting Cryptures, materials, and in-game resources presents a unique way of play-to-earn mechanics. Take part in adventures, brew potions, farm fruits on lands, and evolve Cryptures to build the strongest team for battles! Build and level up your Headquarters and unlock exciting new regions.&nbsp;</p>\n<p>What's the hold up? Quick, open some eggs and commence your journey in Crypture World!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/16542/cryptureworld-dapp-games-wax-logo_4ecce00d87b511fb35110d70927043c4.png",
+            "link": "https://dappradar.com/wax/games/crypture-world",
+              "website": "https://cryptureworld.com",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/F2kg3h3wFF",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/cryptureworld",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/CryptureW",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCTEC6Y1RK7T0Swl92JeZeZw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 19532,
+      "uaw": 2784,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 14449,
+    "name": "Crypto Unicorns",
+      "description": "Crypto Unicorns is a playful Farming and Unicorn Breeding Game built on the blockchain.",
+        "fullDescription": "<p>Crypto Unicorns is a playful Farming and Unicorn Breeding Game built on the blockchain. Gameplay centers around awesome Unicorn and Land NFTs, which players utilize in a fun farming simulation, as well as many other planned activities including Unicorn Jousting, Racing, and Team Battling.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14449/cryptounicorns-dapp-games-matic-logo_fcdc3f62e04f4bca31764528604e315a.png",
+            "link": "https://dappradar.com/polygon/games/crypto-unicorns",
+              "website": "https://www.cryptounicorns.fun",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/cryptounicorns",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/cryptounicorns.fun",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/crypto_unicorns",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 110078,
+      "uaw": 2624,
+        "volume": 90399.58,
+          "balance": 87271.89
+  }
+},
+{
+  "dappId": 19803,
+    "name": "Ultiverse",
+      "description": "Ultiverse builds the social gaming metaverse, connecting the Web3 to an immersive, fully VR compatible virtual world, and finally creates a unique MetaFi.",
+        "fullDescription": "<p>Ultiverse builds the social gaming metaverse, connecting the Web3 to an immersive, fully VR compatible virtual world, and finally creates a unique MetaFi.</p>\n<p>Ethereum</p>\n<p>Electric Sheep is a collection of 7,000 Cyberpunk based NFTs. The genesis NFT PFP avatar collection of the Ultiverse. Genesis holders will also be eligible to airdrops and utilities such as:</p>\n<p>Airdrop of Governance Token on Binance Chain</p>\n<p>Land Deed</p>\n<p>1:1 Unique Avatar in Game</p>\n<p>Special access to Projects by Partners</p>\n<p>Whitelist and Discounts</p>\n<p>Many more</p>\n<p>Join our discord to find out how to be eligible for them!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/19803/ultiverse-dapp-games-ethereum-logo_5e85bd73dc7523f8dce97b9b09aa72e7.png",
+            "link": "https://dappradar.com/ethereum/games/ultiverse",
+              "website": "https://www.ultiverse.io",
+                "chains": [
+                  "ethereum",
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/UltiverseDAO",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/c/Ultiverse",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 45280,
+      "uaw": 2549,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 31424,
+    "name": "AQUA FARM",
+      "description": "A Collect & Battle P2E Game.",
+        "fullDescription": "<p>Aqua Farm is a Collect &amp; Battle P2E Game. Players will embark on Guardian to navigate the vast ocean with their Aree to explore, survive and fight through various adventures and quests in order to take back PODO from invaders to restore peace. It supports both mobile platforms iOS and Android.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/31424/aquafarm-dapp-games-matic-logo_df27af651407464142e8dc7c40c66872.png",
+            "link": "https://dappradar.com/polygon/games/aqua-farm",
+              "website": "https://playaquafarm.io/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "cmc",
+                        "url": "https://coinmarketcap.com/currencies/aree-shards/",
+                        "type": "cmc"
+                      },
+                      {
+                        "title": "coingecko",
+                        "url": "https://www.coingecko.com/en/coins/aree-shards",
+                        "type": "coingecko"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/marslabs",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/playaquafarm",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@aquafarm.tmn",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/aquafarmchat",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/aqua_farm",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@aqua_farm",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 25634,
+      "uaw": 2524,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 13189,
+    "name": "Galactic Arena",
+      "description": "Welcome to THE GALACTIC ARENA!",
+        "fullDescription": "<p>This is the battlefield that everyone has been waiting for! It doesn't matter where your NFT comes from, In this NFTverse, you can bring your favorite heroes along with you! Take part in THE CARNIVAL, then make wagers on PvP battles in REAL TIME! Prizes include BNB, BUSD, GAN! Get on top of the Leaderboard and earn extra rewards!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/13189/galacticarenathenftverse-dapp-games-bsc-logo_18c424320d55c89cf9a6d66d990e9ad4.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/galactic-arena",
+              "website": "https://galacticarena.io/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/HHzARxXy",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/TheNFTverse/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/thenftverse/smartcontracts",
+                        "type": "github"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://reddit.com/r/GalacticArena",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/theNFTverse",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/GANFTverseBSC",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCix8fzfJQ0rt93HGOjXEDmQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 338,
+      "uaw": 2485,
+        "volume": 960145.5,
+          "balance": 75047353.54
+  }
+},
+{
+  "dappId": 8839,
+    "name": "BinaryX",
+      "description": "Decentralized play-and-earn GameFi & IGO platform \n(Play CyberChess now)",
+        "fullDescription": "<p>BinaryX ($BNX) is the Governance Token for the BinaryX ecosystem, which includes the DAO and all products &amp; games utilizing $BNX. BinaryX began as a decentralized derivative trading system. Recognizing the burgeoning popularity of GameFi and interest in the metaverse games, the team gradually evolved into developing decentralized video games and is now fully transitioning to be a GameFi platform offering IGO services to bridge Web2 developers to Web3. &nbsp;Some of the services provided by BinaryX includes infrastructural support, a DAO governance system, and community building to scale promising gamefi projects and bring more innovation to the blockchain gaming sector.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/8839/binaryx-dapp-games-bsc-logo_2b8f701979206ba12af699a274e4c4b9.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/binaryx",
+              "website": "http://www.binaryx.pro",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "medium",
+                        "url": "https://bit.ly/3NyH9JN",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://bit.ly/3WkiwVc",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://bit.ly/3UlsOTn",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 12230,
+      "uaw": 2449,
+        "volume": 17930.21,
+          "balance": 362183203
+  }
+},
+{
+  "dappId": 13581,
+    "name": "Castles the NFT Game",
+      "description": "Castles is an NFT game about building wealth, influence and glory. Craft, collect lands, earn and grow your kingdom! Join our free to play mode!",
+        "fullDescription": "<p><strong>Castles is an NFT game about building wealth, influence and glory.</strong></p>\n<ul>\n  <li>Earn Tokens</li>\n  <li>Free to Play Expansion</li>\n  <li>Craft NFTs</li>\n  <li>Merge Lands</li>\n  <li>Build a Kingdom!</li>\n  <li>Limited Time Events!</li>\n  <li>Dungeons &amp; Heroes!</li>\n  <li>A top game on the Wax blockchain</li>\n</ul>\n<p>White paper available on the website.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/13581/castlesthenftgame-dapp-games-wax-logo_7df4e1efb44f93b0d3faa6dcdbad619b.png",
+            "link": "https://dappradar.com/wax/games/castles-the-nft-game",
+              "website": "https://castlesnft.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/rvKutJ9kTU",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@metasourcegames",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/castlesnft",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/castlesnft",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCbLd4voW_HfNOV61SvMEjLw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 303732,
+      "uaw": 2434,
+        "volume": 1287.18,
+          "balance": 0
+  }
+},
+{
+  "dappId": 36197,
+    "name": "DegenPirates",
+      "description": "DegenPirates is a P2E sci-fi battleship game which is 100% built on Polygon. The target is to take down enemy ships to earn rewards.",
+        "fullDescription": "<p>DegenPirates is an on-chain, P2E sci-fi version of a classic battleship built on Polygon. The target is to take down enemy ships to earn rewards. The game enables players to earn up to x2 to x200 their $MATIC.</p>\n<p></p>\n<p>The game is 100% decentralized, immutable, verifiable and trustless</p>\n<p>- Token flow is handled by a public EVM smart contract</p>\n<p>- Result randomness is generated by Chainlink automation solution</p>\n<p>- All results are stored on-chain</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/36197/degenpirates-dapp-games-matic-logo_0ad0e0f09ca184b9f9c83423495710e4.png",
+            "link": "https://dappradar.com/polygon/games/degenpirates",
+              "website": "https://degenpirates.gg/?utm_source=dappradar&utm_medium=listing",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/DCMAwWge5h",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/DegenPirates_gg",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 21992,
+      "uaw": 2383,
+        "volume": 15567.16,
+          "balance": 1968.09
+  }
+},
+{
+  "dappId": 12297,
+    "name": "Elfin Games",
+      "description": "Elfin Kingdom Games is a decentralized gaming ecosystem on Binance Smart Chain built for gaming and metaverse projects that wish to power their games in Web3.",
+        "fullDescription": "<p><strong>Elfin Kingdom Games is a decentralized gaming ecosystem on Binance Smart Chain built for gaming and metaverse projects that wish to power their games in Web3.</strong></p>\n<p></p>\n<p><strong>As a gaming metaverse where each player can create their adventure and players will be able to be part of a community, Elfin Kingdom is a social network, a multiple games hub, and a blockchain e-sports aggregator.</strong></p>\n<p></p>\n<p><strong>Every project in the Elfin ecosystem makes use of $ELFIN in their respective universes.</strong></p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/12297/elfingames-dapp-games-12297-logo_df36482f85461168d17afd2d01a0267e.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/elfin-games",
+              "website": "https://elfin.games",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/elfingames",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@elfingames",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/ElfinKDM",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/elfingames",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 5033,
+      "uaw": 2341,
+        "volume": 520.38,
+          "balance": 68323.64
+  }
+},
+{
+  "dappId": 10308,
+    "name": "NFT Panda: World of Fantasy",
+      "description": "NFT Panda: World of Fantasy is RPG game on WAX Blockchain where fantasy heroes of Panda live and fight for the freedom of their lands and earn tokens.",
+        "fullDescription": "<p><strong>NFT Panda: World of Fantasy</strong> is a world where fantasy heroes of Panda live and fight for the freedom of their lands. Your mission is to become a hero who will reunite Elgard’s lands and who will bring them back to their past prosperity. NFT Panda: WoF is a <strong>unique Gamers-Centric Tokenomics Model</strong> which is primarily aimed at the realization of the <strong>TRUE Play-to-Earn</strong> mechanism.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/10308/nftpandaworldoffantasy-dapp-games-wax-logo_e31964cd2ba701b43d3ef21cb66741eb.png",
+            "link": "https://dappradar.com/wax/games/nft-panda-world-of-fantasy",
+              "website": "https://game.nftpanda.space/",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://nftpanda.space/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://t.co/7go05j9x2h?amp=1",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://t.co/qQrN0ZHbWl?amp=1",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/NftPanda",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 257133,
+      "uaw": 2340,
+        "volume": 5171.46,
+          "balance": 0
+  }
+},
+{
+  "dappId": 23861,
+    "name": "Town Star",
+      "description": "Town Star is a PlayAndEarn town strategy game by Gala Games, where players build, grow and craft the most productive town possible.",
+        "fullDescription": "<p>Town Star is a PlayAndEarn town strategy game by Gala Games, where players build, grow and craft the most productive town possible.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/23861/townstar-dapp-games-ethereum-logo_a7191a37296a2a63a7b4d9a88f7dd660.png",
+            "link": "https://dappradar.com/ethereum/games/town-star",
+              "website": "https://townstar.com/",
+                "chains": [
+                  "ethereum"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://galagames.chat/",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/TownStarGame",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 9581,
+      "uaw": 2278,
+        "volume": 5156,
+          "balance": 144556.88
+  }
+},
+{
+  "dappId": 9357,
+    "name": "MarsColony",
+      "description": "MarsColony is a multi-planet colonization metaverse with unique NFT-land ownership, Defi-based liquidity mining, and is based on vintage space colonization game",
+        "fullDescription": "<p>MarsColony is a colonization framework for meta and web3 society that combines Gamify with NFT ownership, a DeFi-based economy, DAO governance, guilds, and inter-blockchain colonies.</p>\n<p>MarsColony is the second biggest Gamefi project on the Harmony blockchain.</p>\n<p>Now we’re expanding to a new universe on the Polygon chain, and are opening up to new players.</p>\n<p>Don't miss your chance to become a creator of a new world!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/9357/marscolony-dapp-games-bsc-logo_d70d91355e209aae652457ed3b78a4c9.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/marscolony",
+              "website": "https://polygon.marscolony.io",
+                "chains": [
+                  "binance-smart-chain",
+                  "harmony",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://people.marscolony.io",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/B2BC95HSwc",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/marscolonyio",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 38465,
+      "uaw": 2261,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 29611,
+    "name": "MAGE WARS",
+      "description": "Mage Wars is an economic investment game built on a decentralized smart contract by Binance Smart Chain. Build a Tower, Hire Mages, Fight in the Arena, and Win!",
+        "fullDescription": "<p><strong>Mage Wars is an economic investment game built on a decentralized smart contract by Binance Smart Chain.</strong></p>\n<p></p>\n<p><strong>You build your Guilds and summon Mages to your Tower.</strong></p>\n<p><strong>Mages for you, with the help of spells, will collect Mana every hour, which you can exchange for Runes or BNB.</strong></p>\n<p></p>\n<p><strong>Join an exciting journey and participate in the Arena, where you can fight in a challenging battle with your opponents.</strong></p>\n<p></p>\n<p><strong>Build a Tower, hire Mages, fight in the Arena, and gain infinite wealth for yourself and your mages.</strong></p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/29611/magewars-dapp-games-bsc-logo_a21d8e964e2c0dab46d65ad45bd9a620.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/mage-wars",
+              "website": "https://magewars.io/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "facebook",
+                        "url": "https://t.me/magewars_chat",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/magewars_io",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 76202,
+      "uaw": 2097,
+        "volume": 833621.76,
+          "balance": 541115.03
+  }
+},
+{
+  "dappId": 6740,
+    "name": "Crazy Defense Heroes",
+      "description": "Play to Earn TOWER Tokens every day!\nCrazy Defense Heroes is a tower defense mobile game combining free-to-play with play-to-earn.",
+        "fullDescription": "<p><strong>The new Play-to-Earn \"Daily Star Chest\" Event is NOW live in Crazy Defense Heroes mobile game.</strong></p>\n<p>Crazy Defense Heroes mobile game is the basis of an upcoming tower defense blockchain game which utilises non-fungible tokens and the TOWER ERC-20. The game will be a tower defense game bringing to blockchain the key elements from the mobile games Crazy Defense Heroes and Crazy Kings. TOWER will be used as the key currency in the game, to purchase items such as game card NFTs, or to pay for game or tournament entry fees.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/6740/crazydefenseheroes-dapp-games-ethereum-logo_a45b213eda37cec0d4182012d6eff7fc.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/crazy-defense-heroes",
+              "website": "https://crazydefenseheroes.com/",
+                "chains": [
+                  "ethereum",
+                  "polygon",
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/crazydefenseheroes",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/TowerTokenAB",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/TowerToken",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/TowerToken",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 46690,
+      "uaw": 2086,
+        "volume": 8762.61,
+          "balance": 37909811.22
+  }
+},
+{
+  "dappId": 21864,
+    "name": "IguVerse",
+      "description": "IguVerse is Introducing Blockchain to Millions of Users in Gamified Way.",
+        "fullDescription": "<p><strong>IguVerse</strong> is a Web3 application that connects the worlds of <strong>crypto</strong> and <strong>social media</strong> to let pet owners and pet lovers from all over the world <strong>earn rewards</strong> with their <strong>social media activities</strong>.</p>\n<p>In the past, pet lovers had <strong>no ability to monetise</strong> their social media <strong>without having a big following</strong> while their data has been being sold and bought with <strong>little oversight</strong> from them. Our app <strong>challenges</strong> this standard — now <strong>everyone can earn </strong>by doing simple tasks they <strong>love doing anyway</strong>!</p>\n<p>IguVerse is even more than just activities on social media. We prioritize our <strong>socialize-to-earn </strong>mode, where users complete tasks on social networks to get rewards but also include <strong>move-to-earn </strong>and <strong>play-to-earn</strong> mechanics that make your gaming experience more <strong>diverse</strong>. While move-to-earn motivates users to lead a healthy lifestyle by <strong>walking </strong>their real or virtual pet, play-to-earn lets them have fun in <strong>a classic arcade game</strong>. In addition to this wide variety of mechanics, we provide access to <strong>an integrated DEX</strong> (decentralized exchange) and <strong>a marketplace</strong>, where users can trade their coins and NFTs.</p>\n<p>To enter our game, you need to adopt <strong>a virtual pet </strong>— an NFT pet you can create with <strong>your own design</strong> in mind! Our NFTs 2.0, as we call them, set <strong>a new standard</strong> by utilizing <strong>AI</strong> (artificial intelligence) to process <strong>unique </strong>user input and create NFTs based on it.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/21864/iguverse-dapp-games-bsc-logo_b4b9854f1f51103a201a08578ffe7a29.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/iguverse",
+              "website": "https://iguverse.com",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/iguverse",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://instagram.com/iguverse",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@iguverse",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/iguverse_official/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/Iguverse",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@iguverse",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/iguverse",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@IguVerse",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 7179,
+      "uaw": 2082,
+        "volume": 510.01,
+          "balance": 10.71
+  }
+},
+{
+  "dappId": 14995,
+    "name": "NiftyKicks Factory",
+      "description": "Nifty Kicks is the first of its kind factory-building P2E game on the Wax blockchain. Built from the ground up with the community in mind.",
+        "fullDescription": "<p>Nifty Kicks is the first of its kind factory-building P2E game on the Wax blockchain. Built from the ground up with the community in mind, it has a robust tokenomics model that we think will be fun and rewarding for a long time. Initially centered around sneakers, the factories and equipment you set up, will produce raw materials that will allow you to grow your factory, produce sneakers or sell those materials or NFT's for wax. But that’s not all, we have great vision for growth. The metaverse Nifty Kicks is in a dangerous place filled with competition. Who knows the dangers that lurk and threaten the existence of your factory, and the safety of your sneaker shipments.&nbsp;</p>\n<p>We have partnered with several up-and-coming and established projects, to create a metaverse ecosystem of cross-gaming and cross-utilization for your NFT's and tokens. What this boils down to is more utility for your NFT's across multiple projects. But it's not just about the NFT themselves, these collaborations will range from the integration of game mechanics between niftykicks and another project to niftykicks becoming the main supplier of elements/assets. &nbsp;Which brings us to our final point, while we love sneakers and sneaker culture, your nifty kicks CEO is already hard at work trying to build a conglomerate that will take us beyond sneakers, and in essence create a true factory for the metaverse.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/14995/niftykicksfactory-dapp-games-wax-logo_ce43aa2bcc685bc0398b788921342185.png",
+            "link": "https://dappradar.com/wax/games/niftykicks-factory",
+              "website": "https://niftykicks.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/niftykicksfactroy",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/niftykicksio",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCfntr3YLGZCtYyGeOcFBYWQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 617530,
+      "uaw": 2054,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 10219,
+    "name": "Thetan Arena",
+      "description": "A play to earn PvP MOBA mobile game! Team up, Fight & Earn!",
+        "fullDescription": "<p>Thetan Arena's gameplay is designed to combine your personal skills and teamwork. Challenge yourself with various game modes: from classic MOBA tower rush to battle royale, coming with monthly updates and attractive rewards. Moreover, Thetan Arena introduces to you a brand-new play to earn system, allowing you to earn cryptocurrency by playing and trading Heroes on the marketplace</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/10219/thetanarena-dapp-games-bsc-logo_66348c7c9fc015f983d314d5e781806f.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/thetan-arena",
+              "website": "https://marketplace.thetanarena.com",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://t.co/FCePAo8zq9?amp=1",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/thetanarena",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/thetanarenalinks",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/thetanarena",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 15372,
+      "uaw": 2040,
+        "volume": 9712.06,
+          "balance": 197772.37
+  }
+},
+{
+  "dappId": 5824,
+    "name": "Aavegotchi",
+      "description": "DeFi-staked Crypto Collectibles.\nCollect, compete, and combine your Aavegotchis for the ultimate gamified DeFi experience!",
+        "fullDescription": "<p>Aavegotchi is a community owned NFT Gaming protocol enabling true asset ownership for gamers. The protocol, built on Polygon, unlocks the potential of community driven game development. It also enables traditional game studios and developers to build and create fun engaging experiences for one of web3’s largest and most passionate communities.</p>\n<p></p>\n<p>Aavegotchis are the world’s first DeFi-backed NFTs. Each Aavegotchi is a playable NFT endowed with a uniquely generated set of traits, brought to life with interest-generating tokens known as Spirit Force. Just like the original Tamagotchi introduced the world to digital pets, Aavegotchi introduces the world to blockchain pets.</p>\n<p></p>\n<p>These cute, ghostly NFTs call Pixelcraft Studios’ (the game dev studio behind Aavegotchi) flagship game, the Gotchiverse, their home. Players can use Aavegotchis as in-game avatars within the Gotchiverse to explore, build, battle, and socialize.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/5824/aavegotchi-dapp-defi-matic-logo_32fb708d448fe4795d994cbb3a41d366.png",
+            "link": "https://dappradar.com/polygon/games/aavegotchi",
+              "website": "https://aavegotchi.com/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/rttCTkZ",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/aavegotchi",
+                        "type": "github"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@aavegotchi",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/aavegotchi",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/aavegotchi",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 352468,
+      "uaw": 2039,
+        "volume": 111308.72,
+          "balance": 266798.22
+  }
+},
+{
+  "dappId": 28377,
+    "name": "Cross The Ages",
+      "description": "A Collectible Card Game set in a dystopian clash of worlds! ✨ \nBased on 7 fantasy and sci-fi novels. ?",
+        "fullDescription": "<p>Cross The Ages (CTA) is a mobile-first trading card game set in a dystopian world and based on seven fantasy and science fiction novels.</p>\n<p></p>\n<p>The free-to-read Cross The Ages novels will be released incrementally over the coming years. Gameplay will evolve in alignment with the books. The first novel is already published and can be read at</p>\n<p>.</p>\n<p>Each Cross The Ages book comes with a corresponding set of 365 digital cards with varying levels of scarcity.</p>\n<p>Cross The Ages makes it possible to collect digital cards with capability for physical activation.</p>\n<p>With digital NFT ownership, players can track ownership history and collect Cross The Ages cards without risk of damage or theft. Cross The Ages will allow players to convert their NFT into a real-world off-chain asset.</p>\n<p></p>\n<p>CTA's digital scarcity will underpin a valuable in-game economy where players can buy, sell, trade, rent and mint non-fungible tokens.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/28377/crosstheages-dapp-games-immutablex-logo_30cd17fc0199e4897c6942d00704d157.png",
+            "link": "https://dappradar.com/immutablex/games/cross-the-ages",
+              "website": "https://www.crosstheages.com/",
+                "chains": [
+                  "immutablex"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/crosstheages",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://instagram.com/crosstheages",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/cross-the-ages",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/crosstheages",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/CrossTheAges",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UClAY7c4yKUg_ZweqCKp5DPg",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 31707,
+      "uaw": 1921,
+        "volume": 992976.99,
+          "balance": 0
+  }
+},
+{
+  "dappId": 11520,
+    "name": "Xpansion",
+      "description": "Xpansion is a decentralized 4x strategy game set in the near future powered by NFTs.",
+        "fullDescription": "<p>Xpansion is a decentralized 4x strategy game set in the near future. Faced with a dying world, the remnants of Earths’ population have launched expedition waves to settle the habitable worlds surrounding nearby stars.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/11520/xpansion-dapp-games-wax-logo_ebddb8ef39fc54fc42636e01680f563e.png",
+            "link": "https://dappradar.com/wax/games/xpansion",
+              "website": "https://xpsgame.io/",
+                "chains": [
+                  "wax",
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/xpsgame",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCiKTVCfPV0vJSi9Ee7VDqJw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 142276,
+      "uaw": 1857,
+        "volume": 1031.74,
+          "balance": 204.82
+  }
+},
+{
+  "dappId": 20726,
+    "name": "MEEET",
+      "description": "MEEET is a social simulation game based on blockchain technology.",
+        "fullDescription": "<p>MEEET is the world's first blockchain social game, a simulation game that combines Gaming + Social + Play2earn.</p>\n<p>The product has built-in functions such as Wallet, Marketing, Transfer and Trade.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/20726/meeet-dapp-games-bsc-logo_760523ec40a04b759f7b05c21ff5e449.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/meeet",
+              "website": "https://www.meeet.xyz/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/meeetofficial",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@MEEET",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/Meeet_Official",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MeeetOfficial",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 32652,
+      "uaw": 1856,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 7291,
+    "name": "CryptoBlades",
+      "description": "Join the amazing community and forge weapons to fight against your enemies! Gain skill and NFT's for your in-game activity.",
+        "fullDescription": "<p><strong>The premier NFT crafting, play to earn game launched in May of 2021</strong></p>\n<p>CryptoBlades is a play-to-earn NFT RPG developed by Riveted Games. The game revolves around the acquisition of legendary Blades and the powerful Heroes who wield them. Players may participate in combat using their assets to earn SKILL tokens. &nbsp;Assets are player-owned NFTs minted to the ERC-721 standard, and may be traded on the proprietary marketplace. CryptoBlades utilizes a play-to-earn model by distributing SKILL through gameplay, and giving value to player NFTs by increasing their use through future features.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/7291/cryptoblades-dapp-games-bsc-logo_ff5f6dda2d1d548406e8d0b8011133be.png",
+            "link": "https://dappradar.com/polygon/games/cryptoblades",
+              "website": "https://app.cryptoblades.io/",
+                "chains": [
+                  "binance-smart-chain",
+                  "oec",
+                  "polygon",
+                  "heco",
+                  "avalanche",
+                  "aurora",
+                  "skale"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/cryptoblades",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/OfficialCryptoBlades/",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://cryptoblades.medium.com/cryptoblades-an-nft-crafting-rpg-where-you-play-to-earn-f138214f9bd3",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/r/CryptoBlades/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/CryptoBlades_General",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/cryptoblades",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UC1JWOcOxNDJSTbl0NbgNIAw",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 13668,
+      "uaw": 1799,
+        "volume": 2863.8,
+          "balance": 35625.55
+  }
+},
+{
+  "dappId": 38588,
+    "name": "Warsaken",
+      "description": "Warsaken is a military-themed collectible trading card game with various mode of gameplay and play-and-earn feature.",
+        "fullDescription": "<p>Warsaken is a military-themed trading card game. Warsaken is a game-first project which has been in development and playtesting for years, and is currently available on the WAX Blockchain and coming soon to other blockchains. There are multiple modes of gameplay including Warsaken Standard, Warsaken Blitz, and Warsaken Cabal. NFT holders can claim daily Loot, which can be used to purchase Loot Packs, Wheel Spins, and more.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/38485/warsaken-dapp-games-38485-logo_201d70baa2886bfb9e281a06a5f626bd.png",
+            "link": "https://dappradar.com/wax/games/warsaken",
+              "website": "https://www.warsaken.cards/",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://www.warsaken.com/",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/warsaken",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/thewarsaken",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/thewarsaken/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/TheWarsaken",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/warsaken",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 106688,
+      "uaw": 1766,
+        "volume": 47882.95,
+          "balance": 0
+  }
+},
+{
+  "dappId": 34154,
+    "name": "MetaStrikers",
+      "description": "The P2E & PvP Football Strategic Game on Polygon with a heart. Join the revolution, play, and contribute to a greater cause.",
+        "fullDescription": "<p>Introducing MetaStrikers, a new GameFi platform that combines the excitement of soccer with blockchain technology. MetaStrikers allows players to collect, trade, and battle with unique digital collectible soccer players known as Strikers.</p>\n<p>Players can acquire Strikers by opening packs or participating in quests and tournaments. Each Striker has its own unique set of attributes, abilities, and techniques that can be upgraded through gameplay. Players can enhance their Strikers by fusing them together or using special items, increasing their rarity and power.</p>\n<p>In addition to the collectible aspect, MetaStrikers offers a competitive gameplay experience. Players can battle with their Strikers against other players in real-time matches, earning rewards and climbing the leaderboard.</p>\n<p>At MetaStrikers, we believe in the power of blockchain technology to create a fairer and more transparent gaming experience. We are committed to developing a platform that provides a fun and engaging experience for players while also promoting social responsibility through our charity contributions.</p>\n<p>Join us on our mission to revolutionize the gaming industry and make a positive impact on the world.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/34154/metastrikers-dapp-games-34154-logo_ab9b6d6eb433f7fa9280efe65fd49135.png",
+            "link": "https://dappradar.com/polygon/games/metastrikers",
+              "website": "https://metastrikers.xyz",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/Rejux37r",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@MetaStrikersGLB",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MetaStrikersGLB",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/@MetaStrikersGLB",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 17452,
+      "uaw": 1634,
+        "volume": 752318.46,
+          "balance": 0
+  }
+},
+{
+  "dappId": 35199,
+    "name": "Terracore",
+      "description": "TerraCore is a Strategy Idle Game on the #HIVE blockchai. Can you build a thriving community and defend it from the dangers of TerraCore?",
+        "fullDescription": "<p>In TerraCore, the world has been left in ruins by the Great Upheaval, a catastrophic event that has destroyed much of the planet's infrastructure and depleted its natural resources.</p>\n<p>&nbsp;As a citizen in this post-apocalyptic world, you must fight for a better future by collecting $SCRAP, the new currency that emerged after the disaster.</p>\n<p>But collecting $SCRAP won't be easy. You'll have to scavenge the planet's surface for valuable remnants of the past, fight other scavengers, and defend your own stash from raiders. With enough $SCRAP, you can upgrade your character, gather resources more efficiently, and expand your community to new worlds.</p>\n<p>With skill, cunning, and a bit of luck, you can establish a prosperous community in TerraCore and build a new future for humanity. Will you rise to the challenge and lead your community to greatness?&nbsp;</p>\n<p>The fate of TerraCore is in your hands.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/35199/terracore-dapp-games-hive-logo_022f2b18bbaae56a43a8da9c9c449949.png",
+            "link": "https://dappradar.com/hive/games/terracore",
+              "website": "https://www.terracoregame.com/",
+                "chains": [
+                  "hive"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "blog",
+                        "url": "https://peakd.com/@terracore",
+                        "type": "blog"
+                      },
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/dgJU6RqMv4",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/terracoregame",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 556439,
+      "uaw": 1616,
+        "volume": 10442.74,
+          "balance": 5986.5
+  }
+},
+{
+  "dappId": 8769,
+    "name": "StarCrazy",
+      "description": "Welcome to Project StarCrazy, the highly anticipated crypto/NFT gaming project by GameFantasy!",
+        "fullDescription": "<p><strong>What is StarCrazy?</strong></p>\n<p>StarCrazy is the latest blockchain Play-to-Earn game built on the &nbsp;IoTeX platform. IoTeX has 5 second transaction finality and transaction costs in fractions of a cent. &nbsp;This makes StarCrazy one of the more player friendly Play-to- Earn games on the online game market.</p>\n<p>Players buy and sell Starz (NFTs) and can fuse them for a chance to create more valuable characters. Assign your Starz to mine to earn GFT or GFS tokens. You can also stake your GFT tokens in a liquidity pool for yet another way to earn.</p>\n<p>GFT is the utility token of StarCrazy, the Play-to-Earn game. All auctioning, trading, and fusing activities within StarCrazy are conducted using GFT. This will also be true for the coming “arena battle” and social interactment features.</p>\n<p>StarCrazy’s tokenomics are very player-centric. Players control in-game direction with the GFS governance token. 100% of GFS tokens are earned by players. &nbsp;None are owned by the team.</p>\n<p>The total token supply is capped at 30 million each for both $GFT and $GFS.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/8769/linkstar-dapp-games-iotex-logo_837d20cd981a456d1bffc661a32ceb20.png",
+            "link": "https://dappradar.com/iotex/games/starcrazy",
+              "website": "https://starcrazy.com/",
+                "chains": [
+                  "iotex"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/4aFrCk9zPY",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/GameFantasyToken",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/starcrazygame",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 112816,
+      "uaw": 1535,
+        "volume": 35588.21,
+          "balance": 152699.35
+  }
+},
+{
+  "dappId": 17237,
+    "name": "Rise of Elves",
+      "description": "Rise of Elves is a network-based multiplayer one-on-one blockchain battle game",
+        "fullDescription": "<p>Rise of Elves is a decentralized real-time casual development game based on Blockchain technology. We have created a vast world for players to freely cultivate their Elves to explore and adventure as they please.</p>\n<p>In this world, players can evolve their Elves with NFTs by pairing them with different attributes. Create more Elves with unique appearances and powerful abilities, and experience the fun of collecting and developing your characters to reach their full potential!</p>\n<p>This is a deep development game that combines multiple elements such as collection, training, evolution, combat, and level up. Play to Earn brings players entertainment and a new way of life.</p>\n<p></p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/17237/riseofelves-dapp-games-matic-logo_0bcd7eefae080bca3d70d72b1f7e201e.png",
+            "link": "https://dappradar.com/polygon/games/rise-of-elves",
+              "website": "https://rise-of-elves.mooneen.com/",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/rise-of-elves",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "facebook",
+                        "url": "https://www.facebook.com/rise.of.elves/?ref=page_internal",
+                        "type": "facebook"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@rise-of-elves",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "reddit",
+                        "url": "https://www.reddit.com/user/rise-of-elves/",
+                        "type": "reddit"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/rise_of_elves_channel",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "tiktok",
+                        "url": "https://www.tiktok.com/@rise_of_elves",
+                        "type": "tiktok"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/rise_of_elves",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCYzCDaCPRl4-STeH64HAnyQ",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 18180,
+      "uaw": 1475,
+        "volume": 20477.7,
+          "balance": 38243.66
+  }
+},
+{
+  "dappId": 2151,
+    "name": "Crypto Dynasty (EOS)",
+      "description": "Play-to-Earn with Crypto Dynasty",
+        "fullDescription": "加密三国是一款放置养成类交易游戏，玩家利用闲置时间挂机养成，从游戏交易中收获乐趣，并赚取收益。\nCrypto Dynasty is an idle trading game, where players use their free time to idle and profit from trading.",
+          "logo": "https://dashboard-assets.dappradar.com/document/2151/cryptodynastyeos-dapp-games-eos-logo_545b8f311a4c6dc9bf8077ecde8e8c92.png",
+            "link": "https://dappradar.com/eos/games/crypto-dynasty-eos",
+              "website": "https://eos.cryptodynasty.one/",
+                "chains": [
+                  "eos"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/yZB3wAV",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@cryptodynastygame",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/eossanguo",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/cryptodynasty_",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 256867,
+      "uaw": 1474,
+        "volume": 3579.85,
+          "balance": 6382.01
+  }
+},
+{
+  "dappId": 18657,
+    "name": "Defira",
+      "description": "Defira is a blockchain metaverse—the Defiraverse, exploring exploring novel and engaging gameplay experiences by fusing DeFi and GameFi.",
+        "fullDescription": "<p>Explore Defira, a fantasy world driven by the invisible and decentralized hands of finance. Starting as a humble merchant, work up the ranks to become the ruler of a vast empire.</p>\n<p>Along the way, you must use your business and tactical acumen to deal with challenges such as allocating scarce resources and protecting yourself from dangerous enemies, including other players.</p>\n<p>However, you are not alone. Enlist the services of unique and powerful heroes and make your mark on this world!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/18657/defira-dapp-games-harmony-logo_5486ab33a3e24db36a6d0322e56c31cf.png",
+            "link": "https://dappradar.com/harmony/games/defira",
+              "website": "https://defira.com/",
+                "chains": [
+                  "harmony",
+                  "cronos"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://defira.com/discord",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Defiraverse",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCewXhg6F5OpGmQjeAy6XShA",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 27565,
+      "uaw": 1454,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 20787,
+    "name": "DESPERADO B218",
+      "description": "Web3 gaming with ecosystem\nJoin us to discover your role: Holder, Trader, and Player",
+        "fullDescription": "<p><strong>5 vs. 5 Strategic Team Battle</strong></p>\n<p>- In DESPERADO B218, you will form a team of five heroes and face the rift walkers. Emerge victorious against the rift walkers. Claim victories, climb the ranks and you shall be rewarded handsomely.</p>\n<p>- Strategically manage your mana. In DESPERADO B218, mana plays a crucial part in battle. How you use each hero’s skill every turn with the mana at hand could change the tide of battle. More heroes will join you through scouting and spirit links.</p>\n<p><strong>Heroes</strong></p>\n<p>- Diverse and charming characters reside within the world of 'DESPERADO B218: The Scars of Exos'.</p>\n<p>- Each hero has their own unique looks, Grades, Stats, and Skills. Epic and Legend Tier heroes have a chance of obtaining a ‘Unique Skill’. A hero’s Star Grade and Stats can also be upgraded.</p>\n<p>- If a hero has the Charisma stat, it can be used to recruit additional heroes through the ‘Scout’ system.</p>\n<p>- And if desired, specific parts of each hero's hair, body, and weapon can be customized to create a unique look.</p>\n<p><strong>Battle Rules</strong></p>\n<p>- Each user battles by forming a team of 5 heroes.</p>\n<p>- The battle consists of rounds and turns.</p>\n<p>- Each user will take turns in order, and whoever manages to defeat all opposing heroes, win.</p>\n<p>- Each hero has Health Slots, and a hero will fall once all of their Health Slots have been depleted.</p>\n<p>- A hero’s Health Slot will deplete in relation to the damage they receive.</p>\n<p><strong>DAO</strong></p>\n<p>- DAO is the decentralized organization for 'DESPERADO B218: The Scars of Exos', where they can contribute to determining the game’s roadmap.</p>\n<p>- Once DAO gets officially established, users will be able to directly impact the management and the development of the game or vote with tokens to directly influence the game’s future.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/20787/desperadob218-dapp-games-matic-logo_601011e4c870ffa6a2516e59f9e7469a.png",
+            "link": "https://dappradar.com/polygon/games/desperado-b218",
+              "website": "https://luxon.games",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "http://discord.gg/8qwjfsgZJ8",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@LUXON",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/DesperadoB218",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 2441,
+      "uaw": 1390,
+        "volume": 0,
+          "balance": 0
+  }
+},
+{
+  "dappId": 5286,
+    "name": "R-PLANET",
+      "description": "Real-Time Military Strategy NFT game",
+        "fullDescription": "<p><strong>Real-Time Military Strategy NFT game</strong></p>\n<p>R-Planet game is the first full-fledged strategy game on the market in which you can conveniently and effortlessly <strong>use NFTs </strong>to have different benefits and gain your aims.</p>\n<p>Choose a faction, build your base, mine the resources, train an army of robots, fight to survive, and win unique gifts!</p>\n<p>It is a <strong>Play-for-Fun, Free-to-Play, and Play-and-Earn </strong>game.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/5286/rplanet-dapp-games-wax-logo_e0481710a977c4b22fd6570ef84392a2.png",
+            "link": "https://dappradar.com/wax/games/r-planet",
+              "website": "http://rplanet.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/r-planet-official",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://rplanet.medium.com",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/rplanetio",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/RPLANETio",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 35201,
+      "uaw": 1335,
+        "volume": 193.59,
+          "balance": 0
+  }
+},
+{
+  "dappId": 11134,
+    "name": "Colonize Mars",
+      "description": "Colonize Mars is the only simulation game where your actions can help humanity build a new life on the Red Planet.",
+        "fullDescription": "<p><strong>Collect</strong></p>\n<p>Collect cards which represent vehicles, equipment, buildings, and astronauts. All items are custom designed by our team of architects and engineers, informed by real aerospace technology.</p>\n<p><strong>Strategize</strong></p>\n<p>Use your collection to generate resources that are useful to building a self-sustaining colony on Mars. &nbsp;React quickly and skillfully to manage hazards that affect resource production.</p>\n<p><strong>Explore</strong></p>\n<p>Navigate a 3d map generated from high-resolution photos of the Mars surface. Find scientific evidence around the map to produce rare discovery NFTs and mine for resources.</p>\n<p><strong>Earn</strong></p>\n<p>Track your rank amongst other players. Compete to be the top earner, top collector, and more!</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/11134/colonizemars-dapp-games-wax-logo_8960ddd09bb18ab7f9c4e05c5bb06e22.png",
+            "link": "https://dappradar.com/wax/games/colonize-mars",
+              "website": "https://colonizemars.com/",
+                "chains": [
+                  "wax",
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/colonize-mars",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/ColonizeMarsNFT",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 37244,
+      "uaw": 1214,
+        "volume": 21284.65,
+          "balance": 0
+  }
+},
+{
+  "dappId": 6980,
+    "name": "Voxies",
+      "description": "Voxies are cute, lovable and collectible 3d voxel buddies, that live and play on the Ethereum blockchain.",
+        "fullDescription": "<p>Voxies are cute, lovable and collectible 3d voxel buddies, that live and play on the Ethereum blockchain. There are only 10,000 Voxies in existence and no two Voxies are identical. Lots of random properties and fun traits make each Voxie cute, unique and sometimes rare!</p>\n<p>Voxies are not just a collectible but are also the first and only NFT to be fully integrated with a playable RPG turn-based tactical game. Bring your owned Voxies to life in Voxie Tactics as you collect, battle, and earn rewards in the Voxiverse. VOXEL tokens are awarded for ownership of Voxies and are used as the currency in Voxie Tactics and on the secondary Voxie marketplace.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/6980/voxies-dapp-games-ethereum-logo_957732b68ca621c3e51b6d23790a20ef.png",
+            "link": "https://dappradar.com/polygon/games/voxies",
+              "website": "https://voxies.io",
+                "chains": [
+                  "ethereum",
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "http://discord.gg/q8Swd7vPDc",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://voxiesnft.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/VoxiesNFT",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 15546,
+      "uaw": 1212,
+        "volume": 0,
+          "balance": 111.17
+  }
+},
+{
+  "dappId": 32757,
+    "name": "LABRADO",
+      "description": "LBRD is a Strategic Investment Game called P2E3.0 that allows you to skip the Ponzi and focus on social interactivity and fun⚔️?",
+        "fullDescription": "<p>Labrado is a Play-to-Earn (P2E) game where players strategize together to reclaim mines of Labrado Crystals from the Evil God Gargantua. Players power up through NFT upgrades and communicate with one another to fight Gargantua's army and restore peace to the world.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/32757/labrado-dapp-games-bsc-logo_b332b9c47a7ad4f5dca205f8dded0352.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/labrado",
+              "website": "https://lbrd.xyz/",
+                "chains": [
+                  "binance-smart-chain",
+                  "thundercore"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.com/invite/lbrdofficial",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/@lbrdofficial",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/lbrdofficialgroup",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/lbrdofficial",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 4489,
+      "uaw": 1183,
+        "volume": 43045.69,
+          "balance": 0
+  }
+},
+{
+  "dappId": 17707,
+    "name": "THE RED VILLAGE",
+      "description": "The first dark-fantasy ecosystem in web3 gaming. Tournament mode is currently live and playable in open beta, and a AAA-rated MMORPG is under development.",
+        "fullDescription": "<p>The Red Village is a multiplayer dark-fantasy ecosystem, that uses NFT 'Champions' across two distinct game modes: Tournaments (currently live, in Beta), and Darklands (an open world MMORPG, currently under development in a multi-year partnership with Sydney's Blowfish Studios (a subsidiary of global blockchain giant Animoca Brands)).</p>\n<p>There are five classes of Champion in The Red Village; the Barbarian, Wizard, Druid, Ranger, and Paladin. Each Champion is completely unique with its own distinct name, skills, attributes, and characteristics. There will only ever be 28,000 of these Pureblood Champions in The Red Village ecosystem spanning across four distinct Bloodlines; Genesis (R1-R3 genotype), Mystic (R4-6), Warlord (R7-R9) and Lionheart (R10-12).</p>\n<p>Using their fearsome NFT Champions, players can fight for honour and glory in famed Red Village PvP tournaments in front of the malevolent Blood Queen. Victorious players earn real financial rewards, or even their opponent's NFT.&nbsp;</p>\n<p>Those daring enough can also team up with other NFT communities to wage war in large-scale Faction fights, which take place in custom-built, epic arenas, themed for each community.</p>\n<p>Later, players may brave a trip to the lair of the Bloodwraith Gaa'gore, where they can Summon new and deadly Halfblood Champions. By studying and learning their Champions' attributes, they can breed for better skills and more powerful warriors. Future game modes include Seasons, where stats can be reset, and player controlled Tournaments.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/17707/theredvillage-dapp-games-matic-logo_0c4a254a9b80d84e2f1a34055c81891c.png",
+            "link": "https://dappradar.com/polygon/games/the-red-village",
+              "website": "https://www.theredvillage.com",
+                "chains": [
+                  "polygon"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/theredvillage",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://the-red-village.gitbook.io/the-red-village/",
+                        "type": "github"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://theredvillage.medium.com/",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://theredvillage.com/tournaments",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/channel/UCo3R8iGZrLgQMuVy1SBN49w",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 34008,
+      "uaw": 1174,
+        "volume": 37740.42,
+          "balance": 18199.72
+  }
+},
+{
+  "dappId": 19017,
+    "name": "Outer Ring MMO",
+      "description": "Inside this MMORPG videogame, you will hunt for legendary NFT loot, take part in huge PvP and PvE battles, and collect epic weapons, gear, and spaceships.",
+        "fullDescription": "<p>Outer Ring MMO is a science fiction MMORPG(Massively Multiplayer Online Role-Playing Game) &nbsp;with tokenized economy. The universe created within the game is based on the Outer Ring Saga, a novel where 5 species, divided into 4 different factions, fight for the control of planets and resources.</p>\n<p>The videogame has its own Player Driven Economy, meaning that all assets are either generated from the player´s work or created by them. Using blockchain technology to convert all kinds of items and assets into fungible or non-fungible tokens (NFTs). As a result, players become the true owners of these objects and can generate value for their time invested by selling with them.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/19017/outerringmmo-dapp-games-bsc-logo_87925c94a759c2ab1d6cb0b57ec48a35.png",
+            "link": "https://dappradar.com/binance-smart-chain/games/outer-ring-mmo",
+              "website": "https://outerringmmo.com/download-tech-demo/",
+                "chains": [
+                  "binance-smart-chain"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/outerringmmo",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "instagram",
+                        "url": "https://www.instagram.com/outerringmmo/",
+                        "type": "instagram"
+                      },
+                      {
+                        "title": "telegram",
+                        "url": "https://t.me/outerringofficialeng",
+                        "type": "telegram"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/OuterRingMMO",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/c/OuterRingMMO",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 198,
+      "uaw": 1169,
+        "volume": 3046676.21,
+          "balance": 1249147.56
+  }
+},
+{
+  "dappId": 12787,
+    "name": "Million on Mars",
+      "description": "Real Strategy and Crafting on your Own Mars Settlement. Play & Own.",
+        "fullDescription": "<p>In this web-based Play &amp; Own game, you’ve just landed on Mars, and life looks very different than on planet Earth. Scavenge resources on real Mars terrain, develop land, and trade in a player-owned economy. It’s your exploration story. Craft, strategize, and earn your way there.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/12787/milliononmarslandrush-dapp-games-wax-logo_812569b7b51a075f4d27bde749c4cf1d.png",
+            "link": "https://dappradar.com/wax/games/million-on-mars",
+              "website": "https://milliononmars.io",
+                "chains": [
+                  "wax"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://milliononmars.com/discord",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "github",
+                        "url": "https://github.com/MillionOnMars",
+                        "type": "github"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/MilliononMars",
+                        "type": "twitter"
+                      },
+                      {
+                        "title": "youtube",
+                        "url": "https://www.youtube.com/c/MilliononMars",
+                        "type": "youtube"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 8328,
+      "uaw": 1155,
+        "volume": 189.98,
+          "balance": 0
+  }
+},
+{
+  "dappId": 27600,
+    "name": "AVATARA",
+      "description": "AVATARA is F2P top-end action MMORPG.\nThe game boasts a P2E system completed within ecosystem, providing a new, higher level of entertainment like never before.",
+        "fullDescription": "<p>AVATARA is a top-end action MMORPG where one can enjoy the God’s powers in your character. (Avatar: NFT)</p>\n<p>Users sign-up for a guild in the AVATARA universe, grow their characters, participate in battles and wars to earn rare items and utility tokens.</p>\n<p>In addition, items and avatars (NFT), and even characters can be freely traded among users in the game.</p>\n<p>Previously unguaranteed in WEB2 MMORPGs, this is returning the ownership of items and characters back to the users. Although we have just begun, the AVATARA team plans to expand beyond our platform and into the vast WEB3 world.</p>\n<p>We focus on the fun of ‘possible embodiments’. We believe that a game that ‘provides entertainment through real embodiments’, rather than merely ‘overlaying’ blockchain/NFT technologies, is the catalyst of bringing WEB2 users to WEB3.</p>\n<p>The AVATARA development team is made up of members with over 10 years of experience in the Korean game market. They have been able to show solid teamwork as the ‘original’ team who had developed and serviced games for years.</p>\n<p>Ranked top 8th place in mobile game sales with their astonishing and entertaining gameplay, the ‘RohanM’ development team have been preparing a 3 years worth update roadmap based on a blockchain economy system with high completion.</p>\n<p>AVATARA’s NFT, AVATAR refers to one that acts as a representative of God who had been given God’s powers. Journey the world as the God’s representative with forcible powers. AVATAR can be summoned through the MINT page, and the rank and appearance is selected randomly. In addition, each AVATAR can be freely transferred/purchased/sold within the game.</p>",
+          "logo": "https://dashboard-assets.dappradar.com/document/27600/avatara-dapp-games-klaytn-logo_dd0a11ea1681018ce6b23b8916e734d1.png",
+            "link": "https://dappradar.com/klaytn/games/avatara",
+              "website": "https://game.avatara.online",
+                "chains": [
+                  "klaytn"
+                ],
+                  "categories": [
+                    "games"
+                  ],
+                    "socialLinks": [
+                      {
+                        "title": "discord",
+                        "url": "https://discord.gg/avatara",
+                        "type": "discord"
+                      },
+                      {
+                        "title": "medium",
+                        "url": "https://medium.com/avatara-main",
+                        "type": "medium"
+                      },
+                      {
+                        "title": "twitter",
+                        "url": "https://twitter.com/Avatara_main",
+                        "type": "twitter"
+                      }
+                    ],
+                      "metrics": {
+    "transactions": 2702,
+      "uaw": 1143,
+        "volume": 0,
+          "balance": 0
+  }
+}
+  ]
+}
+
 const games =
   [
     {

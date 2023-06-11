@@ -29,7 +29,7 @@ export const ConversationList = ({
   hasRecipientEnteredValue,
 }: ConversationListProps) => {
   return !messages?.length && isLoading ? (
-    <div className="w-full overflow-hidden h-full flex flex-col justify-start sm:w-full bg-gray-100">
+    <div className="w-full overflow-hidden h-full flex flex-col justify-start sm:w-full">
       {Array.from({ length: 12 }).map((_, idx) => (
         <MessagePreviewCard key={idx} isLoading />
       ))}
@@ -40,7 +40,7 @@ export const ConversationList = ({
     </div>
   ) : (
     <Virtuoso
-      className="sm:w-full flex flex-col h-full bg-gray-100 border-x"
+      className="sm:w-full flex flex-col h-full border-x"
       data-testid="conversations-list-panel"
       data={messages}
       itemContent={(index, message) => message}

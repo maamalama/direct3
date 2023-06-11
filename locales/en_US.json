@@ -18,7 +18,7 @@
     "enabling_subheader": "Click <strong>Sign</strong> to create your password. You'll be prompted to click <strong>Sign</strong> to provide it whenever you access your inbox."
   },
   "messages": {
-    "filter_none": "All messages",
+    "filter_none": "Messages",
     "filter_requests": "Message requests",
     "convos_empty_header": "No messages? No problem.",
     "convos_empty_subheader": "Start a conversation to get going with DMs that you own and control.",
@@ -37,7 +37,7 @@
     "address_field_loading": "Finding address on the XMTP network...",
     "address_field_invalid": "Please enter a valid 0x wallet, ENS, or UNS address",
     "address_field_not_on_network": "Sorry, we can't message this address because its owner hasn't used it with XMTP yet",
-    "message_field_prompt": "Write a message",
+    "message_field_prompt": "Your message",
     "conversation_start": "This is the beginning of the conversation"
   },
   "menu": {
