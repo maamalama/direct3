@@ -1,9 +1,9 @@
 // this is not a wrapper for now but the full component
 
-import React, { useEffect, useState } from "react";
-import { useHuddle01 } from "@huddle01/react";
+import React, { useCallback, useEffect, useState } from "react";
+import { useEventListener, useHuddle01 } from "@huddle01/react";
 
-import { PhoneIcon } from "@heroicons/react/outline";
+import { PhoneIcon, PlayIcon, LibraryIcon, SunIcon } from "@heroicons/react/outline";
 import { IconButton } from "../component-library/components/IconButton/IconButton";
 import {
   useAudio,
@@ -18,7 +18,14 @@ import {
 export const HuddleWrapper = () => {
   const projectId = "KL1r3E1yHfcrRbXsT4mcE-3mK60Yc3YR";
   const { initialize } = useHuddle01();
-  const [isInitialized, setIsInitialized] = useState(false); // could be better
+  const { state, send } = useMeetingMachine();
+
+  useEffect(() => {
+    initialize(projectId);
+    // initialized project
+  }, []);
+
+  const [roomId, setRoomId] = useState(""); // could be better
 
   const { joinLobby } = useLobby();
 
@@ -26,12 +33,17 @@ export const HuddleWrapper = () => {
 
   const { joinRoom, leaveRoom } = useRoom();
 
-  useEffect(() => {
-    if(!initialize.isCallable && !isInitialized) {
-      initialize(projectId);
-      setIsInitialized(true)
-    }
-  }, [initialize.isCallable]);
+  // Event Listner
+  // useEventListener("lobby:cam-on", () => {
+  //   if (camStream && videoRef.current) videoRef.current.srcObject = camStream;
+  // });
+
+  useEventListener("room:joined", () => {
+    console.log("room:joined");
+  });
+  useEventListener("lobby:joined", () => {
+    console.log("lobby:joined");
+  });
 
   const createLobby = async () => {
     const response = await fetch(
@@ -52,18 +64,17 @@ export const HuddleWrapper = () => {
     const res = await response.json();
     const roomId = res.data.roomId;
 
-    joinLobby(roomId);
-    setShouldJoinRoom(true)
-    console.log("Should join room");
-  };
+    console.log("roomId: ", roomId);
+    setRoomId(roomId);
+  }
 
   useEffect(() => {
-    if(joinRoom.isCallable && shouldJoinRoom) {
-      joinRoom()
-      setShouldJoinRoom(false)
-      console.log("Joined room");
-    }
-  }, [shouldJoinRoom, joinRoom.isCallable])
+    if(joinLobby.isCallable && roomId.length > 2) joinLobby(roomId);
+  }, [joinLobby.isCallable, roomId]);
+
+  useEffect(() => {
+    if(joinRoom.isCallable) joinRoom();
+  }, [joinRoom.isCallable]);
 
   return (
     <div className="flex items-center px-2 md:px-4 py-3 border-l-0 z-10 max-md:h-fit md:max-h-sm  h-16">
