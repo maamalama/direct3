@@ -6,9 +6,7 @@ import { useEventListener, useHuddle01 } from "@huddle01/react";
 import { useDisplayName } from "@huddle01/react/app-utils";
 import { Audio, Video } from "@huddle01/react/components";
 
-import {
-  PhoneIcon
-} from "@heroicons/react/outline";
+import { PhoneIcon } from "@heroicons/react/outline";
 import { IconButton } from "../component-library/components/IconButton/IconButton";
 import {
   useAudio,
@@ -104,9 +102,9 @@ export const HuddleWrapper = () => {
   }, [fetchAudioStream.isCallable]);
 
   const [fetchedAudio, setFetchedAudio] = useState(false);
-  
+
   useEffect(() => {
-    if (!fetchedAudio && micStream) setFetchedAudio(true); 
+    if (!fetchedAudio && micStream) setFetchedAudio(true);
   }, [micStream, fetchedAudio]);
 
   useEffect(() => {
@@ -125,7 +123,6 @@ export const HuddleWrapper = () => {
     if (produceVideo.isCallable) produceVideo(camStream);
   }, [produceVideo.isCallable]);
 
-
   useEffect(() => {
     // Probably not necessary but kept in case
     if (setDisplayName.isCallable) setDisplayName(displayNameText);
@@ -142,30 +139,35 @@ export const HuddleWrapper = () => {
         srText={"Call"}
       />
 
-      <div>
-        Me Video:
-        <video ref={videoRef} autoPlay muted></video>
-        <div className="grid grid-cols-4">
-          {Object.values(peers)
-            .filter((peer) => peer.cam)
-            .map((peer) => (
-              <>
-                role: {peer.role}
-                <Video
+      {(camStream && micStream) ? (
+        <div>
+          <video ref={videoRef} autoPlay muted></video>
+          <div className="grid grid-cols-4">
+            {Object.values(peers)
+              .filter((peer) => peer.cam)
+              .map((peer) => (
+                <>
+                  role: {peer.role}
+                  <Video
+                    key={peer.peerId}
+                    peerId={peer.peerId}
+                    track={peer.cam}
+                    debug
+                  />
+                </>
+              ))}
+            {Object.values(peers)
+              .filter((peer) => peer.mic)
+              .map((peer) => (
+                <Audio
                   key={peer.peerId}
                   peerId={peer.peerId}
-                  track={peer.cam}
-                  debug
+                  track={peer.mic}
                 />
-              </>
-            ))}
-          {Object.values(peers)
-            .filter((peer) => peer.mic)
-            .map((peer) => (
-              <Audio key={peer.peerId} peerId={peer.peerId} track={peer.mic} />
-            ))}
+              ))}
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   );
 };
