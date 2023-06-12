@@ -139,7 +139,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
       startedFirstMessage ? (
         <div className="flex w-full flex-col h-screen overflow-hidden bg-[#E8E3F0]">
           <div className={"mx-[120px]"}>
-            <h1>Find your favourite game</h1>
+            <h1 className={"testclass"}>Find your favourite game</h1>
             <h2>Watch statistics, reviews and share your thought</h2>
             <div
               className={
@@ -147,7 +147,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
               }>
               <input
                 className={
-                  "bg-none outline-none border-none flex-grow text-base font-medium text-black placeholder-opacity-50"
+                  "bg-none outline-none border-none flex-grow text-base font-medium text-black placeholder-opacity-50 h-full"
                 }
                 placeholder={"Search"}
                 type="text"

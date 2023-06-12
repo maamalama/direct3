@@ -14,7 +14,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-black.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-black.otf") format("opentype");
     font-weight: 900;
     font-style: normal;
 }
@@ -22,7 +22,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-blackitalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-blackitalic.otf") format("opentype");
     font-weight: 900;
     font-style: italic;
 }
@@ -30,7 +30,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-bold.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }
@@ -38,7 +38,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-bolditalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-bolditalic.otf") format("opentype");
     font-weight: 700;
     font-style: italic;
 }
@@ -46,7 +46,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extrabold.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extrabold.otf") format("opentype");
     font-weight: 800;
     font-style: normal;
 }
@@ -54,7 +54,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extrabolditalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extrabolditalic.otf") format("opentype");
     font-weight: 800;
     font-style: italic;
 }
@@ -62,7 +62,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extralight.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extralight.otf") format("opentype");
     font-weight: 200;
     font-style: normal;
 }
@@ -70,7 +70,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extralightitalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-extralightitalic.otf") format("opentype");
     font-weight: 200;
     font-style: italic;
 }
@@ -78,7 +78,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-italic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-italic.otf") format("opentype");
     font-weight: 400;
     font-style: italic;
 }
@@ -86,7 +86,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-light.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-light.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
 }
@@ -94,7 +94,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-lightitalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-lightitalic.otf") format("opentype");
     font-weight: 300;
     font-style: italic;
 }
@@ -102,7 +102,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-medium.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
 }
@@ -110,7 +110,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-mediumitalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-mediumitalic.otf") format("opentype");
     font-weight: 500;
     font-style: italic;
 }
@@ -118,7 +118,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-regular.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
@@ -126,7 +126,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-semibold.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-semibold.otf") format("opentype");
     font-weight: 600;
     font-style: normal;
 }
@@ -134,7 +134,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-semibolditalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-semibolditalic.otf") format("opentype");
     font-weight: 600;
     font-style: italic;
 }
@@ -142,7 +142,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-thin.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-thin.otf") format("opentype");
     font-weight: 100;
     font-style: normal;
 }
@@ -150,7 +150,7 @@
 @font-face {
     font-family: fontspring;
     font-display: swap;
-    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-thinitalic.otf") format("otf");
+    src: url("../public/fonts/Fontspring-DEMO-tghaidogrotesk-thinitalic.otf") format("opentype");
     font-weight: 100;
     font-style: italic;
 }
