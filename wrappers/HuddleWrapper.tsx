@@ -17,6 +17,7 @@ import {
   useVideo,
   useRecording,
 } from "@huddle01/react/hooks";
+import Image from "next/image";
 
 export const HuddleWrapper = () => {
   // For dev, MUST use LOCALHOST instead of 0.0.0.0, for prod MUST use HTTPS
@@ -129,25 +130,28 @@ export const HuddleWrapper = () => {
   }, [setDisplayName.isCallable]);
 
   return (
-    <div className="flex items-center px-2 md:px-4 py-3 border-l-0 z-10 max-md:h-fit md:max-h-sm  h-16">
-      <IconButton
-        onClick={() => {
-          createLobby();
-        }}
-        label={<PhoneIcon color="white" width="20" />}
-        testId="new-message-icon-cta"
-        srText={"Call"}
-      />
+    <div className="flex items-center px-2  py-3 border-l-0 z-10 max-md:h-fit md:max-h-sm  h-16">
+      <button>
+        <Image
+          src="/icons/call.svg"
+          alt={"tel"}
+          width={40}
+          height={40}
+          onClick={() => {
+            createLobby();
+          }}
+        />
+      </button>
 
       {camStream && micStream ? (
         <div
-          style={{ // bad styling
+          style={{
+            // bad styling
             position: "fixed",
             top: "40%",
             left: "25%",
-            transform: "translate(40%, -50%)"
+            transform: "translate(40%, -50%)",
           }}>
-            
           <video ref={videoRef} autoPlay muted></video>
           <div className="grid grid-cols-4">
             {Object.values(peers)

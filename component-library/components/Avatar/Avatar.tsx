@@ -30,7 +30,7 @@ export const Avatar = ({ url, isLoading, address }: AvatarProps) => {
       <>
         <img
           data-testid="avatar"
-          className="w-[40px] h-[40px] rounded-full"
+          className="w-[50px] h-[50px] rounded-full"
           src={url}
           alt={address}
         />
@@ -44,7 +44,7 @@ export const Avatar = ({ url, isLoading, address }: AvatarProps) => {
         data-testid="avatar"
         seed={address?.toLowerCase() || ""}
         scale={5}
-        size={8}
+        size={10}
         className="rounded-full"
       />
     </div>

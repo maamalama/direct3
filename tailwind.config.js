@@ -58,7 +58,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["SF Pro Rounded", "Inter", ...fontFamily.sans],
+        sans: ["fontspring","SF Pro Rounded", "Inter", ...fontFamily.sans],
         mono: ["Inconsolata", ...fontFamily.mono],
       },
       fontSize: {

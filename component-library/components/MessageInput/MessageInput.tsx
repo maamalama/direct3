@@ -131,7 +131,6 @@ export const MessageInput = ({
                 textAreaRef.current?.focus();
               }
             }}
-            isDisabled={!value || isDisabled}
           />
         </div>
       </div>

@@ -9,6 +9,7 @@ import { ShortCopySkeletonLoader } from "../Loaders/SkeletonLoaders/ShortCopySke
 import { useTranslation } from "react-i18next";
 
 import Image from "next/image";
+import { HuddleWrapper } from '../../../wrappers/HuddleWrapper';
 
 interface AddressInputProps {
   /**
@@ -137,9 +138,7 @@ export const AddressInput = ({
           height={18}
         />
       </form>
-      <button className={"mr-[10px]"}>
-        <Image src="/icons/call.svg" alt={"tel"} width={40} height={40} />
-      </button>
+      <HuddleWrapper />
 
       <button>
         <Image src="/icons/video.svg" alt={"video"} width={40} height={40} />

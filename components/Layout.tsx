@@ -5,7 +5,7 @@ const Layout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Chat via XMTP</title>
+        <title>direct3</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       {children}

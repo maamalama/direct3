@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 import i18next, { resourceMap } from "../../../i18n";
 import { QRCode } from "react-qrcode-logo";
 import Image from "next/image";
+import { Avatar } from "../Avatar/Avatar";
 
 interface SideNav {
   /**
@@ -171,7 +172,7 @@ const SideNav = ({
         "items-center",
         "h-screen",
         "bg-[#000000]",
-        !isOpen ? "w-[98px]" : "absolute z-10 w-[200px]",
+        !isOpen ? "w-[98px]" : "absolute z-10 w-[150px]",
       )}>
       <div className="flex flex-col items-start space-y-4 w-full">
         <div className="flex">
@@ -215,13 +216,7 @@ const SideNav = ({
           onKeyDown={onXmtpIconClick}
           tabIndex={0}
           data-testid="icon">
-          <Image
-            className={"object-cover"}
-            src={"/avatar.png"}
-            alt={"avatar"}
-            width={54}
-            height={54}
-          />
+          <Avatar url={"avatar.png"} />
         </button>
         {/*<div*/}
         {/*  onClick={onXmtpIconClick}*/}
