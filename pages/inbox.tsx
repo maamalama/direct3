@@ -12,6 +12,8 @@ import useWindowSize from "../hooks/useWindowSize";
 import { useClient } from "@xmtp/react-sdk";
 import { useDisconnect, useSigner } from "wagmi";
 import { ConversationListWrapper } from "../wrappers/ConversationListWrapper";
+import NftDataViewer from "../components/NftDataViewer";
+import { HuddleWrapper } from "../wrappers/HuddleWrapper";
 
 export type address = "0x${string}";
 
@@ -100,6 +102,7 @@ const Inbox: React.FC<{ children?: React.ReactNode }> = () => {
             <>
               <div className="flex">
                 <AddressInputWrapper />
+                <HuddleWrapper />
               </div>
               <div className="h-full overflow-auto flex flex-col">
                 {conversationId && <FullConversationWrapper />}
