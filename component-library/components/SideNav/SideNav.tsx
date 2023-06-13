@@ -104,15 +104,15 @@ const SideNav = ({
       className={isOpen ? "mr-4" : ""}
       data-testid="settings-icon"
     />,
-    <Image
-      key={t("menu.collapse_header")}
-      src={"icons/arrow-right.svg"}
-      alt={"arrow-right"}
-      width={32}
-      height={32}
-      className={isOpen ? "mr-4 rotate-180" : ""}
-      data-testid="collapse-icon"
-    />,
+    // <Image
+    //   key={t("menu.collapse_header")}
+    //   src={"icons/arrow-right.svg"}
+    //   alt={"arrow-right"}
+    //   width={32}
+    //   height={32}
+    //   className={isOpen ? "mr-4 rotate-180" : ""}
+    //   data-testid="collapse-icon"
+    // />,
   ];
   const [currentIcon, setCurrentIcon] = useState(icons[0].key);
 
@@ -148,7 +148,7 @@ const SideNav = ({
             </div>
           </>
         </button>
-        {(icon.key === t("menu.gallery_header") ||
+        {/* {(icon.key === t("menu.gallery_header") ||
           icon.key === t("menu.settings_header")) && (
           <div
             role="tooltip"
@@ -158,7 +158,15 @@ const SideNav = ({
             )}>
             {t("menu.coming_soon")}
           </div>
-        )}
+        )} */}
+        <div
+          role="tooltip"
+          className={classNames(
+            "group-hover:opacity-100 w-max transition-opacity bg-gray-800 p-2 text-sm text-gray-100 rounded-md absolute opacity-0 m-4 mx-auto z-20",
+            isOpen ? "left-32" : "left-10",
+          )}>
+          {t(icon.key as string)}
+        </div>
       </div>
     );
   });
@@ -172,7 +180,7 @@ const SideNav = ({
         "items-center",
         "h-screen",
         "bg-[#000000]",
-        !isOpen ? "w-[98px]" : "absolute z-10 w-[150px]",
+        !isOpen ? "w-[98px]" : "absolute z-10 w-[250px]",
       )}>
       <div className="flex flex-col items-start space-y-4 w-full">
         <div className="flex">
@@ -188,7 +196,9 @@ const SideNav = ({
               {isOpen && (
                 <div className="flex items-center">
                   <div className="flex flex-col px-2 justify-center">
-                    <span className="font-bold" data-testid="wallet-address">
+                    <span
+                      className="font-bold bg-white"
+                      data-testid="wallet-address">
                       {shortAddress(displayAddress ?? "")}
                     </span>
                     {walletAddress && displayAddress !== walletAddress && (
