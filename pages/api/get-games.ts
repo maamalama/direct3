@@ -21,7 +21,7 @@ export default async function handler(
     // }
 
     const db = new Polybase({
-        defaultNamespace: "pk/0xd26109d331c0b6e8aa82d0f3a8c349604f353f39d3cd798cb9e3c799da03c7e1bcf2f086a667af7b5c3bf7635abdee92c174756ff8571282cdd5802c1be959c1/direct3",
+        defaultNamespace: "pk/0x03cc8e3b79337fe5068ad10c84e993ae2d83f919cffa70a25878e629b052ea63be2c9b8703b66cddb00c715970b27ebdbf63ede4b25a306df7d317559593e65b/direct3",
     });
     const gamesColelction = db.collection('games');
 
@@ -33,19 +33,23 @@ export default async function handler(
     //         }
     //     });
 
-    // await Promise.all(gamesData.results.map(async (game) => {
-    //     await gamesColelction.create([
-    //         game.dappId.toString() || uuidv4(),
-    //         game.name || '',
-    //         game.description || '',
-    //         game.fullDescription || '',
-    //         game.logo || '',
-    //         game.website || '',
-    //         game.chains[ 0 ] || '',
-    //         game.categories[ 0 ] || '',
-    //     ]);
-    //     console.log(game.name);
-    // }));
+    //TODO: add stats
+
+    await Promise.all(gamesData.results.map(async (game) => {
+        const stats = JSON.stringify(game.metrics) || '';
+        await gamesColelction.create([
+            game.dappId.toString() || uuidv4(),
+            game.name || '',
+            game.description || '',
+            game.fullDescription || '',
+            game.logo || '',
+            game.website || '',
+            game.chains[ 0 ] || '',
+            game.categories[ 0 ] || '',
+            stats
+        ]);
+        console.log(game.name);
+    }));
 
 
 

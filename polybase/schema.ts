@@ -11,8 +11,9 @@ collection games {
     website?: string;
     chain?: string;
     category?: string;
+    stats?: string;
 
-    constructor (id: string, name: string, description?: string, fullDescription?: string, logo?: string, website?: string, chain?: string, category?: string) {
+    constructor (id: string, name: string, description?: string, fullDescription?: string, logo?: string, website?: string, chain?: string, category?: string, stats?: string) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -21,6 +22,7 @@ collection games {
         this.website = website;
         this.chain = chain;
         this.category = category;
+        this.stats = stats;
     }
 }
 
