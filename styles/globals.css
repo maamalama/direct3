@@ -167,3 +167,13 @@ body {
     transform: translateY(-50%);
     right: .75rem;
 }
+
+.selectedGenre {
+    background: #000;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.discoverActiveSidebar {
+    background: #fff;
+}

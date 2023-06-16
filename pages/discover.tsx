@@ -1,24 +1,25 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useXmtpStore } from "../store/xmtp";
 import { TAILWIND_MD_BREAKPOINT, wipeKeys } from "../helpers";
-import { HeaderDropdownWrapper } from "../wrappers/HeaderDropdownWrapper";
 import { SideNavWrapper } from "../wrappers/SideNavWrapper";
 import useWindowSize from "../hooks/useWindowSize";
 import { useClient } from "@xmtp/react-sdk";
 import { useDisconnect, useSigner } from "wagmi";
-import { ConversationListWrapper } from "../wrappers/ConversationListWrapper";
 import Image from "next/image";
 
 export type address = "0x${string}";
 
 const appsGenres = [
   {
+    id: 1,
     name: "Popular Apps",
   },
   {
+    id: 2,
     name: "Volume 24HR",
   },
   {
+    id: 3,
     name: "Active Users",
   },
 ];
@@ -75,6 +76,7 @@ const apps = [
 ];
 
 const Discover: React.FC<{ children?: React.ReactNode }> = () => {
+  const [selected, setSelected] = useState(1);
   const resetXmtpState = useXmtpStore((state) => state.resetXmtpState);
   const { client, disconnect, signer: clientSigner } = useClient();
 
@@ -120,16 +122,49 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
 
   return (
     <div className="bg-white w-full md:h-full overflow-auto flex flex-col md:flex-row">
-      <div className="flex md:w-1/2 md:max-w-md">
+      <div className="flex md:w-[400px] md:max-w-[400px] min-w-[400px]">
         {size[0] > TAILWIND_MD_BREAKPOINT ||
         (!recipientWalletAddress && !startedFirstMessage) ? (
           <>
             <SideNavWrapper />
             <div className="flex flex-col w-full h-screen overflow-y-auto bg-[#F4DE85] border-x-[1px] border-black">
-              <HeaderDropdownWrapper />
-              <ConversationListWrapper
-                setStartedFirstMessage={setStartedFirstMessage}
-              />
+              <div
+                className={
+                  "h-[102px] flex items-center pl-[41px] border-b border-black"
+                }>
+                <h3 className={"text-[26px] font-black"}>Discover</h3>
+              </div>
+
+              <div>
+                <div
+                  className={
+                    "flex items-center gap-[14px] h-[112px] border-b border-black pl-[56px] discoverActiveSidebar"
+                  }>
+                  <Image
+                    src={"/icons/discover-sidebar1.svg"}
+                    alt={"discover-sidebar1"}
+                    width={24}
+                    height={24}
+                  />
+                  <h3 className={"text-[16px] font-extrabold leading-[110%]"}>
+                    Explore
+                  </h3>
+                </div>
+                <div
+                  className={
+                    "flex items-center gap-[14px] h-[112px] border-b border-black pl-[56px]"
+                  }>
+                  <Image
+                    src={"/icons/discover-sidebar2.svg"}
+                    alt={"discover-sidebar1"}
+                    width={32}
+                    height={32}
+                  />
+                  <h3 className={"text-[16px] font-extrabold leading-[110%]"}>
+                    Your Games
+                  </h3>
+                </div>
+              </div>
             </div>
           </>
         ) : null}
@@ -137,13 +172,20 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
       {size[0] > TAILWIND_MD_BREAKPOINT ||
       recipientWalletAddress ||
       startedFirstMessage ? (
-        <div className="flex w-full flex-col h-screen overflow-hidden bg-[#E8E3F0]">
-          <div className={"mx-[120px]"}>
-            <h1 className={"testclass"}>Find your favourite game</h1>
-            <h2>Watch statistics, reviews and share your thought</h2>
+        <div className="flex w-full flex-col h-screen overflow-x-hidden overflow-y-auto bg-[#E8E3F0] text-center pb-7">
+          <div className={"mx-[120px] pt-[65px] mb-[66px]"}>
+            <h1
+              className={
+                "text-[46px] font-black leading-[92%] mb-[20px] text-center"
+              }>
+              Find your favourite game
+            </h1>
+            <h2 className={"text-base font-medium"}>
+              Watch statistics, reviews and share your thought
+            </h2>
             <div
               className={
-                "flex items-center justify-between bg-white border border-black rounded-[14px] h-[70px] gap-2 px-[20px]"
+                "flex items-center justify-between bg-white border border-black rounded-[14px] h-[70px] gap-2 px-[20px] mt-[38px]"
               }>
               <input
                 className={
@@ -161,15 +203,20 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
             </div>
           </div>
 
-          <div className={"mx-[57px]"}>
+          <div className={"h-[1px] min-h-[1px] w-full bg-black"}></div>
+
+          <div className={"mx-[57px] mt-[49px]"}>
             <div
               className={
                 "flex items-center justify-center gap-[11px] mb-[44px]"
               }>
-              {appsGenres.map((genre, id) => (
+              {appsGenres.map((genre) => (
                 <button
-                  className={`h-[49px] border border-black rounded-[11px] px-[22px] flex items-center text-center`}
-                  key={id}>
+                  className={`h-[49px] border border-black rounded-[11px] px-[22px] flex items-center text-center cursor-pointer ${
+                    selected === genre.id ? "selectedGenre" : ""
+                  }`}
+                  key={genre.id}
+                  onClick={() => setSelected(genre.id)}>
                   {genre.name}
                 </button>
               ))}
@@ -190,20 +237,33 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
                       height="90"
                     />
 
-                    <div>
-                      <p>{app.volume}</p>
-                      <p>{app.uaw}</p>
+                    <div className={"w-[129px]"}>
+                      <p
+                        className={
+                          "text-[14px] font-medium h-[34px] flex items-center justify-center border border-black rounded-[8px] mb-[11px]"
+                        }>
+                        {app.volume} Volume
+                      </p>
+                      <p
+                        className={
+                          "text-[14px] font-medium h-[34px] flex items-center justify-center border border-black rounded-[8px]"
+                        }>
+                        {app.uaw} UAW
+                      </p>
                     </div>
                   </div>
 
                   <p
                     className={
-                      "h-[40px] border-y border-black flex items-center justify-center text-center mt-[14px]"
+                      "h-[40px] border-y border-black flex items-center justify-center text-center mt-[14px] font-extrabold text-base"
                     }>
                     {app.genre}
                   </p>
 
-                  <h3 className={"font-extrabold text-[30px] px-[18px]"}>
+                  <h3
+                    className={
+                      "font-extrabold text-[30px] px-[18px] w-[80%] text-start"
+                    }>
                     {app.name}
                   </h3>
                 </div>
