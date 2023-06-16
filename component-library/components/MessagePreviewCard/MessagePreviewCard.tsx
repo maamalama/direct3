@@ -66,8 +66,8 @@ export const MessagePreviewCard = ({
   return (
     <div
       className={classNames(
-        "flex justify-between items-center border-y-[1px] border-black outline-blue outline-b-0 h-min cursor-pointer",
-        isSelected ? "bg-white" : "",
+        "flex justify-between items-center border-y-[1px] border-black outline-blue outline-b-0 h-min cursor-pointer pl-6",
+        isSelected ? "bg-white border border-white" : "",
         isLoading ? "px-4 py-2" : "p-4",
       )}
       onClick={onClick}
@@ -78,7 +78,7 @@ export const MessagePreviewCard = ({
         }
       }}
       tabIndex={0}>
-      <Avatar url={"avatar.png"} address={address} isLoading={isLoading} />
+      <Avatar url={avatarUrl} address={address} isLoading={isLoading} />
       <div
         className={classNames(
           "flex flex-col items-start w-3/4 ml-3",
@@ -109,7 +109,7 @@ export const MessagePreviewCard = ({
       ) : (
         <div
           className={classNames(
-            "text-xs",
+            "text-md",
             "text-gray-600",
             "w-1/3",
             "text-right",
@@ -118,17 +118,8 @@ export const MessagePreviewCard = ({
             "flex flex-col items-end justify-between",
           )}>
           <p className={"text-black text-[14px] font-medium"}>
-            {datetime && t("{{datetime, ago}}", { datetime })}
+            {datetime && t("{{datetime, MMM dd}}", { datetime })}
           </p>
-
-          {pinned && (
-            <div
-              className={
-                "mt-2 rounded-full border-[1px] border-black flex items-center justify-center h-[20px] w-[20px] bg-white"
-              }>
-              2
-            </div>
-          )}
         </div>
       )}
     </div>

@@ -36,9 +36,10 @@ export const FullMessage = ({
   const { t } = useTranslation();
   const isOutgoingMessage = from.isSelf;
 
-  const incomingMessageBackgroundStyles = "bg-gray-200 rounded-br-lg pl-2";
+  const incomingMessageBackgroundStyles =
+    "bg-white rounded-br-lg pl-2 border border-black text-md message-receiver";
   const outgoingMessageBackgroundStyles =
-    "bg-indigo-600 text-white rounded-bl-lg message-sender";
+    "bg-[#F4DE85] text-black border border-black text-md rounded-bl-lg message-sender";
 
   return (
     <div
