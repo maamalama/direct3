@@ -11,6 +11,7 @@ import i18next, { resourceMap } from "../../../i18n";
 import { QRCode } from "react-qrcode-logo";
 import Image from "next/image";
 import { Avatar } from "../Avatar/Avatar";
+import Link from "next/link";
 
 interface SideNav {
   /**
@@ -119,8 +120,14 @@ const SideNav = ({
   const mappedButtons = icons.map((icon) => {
     return (
       <div className="group flex justify-between relative" key={icon.key}>
-        <button
-          type="button"
+        <Link
+          href={
+            icon.key === t("menu.messages_header")
+              ? "/inbox"
+              : icon.key === t("menu.gallery_header")
+              ? "/discover"
+              : "#"
+          }
           onClick={(event) => {
             setCurrentIcon((event.target as HTMLElement).innerText);
             onSideNavBtnClick(icon.key as string);
@@ -147,7 +154,7 @@ const SideNav = ({
               <span data-testid={icon.key}>{isOpen && icon.key}</span>
             </div>
           </>
-        </button>
+        </Link>
         {/* {(icon.key === t("menu.gallery_header") ||
           icon.key === t("menu.settings_header")) && (
           <div

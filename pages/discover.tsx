@@ -16,7 +16,7 @@ const appsGenres = [
   },
   {
     id: 2,
-    name: "Volume 24HR",
+    name: "Daily Volume",
   },
   {
     id: 3,
@@ -122,7 +122,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
 
   return (
     <div className="bg-white w-full md:h-full overflow-auto flex flex-col md:flex-row">
-      <div className="flex md:w-[400px] md:max-w-[400px] min-w-[400px]">
+      <div className="flex md:w-[400px] md:max-w-[500px] min-w-[500px]">
         {size[0] > TAILWIND_MD_BREAKPOINT ||
         (!recipientWalletAddress && !startedFirstMessage) ? (
           <>
@@ -227,7 +227,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
                 <div
                   key={id}
                   className={
-                    "rounded-[14px] border border-black bg-white h-[315px]"
+                    "rounded-[14px] border border-black bg-white h-[315px] w-[322px]"
                   }>
                   <div className={"flex items-center justify-between p-[18px]"}>
                     <Image
