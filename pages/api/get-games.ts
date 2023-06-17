@@ -66,7 +66,7 @@ export default async function handler(
     });
 
 
-    await redis.set(`games`, JSON.stringify(result), 'EX', 60 * 60 * 2);
+    //await redis.set(`games`, JSON.stringify(result), 'EX', 60 * 60 * 2);
 
     res.status(200).json(result);
 }
