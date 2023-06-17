@@ -9,10 +9,6 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<any>,) {
 
-    const redisUrl = process.env.NEXT_PUBLIC_REDIS as string;
-
-    const redis = new Redis(redisUrl);
-
     // const cached = await redis.get(`games`);
 
     // if (cached) {
