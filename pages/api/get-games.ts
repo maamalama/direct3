@@ -35,21 +35,21 @@ export default async function handler(
 
     //TODO: add stats
 
-    await Promise.all(gamesData.results.map(async (game) => {
-        const stats = JSON.stringify(game.metrics) || '';
-        await gamesColelction.create([
-            game.dappId.toString() || uuidv4(),
-            game.name || '',
-            game.description || '',
-            game.fullDescription || '',
-            game.logo || '',
-            game.website || '',
-            game.chains[ 0 ] || '',
-            game.categories[ 0 ] || '',
-            stats
-        ]);
-        console.log(game.name);
-    }));
+    // await Promise.all(gamesData.results.map(async (game) => {
+    //     const stats = JSON.stringify(game.metrics) || '';
+    //     await gamesColelction.create([
+    //         game.dappId.toString() || uuidv4(),
+    //         game.name || '',
+    //         game.description || '',
+    //         game.fullDescription || '',
+    //         game.logo || '',
+    //         game.website || '',
+    //         game.chains[ 0 ] || '',
+    //         game.categories[ 0 ] || '',
+    //         stats
+    //     ]);
+    //     console.log(game.name);
+    // }));
 
 
 

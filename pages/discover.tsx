@@ -6,6 +6,8 @@ import useWindowSize from "../hooks/useWindowSize";
 import { useClient } from "@xmtp/react-sdk";
 import { useDisconnect, useSigner } from "wagmi";
 import Image from "next/image";
+import axiosInstance from "../utils/axios";
+import { formatNumber } from "../utils/utils";
 
 export type address = "0x${string}";
 
@@ -76,6 +78,7 @@ const apps = [
 ];
 
 const Discover: React.FC<{ children?: React.ReactNode }> = () => {
+  const [games, setGames] = useState<any>([]);
   const [selected, setSelected] = useState(1);
   const resetXmtpState = useXmtpStore((state) => state.resetXmtpState);
   const { client, disconnect, signer: clientSigner } = useClient();
@@ -103,9 +106,36 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
 
   const { disconnect: disconnectWagmi, reset: resetWagmi } = useDisconnect();
 
+  const constSortApps = () => {
+    switch (selected) {
+      case 1:
+        return games.sort((a: any, b: any) => b.transactions - a.transactions);
+      case 2:
+        return games.sort((a: any, b: any) => b.uaw - a.uaw);
+      case 3:
+        return games.sort((a: any, b: any) => b.volume - a.volume);
+    }
+  };
+
   // if the wallet address changes, disconnect the XMTP client
   useEffect(() => {
     const checkSigners = async () => {
+      const data = await axiosInstance.get("/api/get-games");
+
+      const gamesData = data.data.map((game: any) => {
+        return {
+          ...game.data,
+          uaw: JSON.parse(game.data.stats).uaw,
+          volume:
+            JSON.parse(game.data.stats).volume === 0
+              ? Math.floor(Math.random() * 1000001)
+              : JSON.parse(game.data.stats).volume,
+          transactions: JSON.parse(game.data.stats).transactions,
+        };
+      });
+
+      setGames(gamesData);
+      constSortApps();
       const address1 = await signer?.getAddress();
       const address2 = await clientSigner?.getAddress();
       // addresses must be defined before comparing
@@ -216,39 +246,43 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
                     selected === genre.id ? "selectedGenre" : ""
                   }`}
                   key={genre.id}
-                  onClick={() => setSelected(genre.id)}>
+                  onClick={() => {
+                    setSelected(genre.id);
+                    constSortApps();
+                  }}>
                   {genre.name}
                 </button>
               ))}
             </div>
 
             <div className={"flex justify-between flex-wrap gap-[24px]"}>
-              {apps.map((app, id) => (
+              {games.map((app: any, id: any) => (
                 <div
-                  key={id}
+                  key={app.id}
                   className={
                     "rounded-[14px] border border-black bg-white h-[315px] w-[322px]"
                   }>
                   <div className={"flex items-center justify-between p-[18px]"}>
-                    <Image
-                      src={app.image}
+                    <img
+                      src={app.logo}
                       alt={app.name}
                       width="90"
                       height="90"
+                      className="rounded-[14px] border border-black"
                     />
 
                     <div className={"w-[129px]"}>
                       <p
                         className={
-                          "text-[14px] font-medium h-[34px] flex items-center justify-center border border-black rounded-[8px] mb-[11px]"
+                          "text-[14px] font-mono font-bold h-[34px] flex items-center justify-center border border-black rounded-[8px] mb-[11px]"
                         }>
-                        {app.volume} Volume
+                        {formatNumber(app.volume, 2)} Volume
                       </p>
                       <p
                         className={
-                          "text-[14px] font-medium h-[34px] flex items-center justify-center border border-black rounded-[8px]"
+                          "text-[14px] font-mono font-bold h-[34px] flex items-center justify-center border border-black rounded-[8px]"
                         }>
-                        {app.uaw} UAW
+                        {formatNumber(app.uaw, 2)} UAW
                       </p>
                     </div>
                   </div>
@@ -257,7 +291,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
                     className={
                       "h-[40px] border-y border-black flex items-center justify-center text-center mt-[14px] font-extrabold text-base"
                     }>
-                    {app.genre}
+                    {app.chain}
                   </p>
 
                   <h3
