@@ -120,6 +120,18 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
   // if the wallet address changes, disconnect the XMTP client
   useEffect(() => {
     const checkSigners = async () => {
+      const address1 = await signer?.getAddress();
+      const address2 = await clientSigner?.getAddress();
+      // addresses must be defined before comparing
+      if (address1 && address2 && address1 !== address2) {
+        resetXmtpState();
+        disconnect();
+        wipeKeys(address1 ?? "");
+        disconnectWagmi();
+        resetWagmi();
+      }
+    };
+    const fetchGames = async () => {
       const data = await axiosInstance.get("/api/get-games");
 
       const gamesData = data.data.map((game: any) => {
@@ -136,17 +148,8 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
 
       setGames(gamesData);
       constSortApps();
-      const address1 = await signer?.getAddress();
-      const address2 = await clientSigner?.getAddress();
-      // addresses must be defined before comparing
-      if (address1 && address2 && address1 !== address2) {
-        resetXmtpState();
-        disconnect();
-        wipeKeys(address1 ?? "");
-        disconnectWagmi();
-        resetWagmi();
-      }
     };
+    fetchGames();
     checkSigners();
   }, [clientSigner, disconnect, resetXmtpState, signer]);
 
