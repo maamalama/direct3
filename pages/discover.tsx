@@ -8,6 +8,7 @@ import { useDisconnect, useSigner } from "wagmi";
 import Image from "next/image";
 import axiosInstance from "../utils/axios";
 import { formatNumber } from "../utils/utils";
+import Link from "next/link";
 
 export type address = "0x${string}";
 
@@ -256,8 +257,9 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
             </div>
 
             <div className={"flex justify-between flex-wrap gap-[24px]"}>
-              {games.map((app: any, id: any) => (
-                <div
+              {games.map((app: any) => (
+                <Link
+                  href={`/discover/${app.id}`}
                   key={app.id}
                   className={
                     "rounded-[14px] border border-black bg-white h-[315px] w-[322px]"
@@ -300,7 +302,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
                     }>
                     {app.name}
                   </h3>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
