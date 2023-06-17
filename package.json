@@ -17,7 +17,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "XMTP Labs <eng@xmtp.com>",
+  "author": "direct3",
   "license": "MIT",
   "homepage": "https://github.com/xmtp-labs/xmtp-inbox-web",
   "repository": {

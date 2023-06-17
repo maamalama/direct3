@@ -9,6 +9,7 @@ import Image from "next/image";
 import axiosInstance from "../utils/axios";
 import { formatNumber } from "../utils/utils";
 import Link from "next/link";
+import { Polybase } from "@polybase/client";
 
 export type address = "0x${string}";
 
@@ -121,9 +122,37 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
   // if the wallet address changes, disconnect the XMTP client
   useEffect(() => {
     const checkSigners = async () => {
-      const data = await axiosInstance.get("/api/get-games");
+      const address1 = await signer?.getAddress();
+      const address2 = await clientSigner?.getAddress();
+      // addresses must be defined before comparing
+      if (address1 && address2 && address1 !== address2) {
+        resetXmtpState();
+        disconnect();
+        wipeKeys(address1 ?? "");
+        disconnectWagmi();
+        resetWagmi();
+      }
+    };
+    const fetchGames = async () => {
+      const db = new Polybase({
+        defaultNamespace:
+          "pk/0x03cc8e3b79337fe5068ad10c84e993ae2d83f919cffa70a25878e629b052ea63be2c9b8703b66cddb00c715970b27ebdbf63ede4b25a306df7d317559593e65b/direct3",
+      });
+      const gamesColelction = db.collection("games");
 
-      const gamesData = data.data.map((game: any) => {
+      const games = await gamesColelction.get();
+
+      const result = games.data.sort((a, b) => {
+        if (a.data.chain === "ethereum" && b.data.chain !== "ethereum") {
+          return -1;
+        }
+        if (a.data.chain !== "ethereum" && b.data.chain === "ethereum") {
+          return 1;
+        }
+        return 0;
+      });
+
+      const gamesData = result.map((game: any) => {
         return {
           ...game.data,
           uaw: JSON.parse(game.data.stats).uaw,
@@ -137,17 +166,8 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
 
       setGames(gamesData);
       constSortApps();
-      const address1 = await signer?.getAddress();
-      const address2 = await clientSigner?.getAddress();
-      // addresses must be defined before comparing
-      if (address1 && address2 && address1 !== address2) {
-        resetXmtpState();
-        disconnect();
-        wipeKeys(address1 ?? "");
-        disconnectWagmi();
-        resetWagmi();
-      }
     };
+    fetchGames();
     checkSigners();
   }, [clientSigner, disconnect, resetXmtpState, signer]);
 

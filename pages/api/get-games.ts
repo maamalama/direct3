@@ -9,10 +9,6 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<any>,) {
 
-    const redisUrl = process.env.NEXT_PUBLIC_REDIS as string;
-
-    const redis = new Redis(redisUrl);
-
     // const cached = await redis.get(`games`);
 
     // if (cached) {
@@ -66,7 +62,7 @@ export default async function handler(
     });
 
 
-    await redis.set(`games`, JSON.stringify(result), 'EX', 60 * 60 * 2);
+    //await redis.set(`games`, JSON.stringify(result), 'EX', 60 * 60 * 2);
 
     res.status(200).json(result);
 }

@@ -10,7 +10,6 @@ const nextConfig = withPWA({
   typescript: {
     ignoreBuildErrors: true,
   },
-  reactStrictMode: true,
   // Not setting reactStrictMode here due to issues with modal compatibility, but rest of app is wrapped in strict mode.
   images: {
     // loader: "akamai",
