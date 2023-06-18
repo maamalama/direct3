@@ -19,6 +19,7 @@ const nextConfig = withPWA({
         hostname: "**",
       },
     ],
+    unoptimized: true
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
