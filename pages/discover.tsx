@@ -279,7 +279,7 @@ const Discover: React.FC<{ children?: React.ReactNode }> = () => {
             <div className={"flex justify-between flex-wrap gap-[24px]"}>
               {games.map((app: any) => (
                 <Link
-                  href={`/discover/${app.id}`}
+                  href={`/app/${app.id}`}
                   key={app.id}
                   className={
                     "rounded-[14px] border border-black bg-white h-[315px] w-[322px]"
